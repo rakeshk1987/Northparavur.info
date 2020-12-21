@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+}
+
+.gridwrapper{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+}
+
+.aboutCss{
+	background-color: white;
+	margin: 20px;
+	text-align: justify;
+	font-size: 15px;
+}
