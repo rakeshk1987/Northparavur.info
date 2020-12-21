@@ -1,0 +1,23 @@
+.gridwrapper{
+
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+}
+
+
+.contentText{
+	margin: 20px;
+	background-color: white;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.gridcontentText
+{	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 5rem;
+	text-align: center;
+	list-style-position: inside;
+	align-content: center;
+}
