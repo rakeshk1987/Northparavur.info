@@ -15,6 +15,7 @@
 	<title>North Paravur info | Gallery</title>
 
 	<link rel = "stylesheet" href="./css/style.css">
+	<link rel = "stylesheet" href="./lightbox/css/lightbox.css" >
 	<link rel="stylesheet" href="./css/gallery.css">
 </head>
 <body>
@@ -43,96 +44,21 @@
 			<img src="./img/banner.jpg" class="bannerImg">
 		</div>		
 
-		<div class="galleryCss">
-			<p><a href="index.html" style="text-decoration: none;">HOME</a> / Gallery</p>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/images.jpg">
-	      			<img src="./img/gallery/images.jpg" alt="Court" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Paravur District Court</div>
-	  			</div>
+		<div class="gridwrapper">
+			<div style="background-color: #EAEAEA;"></div>
+			<div class="galleryBody" id="gallery">
+				<p><a href="index.html" style="text-decoration: none;">HOME</a> / Gallery</p>
 			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/kadamakudy.jpg">
-	      			<img src="./img/gallery/kadamakudy.jpg" alt="kadamakudy" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Kadamakudy, Varapuzha</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/muziris.jpg">
-	      			<img src="./img/gallery/muziris.jpg" alt="muziris" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Muziris Hop ON Hop OFF Boat Cruise</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/boat.jpg">
-	      			<img src="./img/gallery/boat.jpg" alt="boat" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Gothuruth Boat Race</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/kizhthali.jpg">
-	      			<img src="./img/gallery/kizhthali.jpg" alt="kizhthali" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Kizhthali Shiva Temple</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/market.jpg">
-	      			<img src="./img/gallery/market.jpg" alt="market" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Paravur Market</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/samooham.jpg">
-	      			<img src="./img/gallery/samooham.jpg" alt="samooham" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Samooham High School</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/synagogue.jpg">
-	      			<img src="./img/gallery/synagogue.jpg" alt="synagogue" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Jewish Synagogue</div>
-	  			</div>
-			</div>
-
-			<div class="responsive">
-	  			<div class="gallery">
-	    			<a target="_blank" href="./img/gallery/varapuzha.jpg">
-	      			<img src="./img/gallery/varapuzha.jpg" alt="varapuzha" width="300" height="300">
-	    			</a>
-	    			<div class="desc">Varapuzha Bridge (NH 66)</div>
-	  			</div>
-			</div>
-
-			<div class="clearfix"></div>
+			<div style="background-color: #EAEAEA;"></div>
 		</div>
 	</main>
 	<footer class="footer">
 		<p>Copyright &copy; 2020 by northparavur.info</p>
 		<p style="font-size: small;">Content created for educational purpose!!</p>
 	</footer>
+
+	<script src="./scripts/galleryData.js"></script>	
+	<script src="./lightbox/js/lightbox.js"></script>	
+
 </body>
 </html>
