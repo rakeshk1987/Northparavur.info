@@ -13,7 +13,9 @@
 
 	<title>North Paravur info | Tourism</title>
 
-	<link rel = "stylesheet" href="./css/style.css" >
+	<link rel = "stylesheet" href="./css/style.css">	
+	<link rel = "stylesheet" href="./lightbox/css/lightbox.css" >
+	<link rel = "stylesheet" href="./css/tourism.css" >
 </head>
 <body>
 	<header >
@@ -39,15 +41,30 @@
 	<main>
 		<div>
 			<img src="./img/banner.jpg" class="bannerImg">
-		</div>		
+		</div>
+
+
+		<div class="gridwrapper">
+			<div ></div>
+				<div>
+					<div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=North%20Paravur+(North%20Paravur%20Tourism)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+					<div id="tourismData"></div>
+				</div>
+			<div></div>
+		</div>
+
+		<div id="tourismDesc"></div>
+
+
+
 	</main>
 	<footer class="footer">
 		<p>Copyright &copy; 2020 by northparavur.info</p>
 		<p style="font-size: small;">Content created for educational purpose!!</p>
 		<p style="font-size: x-small;">Last Updated on 13/12/2020</p>
-		<i class="fab fa-html5 circle-icon" style="color: white; font-size:30px;"></i>
-		<i class="fab fa-css3-alt circle-icon" style="color: white; font-size:30px;"></i>
-		<i class="fab fa-js circle-icon" style="color: white; font-size:30px;"></i>
-	</footer>
+
+	<script src="./scripts/tourData.js"></script>	
+	<script src="./lightbox/js/lightbox.js"></script>	
+
 </body>
 </html>
