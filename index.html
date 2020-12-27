@@ -14,13 +14,14 @@
 	<link rel="icon" href="./img/favicon.ico"/>
 	<link rel = "stylesheet" href="./css/header.css">
 	<link rel = "stylesheet" href="./css/index.css" >
+	<link rel = "stylesheet" href="./css/footer.css" >
 	
 
 </head>
 <body>	
 	<div class="headerText">
 		<div>
-			<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+			<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="respMenu()">&#9776;</a>
 		</div>
 		<div>
 			<a href="index.html">
@@ -33,11 +34,11 @@
 		<div class="navbar" id="myTopnav">
 			<div class="navbarposition">
 				<nav>					
-					<a class="active" href="index.html">Home</a>
-					<a href="./pages/history.html">History</a>
-					<a href="./pages/gallery.html">Gallery</a>
+					<a class="active" href="index.html"><i class="fas fa-home"></i> Home</a>
+					<a href="./pages/history.html"><i class="fas fa-history"></i> History</a>
+					<a href="./pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
 					<div class="dropdown">							
-							<button class="dropbtn">Directoy 
+							<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy 
 								<i class="fa fa-caret-down"></i>
 							</button>
 							<div class="dropdown-content">
@@ -48,9 +49,9 @@
 								<a href="#">Hotels & Resorts</a>
 							</div>
 						</div>
-					<a href="./pages/taluk.html">Taluk</a>
-					<a href="./pages/tourism.html">Tourism</a>
-					<a href="./pages/wiki.html">Wiki</a>					
+					<a href="./pages/taluk.html"><i class="fas fa-map-marker-alt"></i> Taluk</a>
+					<a href="./pages/tourism.html"><i class="fas fa-plane"></i> Tourism</a>
+					<a href="./pages/wiki.html"><i class="fab fa-wikipedia-w"></i> Wiki</a>					
 				</nav> 
 			</div>
 		</div>
@@ -59,22 +60,27 @@
 	<img src="./img/home.JPG" class="homeimg">
 
 	<div class="mainBody">
-		<div></div>
-		<div></div>
-		<div></div>
+		<div style="background-color: #EAEAEA;"></div>
+		<div>	
+
+		</div>
+		<div style="background-color: #EAEAEA;"></div>
 	</div>
 
 	<script>
-		function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "navbar") {
-			x.className += " responsive";
-		  } else {
-			x.className = "navbar";
-		  }
-		}
+		
 		</script>
 
+	<footer class="footer">
+		<p>Copyright &copy; 2020 by northparavur.info</p>
+		<p style="font-size: small;">Content created for educational purpose!!</p>
+		<p style="font-size: x-small;">Last Updated on 13/12/2020</p>
+		<i class="fab fa-html5 circle-icon" style="color: white; font-size:30px;"></i>
+		<i class="fab fa-css3-alt circle-icon" style="color: white; font-size:30px;"></i>
+		<i class="fab fa-js circle-icon" style="color: white; font-size:30px;"></i>
+	</footer>
+
+	<script src="./scripts/common.js"></script>
 
 </body>
 </html>

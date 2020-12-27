@@ -2,7 +2,99 @@ body{
     margin:0;
 }
 
-.homeimg{
-    max-width: 100%;
-  height: auto;
+.mainBody{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
 }
+
+.image_wrapper {
+    position: relative;
+    text-align: center;
+}
+
+
+.homeimg {
+    height: auto;
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.welcomeModule{
+    position: absolute;
+    top: 15vw; /* adjust as desired */
+    left: 25vw; /* adjust as desired */
+}
+
+.Welcometitle{
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.Welcometitle h1 {
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: 3px 2px black;
+}
+
+.Welcometitle ul {
+    list-style-type: none;
+    min-height: 40px;
+    padding: 0;
+    margin: 25px auto 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Welcometitle li {
+    margin-right: 10px;
+}
+
+.Welcometitle a {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.linkText {
+    flex: 1 1 auto;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.linkIcon {
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    background-color: #3498DB;
+    border-radius: 2px;
+    position: relative;
+}
+
+.linkiconBg{
+    font-size: 5rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 1%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding-left: 6px;
+    padding-top: 14px;
+    color: white;
+}
+
+@media screen and (max-width: 1125px){
+    .navbar a {
+        padding: 16px 16px 16px 16px;
+    }
