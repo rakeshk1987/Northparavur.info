@@ -4,7 +4,7 @@ body{
 
 .mainBody{
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 20% 60% 20%;
 }
 
 .image_wrapper {
@@ -12,48 +12,46 @@ body{
     text-align: center;
 }
 
+.imgWrapper {
+    text-align: center;
+}
 
 .homeimg {
     height: auto;
-    /*display: block;*/
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
 .welcomeModule{
-    position: absolute;
-    top: 15vw; /* adjust as desired */
-    left: 25vw; /* adjust as desired */
-}
-
-.Welcometitle{
-    color: white;
     font-family: 'Proxima Nova', sans-serif;
 }
 
-.Welcometitle h1 {
+.welcomeModule h1{
+    color: grey;
     font-size: 3vw;
     text-align: center;
-    text-shadow: 3px 2px black;
+    margin-bottom:10px;
 }
 
-.Welcometitle ul {
+.welcomeModule ul{
     list-style-type: none;
     min-height: 40px;
     padding: 0;
-    margin: 25px auto 20px;
+    margin: 0px auto 20px;
     display: flex;
     flex-direction:row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.Welcometitle li {
-    margin-right: 10px;
+.welcomeModule li {
+    margin: 10px;
+    width: 260px;
 }
 
-.Welcometitle a {
+.welcomeModule a {
     border: 1px solid #ccc;
     border-radius: 5px;
     display: flex;
@@ -70,6 +68,8 @@ body{
     font-weight: 600;
     font-size: 15px;
     line-height: 1.2;
+    color: #0095CA;
+    text-align: center;
 }
 
 .linkIcon {
@@ -78,7 +78,6 @@ body{
     height: 50px;
     background-color: #3498DB;
     border-radius: 2px;
-    position: relative;
 }
 
 .linkiconBg{
@@ -94,7 +93,208 @@ body{
     color: white;
 }
 
-@media screen and (max-width: 1125px){
-    .navbar a {
-        padding: 16px 16px 16px 16px;
+@media screen and (max-width: 1870px){
+    .welcomeModule li {
+        margin: 5px;
+        width: 200px;
     }
+
+}
+
+@media screen and (max-width: 1410px){
+    .welcomeModule li {
+        margin: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 967px){
+    .welcomeModule li {
+        margin: 5px;
+        width: 200px;
+    }
+}
+
+.info{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-justify: auto;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+/*news cards starts*/
+
+.cardGrid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin: 40px;
+    align-items: center;
+}
+
+.cardGrid a{
+    text-decoration: none;
+}
+
+.cardGrid > article{
+
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.cardGrid > article img{
+    width: 100%;
+}
+
+.cardGrid > article p{
+    font-size: small;
+    color: black;
+}
+
+.cardGrid > article:hover{
+    transition: transform .1s ease-out;
+    transform: translateY(5px);
+}
+
+
+.cardText{
+    padding: 10px;
+    color: DimGray;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.cardText h4{
+    margin: 0px;
+}
+
+.cardText h4:hover{
+    color:black;
+}
+
+@media screen and (max-width: 967px){
+    .cardGrid {
+        grid-template-columns: repeat(1, 1fr);
+        margin:80px;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .cardGrid {
+        margin:20px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cardGrid > article img{
+        display: none;        
+    }
+
+    .cardGrid > article p{
+        display: none;        
+    }
+
+    .cardText{
+        background: linear-gradient(180deg, rgba(46,130,186,1) 0%, rgba(52,152,219,1) 47%);
+        color: white;
+        padding: 15px;
+    }
+    
+    .cardText h4{
+        margin:0px;
+    }
+
+    .cardText h4:hover{
+        color:PapayaWhip;
+    }
+}
+
+  /*news cards ends*/
+
+/* info container starts*/
+
+.infoGrid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 40px;
+}
+
+.infoGrid > article{    
+    font-family: 'Proxima Nova', sans-serif;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+
+.infoGrid > article:hover{
+    transition: transform .1s ease-out;
+    transform: translateY(5px);
+}
+
+.infoGrid > article h3{
+    margin:0px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:  #3498DB;
+    color: white;
+
+}
+.infoGrid > article a{
+    margin:0px;
+    color: black;
+}
+
+.infoGrid > article a:hover{
+    text-decoration: underline;
+}
+
+.infogridLists{
+    padding: 20px;
+    font-size: 1vmax;
+}
+
+@media screen and (max-width:1622px){
+    .infoGrid {
+        column-gap: 10px;
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+    }
+
+    .infogridLists{
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:1296px){
+    .infoGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:700px){
+    .infoGrid {
+        display: contents;
+    }
+
+    .infogridLists{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .circle-icon{
+        display: none;
+    }
+}
+
+/*info container ends*/

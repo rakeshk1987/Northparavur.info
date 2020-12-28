@@ -3,13 +3,14 @@
 	padding-top: 20px;
 	padding-bottom: 15px;
 	background-color: #333;
-	color: white;
+    color: white;
+    font-family: 'Proxima Nova', sans-serif;
 	text-align: center;
 	margin-bottom: -10px;
 }
 
 .circle-icon{
-	background: #3498DB;
+    background: #3498DB;
     width: 20px;
     height: 20px;
     border-radius: 1%;
