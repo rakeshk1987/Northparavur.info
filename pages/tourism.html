@@ -1,54 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<title>North Paravur info | Tourism</title>
+	<link rel="icon" href="../img/favicon.ico"/>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="north paravur information">
+	<meta name="description" content="North Paravur, formerly known as Parur, is a municipality in Ernakulam district in the Indian state of Kerala.">
 	<meta name="keywords" content="North Paravur, Paravur info, kochi, ernakulam, aluva">
 
-	<script src="./scripts/all.js" data-auto-a11y="true"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel = "stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel = "stylesheet" href="../css/header.css">
+	<link rel = "stylesheet" href="../css/footer.css" >
+	<link rel = "stylesheet" href="../css/history.css" >
+	<link rel = "stylesheet" href="../lightbox/css/lightbox.css" >
+	<link rel = "stylesheet" href="../css/tourism.css" >
+
+	<script src="../scripts/all.js" data-auto-a11y="true"></script>	
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<title>North Paravur info | Tourism</title>
+	
 
-	<link rel = "stylesheet" href="./css/style.css">	
-	<link rel = "stylesheet" href="./lightbox/css/lightbox.css" >
-	<link rel = "stylesheet" href="./css/tourism.css" >
+	
 </head>
 <body>
-	<header >
-		<div class="topNav">
-			<div id="branding">
-				<h1>northparavur.info</h1>
+	
+	<!--Top Navigation Starts here-->
+	<header>
+		<div class="headerText">
+			<div class="respNav">
+				<div class="respNavPos">
+					<a href="javascript:void(0);" style="font-size:30px;" class="respIcon" onclick="respMenu()">&#9776;</a>
+				</div>
 			</div>
 			<div>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="history.html">History</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="directory.html">Directory</a></li>
-						<li><a href="taluk.html">Taluk</a></li>
-						<li><a href="tourism.html">Tourism</a></li>
-						<li><a href="wiki.html">Wiki</a></li>
-					</ul>
-				</nav>
+				<a href="../index.html">
+					<div class="logo">North Paravur.Info</div>
+					<div class="tagline">A Visitor Guide</div>
+				</a>
+			</div>	
+			<div class="language">
+				<div class="langDropdown">
+					<button class="LangDropBtn">Dialect</button>
+					<div class="langdropdown-content">
+						<a href="#">English</a>
+						<a href="#">Malayalam</a>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="navbar" id="myTopnav">
+			<div class="navbarposition">
+				<nav>
+					<a href="../index.html"><i class="fas fa-home"></i> Home</a>
+					<a href="../pages/history.html"><i class="fas fa-history"></i> History</a>
+					<a href="../pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Hospitals</a>
+							<a href="#">Govt. Offices</a>
+							<a href="#">Schools</a>
+							<a href="#">Colleges</a>
+							<a href="#">Hotels & Resorts</a>
+						</div>
+					</div>
+					<a href="../pages/taluk.html"><i class="fas fa-map-marker-alt"></i> Taluk</a>
+					<a class="active" href="../pages/tourism.html"><i class="fas fa-plane"></i> Tourism</a>
+					<a href="../pages/personalities.html"><i class="fas fa-user-tie"></i> Personalities</a>
+				</nav>
+			</div>	
+		</div>
 	</header>
+
+	<!--Top Navigation ends here-->
+
 	<main>
 		<div>
-			<img src="./img/banner.jpg" class="bannerImg">
+			<img src="../img/banner.jpg" class="bannerImg">
 		</div>
 
 
 		<div class="gridwrapper">
 			<div ></div>
 				<div>
-					<div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=North%20Paravur+(North%20Paravur%20Tourism)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+					
+					<div style="width: 100%; background-color: white;">
+						<div style="margin:10px;">
+							<p class="smallNav" style="padding-top:20px; padding-bottom: 10px; padding-left: 10px; margin-bottom: 0px;"><a href="../index.html" style="text-decoration: none;">HOME</a> / Tourism</p>
+							<iframe style="padding-bottom: 10px;" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=North%20Paravur+(North%20Paravur%20Tourism)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+						</div>
 					<div id="tourismData"></div>
+					
 				</div>
 			<div></div>
 		</div>
@@ -58,13 +105,14 @@
 
 
 	</main>
-	<footer class="footer">
-		<p>Copyright &copy; 2020 by northparavur.info</p>
-		<p style="font-size: small;">Content created for educational purpose!!</p>
-		<p style="font-size: x-small;">Last Updated on 13/12/2020</p>
-
-	<script src="./scripts/tourData.js"></script>	
-	<script src="./lightbox/js/lightbox.js"></script>	
+	
+	<!--footer Starts here-->
+	<div id="footer"></div>
+	<!--footer endshere-->
+	
+	<script src="../scripts/common.js"></script>
+	<script src="../scripts/tourData.js"></script>	
+	<script src="../lightbox/js/lightbox.js"></script>	
 
 </body>
 </html>

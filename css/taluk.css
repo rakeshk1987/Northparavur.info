@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 .gridwrapper{
 
 	display: grid;
@@ -12,12 +14,44 @@
 	font-size: 15px;
 }
 
-.gridcontentText
-{	
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 5rem;
-	text-align: center;
-	list-style-position: inside;
-	align-content: center;
-}
+/* Collapsible*/
+.collapsible {
+	font-size: 2ch;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: #3498DB;
+	color:white;
+	font-size: 2.25ch;
+  }
+  
+  .collapsible:after {
+	content: '\002B';
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+  
+  .content {
+	font-family: 'Karla', sans-serif;
+	font-size: large;
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+  }
+  

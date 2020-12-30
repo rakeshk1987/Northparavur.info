@@ -2,8 +2,7 @@
 <html>
 <head>
 
-	<title>North Paravur info | Gallery</title>
-	<link rel="icon" href="../img/favicon.ico"/>
+	<title>North Paravur info | Wiki</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -11,17 +10,15 @@
 	<meta name="keywords" content="North Paravur, Paravur info, kochi, ernakulam, aluva">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		
+	<link rel="icon" href="../img/favicon.ico"/>
 	<link rel = "stylesheet" href="../css/header.css">
 	<link rel = "stylesheet" href="../css/footer.css" >
-	<link rel = "stylesheet" href="../css/history.css" >
+	<link rel = "stylesheet" type="text/css" href="../css/personals.css">
 	<link rel = "stylesheet" href="../lightbox/css/lightbox.css" >
-	<link rel="stylesheet" href="../css/gallery.css">
 
 	<script src="../scripts/all.js" data-auto-a11y="true"></script>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
 	
@@ -54,7 +51,7 @@
 				<nav>
 					<a href="../index.html"><i class="fas fa-home"></i> Home</a>
 					<a href="../pages/history.html"><i class="fas fa-history"></i> History</a>
-					<a class="active" href="../pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
+					<a href="../pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
 					<div class="dropdown">
 						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy
 							<i class="fa fa-caret-down"></i>
@@ -69,7 +66,7 @@
 					</div>
 					<a href="../pages/taluk.html"><i class="fas fa-map-marker-alt"></i> Taluk</a>
 					<a href="../pages/tourism.html"><i class="fas fa-plane"></i> Tourism</a>
-					<a href="../pages/personalities.html"><i class="fas fa-user-tie"></i> Personalities</a>
+					<a class="active" href="../pages/personalities.html"><i class="fas fa-user-tie"></i> Personalities</a>
 				</nav>
 			</div>	
 		</div>
@@ -81,32 +78,26 @@
 		<div>
 			<img src="../img/banner.jpg" class="bannerImg">
 		</div>		
-
-		<div class="gridwrapper">
-			<div style="background-color: #EAEAEA;"></div>
-			<div>
-				<div>
-					<p class="smallNav" style="margin-left:20px;"><a href="../index.html" style="text-decoration: none; ">HOME</a> / Gallery</p>
-					<div>
-						<div class="galleryBody" id="gallery">				
-						</div>
-					</div>
-				</div>
-			</div>
-			<div style="background-color: #EAEAEA;"></div>
-		</div>
 	</main>
+
+	<div class="gridwrapper">
+		<div style="background-color: #EAEAEA;"></div>
+		<div class="contentText">
+			<div>
+				<p class="smallNav"><a href="../index.html" style="text-decoration: none;">HOME</a> / Personalities</p>
+				<div id="personals"></div>
+			</div>
+		</div>
+		<div style="background-color: #EAEAEA;"></div>
+	</div>
 	
 	<!--footer Starts here-->
 	<div id="footer"></div>
 	<!--footer endshere-->
 	
 	<script src="../scripts/common.js"></script>
-	<script src="../scripts/galleryData.js"></script>	
+	<script src="../scripts/personals.js"></script>
 	<script src="../lightbox/js/lightbox.js"></script>	
-
-
-
 
 </body>
 </html>

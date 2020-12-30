@@ -6,7 +6,9 @@
 	<meta name="description" content="North Paravur, formerly known as Parur, is a municipality in Ernakulam district in the Indian state of Kerala.">
 	<meta name="keywords" content="North Paravur, Paravur info, kochi, ernakulam, aluva">
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<script src="./scripts/all.js" data-auto-a11y="true"></script>
+	
 	
 
 	<title>North Paravur info | Welcome</title>
@@ -19,43 +21,58 @@
 
 </head>
 <body>	
-	<div class="headerText">
-		<div>
-			<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="respMenu()">&#9776;</a>
+
+	<!--Top Navigation Starts here-->
+	<header>
+		<div class="headerText">
+			<div class="respNav">
+				<div class="respNavPos">
+					<a href="javascript:void(0);" style="font-size:30px;" class="respIcon" onclick="respMenu()">&#9776;</a>
+				</div>
+			</div>
+			<div>
+				<a href="index.html">
+					<div class="logo">North Paravur.Info</div>
+					<div class="tagline">A Visitor Guide</div>
+				</a>
+			</div>	
+			<div class="language">
+				<div class="langDropdown">
+					<button class="LangDropBtn">Dialect</button>
+					<div class="langdropdown-content">
+						<a href="#">English</a>
+						<a href="#">Malayalam</a>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div>
-			<a href="index.html">
-				<div class="logo">North Paravur.Info</div>
-				<div class="tagline">A Visitor Guide</div>
-			</a>
-		</div>	
-		<div></div>
-	</div>
 		<div class="navbar" id="myTopnav">
 			<div class="navbarposition">
-				<nav>					
+				<nav>
 					<a class="active" href="index.html"><i class="fas fa-home"></i> Home</a>
 					<a href="./pages/history.html"><i class="fas fa-history"></i> History</a>
 					<a href="./pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
-					<div class="dropdown">							
-							<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy 
-								<i class="fa fa-caret-down"></i>
-							</button>
-							<div class="dropdown-content">
-								<a href="#">Hospitals</a>
-								<a href="#">Govt. Offices</a>
-								<a href="#">Schools</a>
-								<a href="#">Colleges</a>
-								<a href="#">Hotels & Resorts</a>
-							</div>
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Hospitals</a>
+							<a href="#">Govt. Offices</a>
+							<a href="#">Schools</a>
+							<a href="#">Colleges</a>
+							<a href="#">Hotels & Resorts</a>
 						</div>
+					</div>
 					<a href="./pages/taluk.html"><i class="fas fa-map-marker-alt"></i> Taluk</a>
 					<a href="./pages/tourism.html"><i class="fas fa-plane"></i> Tourism</a>
-					<a href="./pages/wiki.html"><i class="fab fa-wikipedia-w"></i> Wiki</a>					
-				</nav> 
-			</div>
+					<a href="./pages/personalities.html"><i class="fas fa-user-tie"></i> Personalities</a>
+				</nav>
+			</div>	
 		</div>
-	</div>
+	</header>
+
+	<!--Top Navigation ends here-->
 
 	<div class="imgWrapper">
 		<img src="./img/home.JPG" class="homeimg">		
@@ -96,7 +113,7 @@
 
 			<div>
 				<div>
-					<p class="info">Welcome to northparavur.info, your travel guide to one of the historical place in south India. Find things to do, days out, attractions and sightseeing, what's on, North Paravur events, theatre, tours, restaurants and hotels. Plan day trip with useful traveller information.</p>
+					<p class="info">Welcome to northparavur.info, your travel guide to one of the historical place in south India. <br> Find things to do, days out, attractions and sightseeing, what's on, North Paravur events, theatre, tours, restaurants and hotels. Plan day trip with useful traveller information.</p>
 				</div>
 			</div>
 
@@ -207,26 +224,18 @@
 						</div>
 					</article>					
 
-				</main>
+				</main>			
+				<hr style="color: #EAEAEA; border: 3px solid #EAEAEA;">
 			</div>
 
 		</div>
 		<div style="background-color: #EAEAEA;"></div>
-	</div>
+	</div>	
+	
 
-	<script>
-		
-		</script>
-
-	<footer class="footer">
-		<p>Copyright &copy; 2020 by northparavur.info</p>
-		<p style="font-size: small;">Content created for educational purpose!!</p>
-		<p style="font-size: x-small;">Last Updated on 13/12/2020</p>
-		<i class="fab fa-html5 circle-icon" style="color: white; font-size:30px;"></i>
-		<i class="fab fa-css3-alt circle-icon" style="color: white; font-size:30px;"></i>
-		<i class="fab fa-js circle-icon" style="color: white; font-size:30px;"></i>
-	</footer>
-
+	<!--footer Starts here-->
+	<div id="footer"></div>
+	<!--footer endshere-->
 	
 	<script src="./scripts/common.js"></script>
 

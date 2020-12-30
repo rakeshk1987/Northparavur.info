@@ -13,3 +13,9 @@ body{
 	text-align: justify;
 	font-size: 15px;
 }
+
+@media screen and (max-width:660px){
+    .aboutCss {
+        font-size: 2vw;
+    }
+}

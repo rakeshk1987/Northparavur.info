@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 body{
     margin:0;
 }
@@ -25,7 +27,7 @@ body{
 }
 
 .welcomeModule{
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .welcomeModule h1{
@@ -121,7 +123,7 @@ body{
     margin-right: 10px;
     text-align: center;
     text-justify: auto;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 /*news cards starts*/
@@ -165,7 +167,7 @@ body{
 .cardText{
     padding: 10px;
     color: DimGray;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .cardText h4{
@@ -229,10 +231,10 @@ body{
 }
 
 .infoGrid > article{    
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Karla', sans-serif;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .infoGrid > article:hover{
@@ -250,17 +252,23 @@ body{
 
 }
 .infoGrid > article a{
-    margin:0px;
+    margin:0px;   
+    color: black; 
+    text-decoration: none;
+}
+
+.infoGrid > article a:visited{
     color: black;
 }
 
 .infoGrid > article a:hover{
-    text-decoration: underline;
+    color:red;
 }
+
+
 
 .infogridLists{
     padding: 20px;
-    font-size: 1vmax;
 }
 
 @media screen and (max-width:1622px){
@@ -287,7 +295,8 @@ body{
     }
 
     .infogridLists{
-        padding: 5px;
+        padding: 5px;      
+        font-size: 1vmax;
     }
 }
 

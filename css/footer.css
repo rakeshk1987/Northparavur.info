@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 .footer
 {
 	padding-top: 20px;
 	padding-bottom: 15px;
 	background-color: #333;
     color: white;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	margin-bottom: -10px;
 }

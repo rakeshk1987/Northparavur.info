@@ -1,0 +1,44 @@
+.gridwrapper{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+}
+
+.contentText{
+	margin: 20px;
+	background-color: white;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.personals{
+	max-width: inherit;
+  	padding: 20px;
+  	margin: 20px auto;
+  	background-color: #FFF;
+  	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+  	overflow: hidden;
+}
+
+.personals h4 {
+	margin: 5px 0 6px 0;
+  }
+  
+  .personals img {
+	float: left;
+	width: 20%;
+	margin-right: 15px;
+	transition: 1s;
+  }
+  
+  .personals img:hover{
+	  filter:grayscale(100%);
+  }
+
+  @media screen and (max-width: 850px){
+    .personals img {
+		float: left;
+		width: -webkit-fill-available;
+		margin-right: 0px;
+		transition: 1s;
+	  }
+}

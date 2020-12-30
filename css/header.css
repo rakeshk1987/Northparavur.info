@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 .headerText{
     display: grid;
     grid-template-columns: 25% 50% 25%;
@@ -10,7 +12,7 @@
 }
 
 .logo{
-    font-family: Fantasy;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     font-size: 50px;    
     text-transform: uppercase;
@@ -20,7 +22,7 @@
 
 .tagline{
     text-align: center;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     white-space:nowrap;
     font-weight: bold;
     font-size: 108%;
@@ -51,7 +53,17 @@ nav button{
     border-width: 1px 0;
   }
 
-  .icon {
+  .respNav{
+    position: relative;
+  }
+
+  .respNavPos{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+  }
+
+  .respIcon {
     display: none;
   }
   
@@ -76,7 +88,7 @@ nav button{
     color: white;
     padding: 16px 30px 16px 30px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;;
     margin: 0;
   }
   
@@ -115,8 +127,7 @@ nav button{
     background-color: #0095CA;
   }
 
-
-  @media screen and (max-width: 910px){
+  @media screen and (max-width: 960px){
     .navbar a {
         padding: 16px 16px 16px 16px;
     }
@@ -151,9 +162,9 @@ nav button{
     .navbarposition{
         width:auto;
     }
-    a.icon {
+    a.respIcon {
         float: left;
-        display: block;
+        display: block; 
     }
   }
 
@@ -162,7 +173,7 @@ nav button{
     .navbar.responsive {
         position: fixed;
     }
-    .icon {
+    .respIcon {
       position: absolute;
       left: 0;
       top: 0;
@@ -193,3 +204,73 @@ nav button{
   .sticky + .content {
     padding-top: 60px;
   }
+
+  /*Dropdown div starts here*/
+.language{
+  margin: 0 auto;
+}
+
+
+.smallNav{
+  font-family: 'Karla', sans-serif;
+}
+
+.smallNav a{
+  text-decoration: none;
+}
+
+.LangDropBtn {
+  opacity: .7;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+.langDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.langdropdown-content {
+  display: none;
+  font-family: 'Roboto', sans-serif;;
+  font-size: small;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.langdropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.langdropdown-content a:hover {background-color: #f1f1f1}
+
+.langDropdown:hover .langdropdown-content {
+  display: block;
+}
+
+.langDropdown:hover .LangDropBtn {
+  background-color: #3498DB;
+}
+
+/*Dropdown div ends*/
+
+/* Banner Img on all pages except index.html*/
+.bannerImg{
+  width: 100%;
+  padding: 0px;
+  border: 0px;
+  border-radius: 0;
+  margin: 0px;
+}
