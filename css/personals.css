@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
 .gridwrapper{
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
+	background-color: #EAEAEA;
 }
 
-.contentText{
-	margin: 20px;
-	background-color: white;
+.contentText{	
 	text-align: justify;
 	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .personals{
@@ -21,6 +23,8 @@
 
 .personals h4 {
 	margin: 5px 0 6px 0;
+	color: #006E95;
+	font-size: large;
   }
   
   .personals img {
@@ -28,17 +32,54 @@
 	width: 20%;
 	margin-right: 15px;
 	transition: 1s;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	
+	
   }
   
   .personals img:hover{
 	  filter:grayscale(100%);
+	  box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+  }
+
+  .paragraph{
+	  margin-top: 20px;
+	  padding: 20px;
+	  background-color: white;
+	  box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+  }
+
+  .wiki{
+    text-decoration: none;
+    color: initial;
+  }
+
+  .wiki:hover{
+    text-decoration: underline;
+    color: red;
   }
 
   @media screen and (max-width: 850px){
-    .personals img {
+	.personals img 
+	{
 		float: left;
-		width: -webkit-fill-available;
-		margin-right: 0px;
+		width: 50%;
+		margin-right: 10px;
+		transition: 1s;
+	  }
+	}
+	  
+@media screen and (max-width: 786px){
+	.gridwrapper{
+		grid-template-columns: 10% 80% 10%;
+	}
+
+	.personals img {		
+		float: left;
+		width: 38%;
+		margin-right: 10px;
 		transition: 1s;
 	  }
 }
