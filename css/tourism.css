@@ -108,3 +108,19 @@
 	padding: 30px;
 	justify-content: center;
 }
+
+@media screen and (max-width: 786px) {
+    .gridwrapper{
+		grid-template-columns: 5% 90% 5%;
+	}
+
+	.places img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.places {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}

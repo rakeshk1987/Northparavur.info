@@ -31,6 +31,12 @@
 	transform: scale(1.1);
 }
 
+@media screen and (max-width: 786px) {
+    .gridwrapper{
+		grid-template-columns: 5% 90% 5%;
+	}
+}
+
 @media screen and (max-width:1000px){
     .galleryBody {
         grid-template-columns: repeat(3, 1fr);

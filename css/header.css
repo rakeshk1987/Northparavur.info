@@ -6,7 +6,7 @@ body{
 
 .headerText{
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 20% 60% 20%;
     
 }
 
@@ -62,8 +62,9 @@ nav button{
   }
 
   .respNavPos{
+    color:  #0095CA;
     position: absolute;
-    top: 60%;
+    top: 10%;
     left: 2%;
   }
 
@@ -167,8 +168,10 @@ nav button{
         width:auto;
     }
     a.respIcon {
-        float: left;
-        display: block; 
+      
+      color: #0095CA;
+      float: left;
+      display: block; 
     }
   }
 

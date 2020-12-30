@@ -14,8 +14,15 @@ body{
 	font-size: 15px;
 }
 
+@media screen and (max-width: 786px) {
+    .gridwrapper{
+		grid-template-columns: 5% 90% 5%;
+	}
+}
+
 @media screen and (max-width:660px){
     .aboutCss {
         font-size: 2vw;
     }
 }
+
