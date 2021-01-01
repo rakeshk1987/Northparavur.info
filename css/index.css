@@ -32,7 +32,6 @@ body{
 
 .welcomeModule h1{
     color: grey;
-    font-size: 3vw;
     text-align: center;
     margin-bottom:10px;
 }
@@ -315,7 +314,7 @@ body{
 
 @media screen and (max-width:700px){
     .infoGrid {
-        display: contents;
+        margin: 20px;
     }
 
     .infogridLists{

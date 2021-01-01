@@ -44,7 +44,7 @@ document.getElementById('footer').innerHTML = `
       <i class="fab fa-css3-alt circle-icon" style="color: white; font-size:30px;"></i>
       <i class="fab fa-js circle-icon" style="color: white; font-size:30px;"></i>
       <p style="font-size: x-small;">This website is created for educational purpose and to collate maximum information about North Paravur in a single place.<br>All images are copyright to their respective owners.</p>
-      <p style="font-size: small;"><a style="color: white; text-decoration: none;" href="https://github.com/rakeshk1987/Northparavur.info" target="_blank">visit github page</a></p>
+      <a class="github" href="https://github.com/rakeshk1987/Northparavur.info" target="_blank">visit github page</a>
     </footer>
   </div>
 

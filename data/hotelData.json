@@ -1,0 +1,46 @@
+[
+    {
+        "name":"Hotel Cee Cee Tower, N.Paravur", 
+        "type":"Hotel",
+        "star":"&#9734&#9734&#9734", 
+        "phone":"+91 484 244 5885",
+        "distance":"500M",
+        "web":"hotelceeceetower.com",
+        "photo":"../../img/directory/hotels/ceecee.jpg"
+    },
+    {
+        "name":"Hotel White City, N.Paravur", 
+        "type":"Hotel",
+        "star":"&#9734&#9734&#9734", 
+        "phone":"+91 484 244 7893",
+        "distance":"500M",
+        "photo":"../../img/directory/hotels/whitecity.jpg"
+    },
+    {
+        "name":"Cherai Beach Resort",
+        "type":"Resort", 
+        "star":"&#9734&#9734&#9734&#9734", 
+        "phone":"+91 484 248 1818",
+        "distance":"7.6KM",
+        "web":"cheraibeachresorts.com",
+        "photo":"../../img/directory/hotels/cheraibeachresort.jpg"
+    },
+    {
+        "name":"Club Mahindra Cherai Beach",
+        "type":"Resort", 
+        "star":"&#9734&#9734&#9734&#9734", 
+        "phone":"+91 484 286 1500",
+        "distance":"7.6KM",
+        "web":"clubmahindra.com",
+        "photo":"../../img/directory/hotels/clubmahindra.jpg"
+    },
+    {
+        "name":"Indriya Sands", 
+        "type":"Resort",
+        "star":"&#9734&#9734&#9734&#9734", 
+        "phone":"+91 9526 22 8899",
+        "distance":"8Km",
+        "web":"indriyaresorts.com",
+        "photo":"../../img/directory/hotels/indriya.jpg"
+    }
+]

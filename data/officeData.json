@@ -1,0 +1,57 @@
+[
+    {
+        "name":"North Paravur Municipality", 
+        "address":"Municipal Jn, North Paravur", 
+        "phone":"+91 484 244 2327",
+        "photo":"../../img/directory/office/office.jpg"
+    },
+    {
+        "name":"Taluk Office North Paravur", 
+        "address":"First floor, Police Station Rd, above Sub Registrar Office, North Paravur", 
+        "phone":"+91 484 244 2326",
+        "photo":"../../img/directory/office/office.jpg"
+    },
+    {
+        "name":"Sub Treasury North Paravur", 
+        "address":"Near Sub Court, North Paravur", 
+        "phone":"+91 484 244 2662",
+        "photo":"../../img/directory/office/office.jpg"
+    },
+    {
+        "name":"Employment Exchange Office", 
+        "address":"Near Private Bus Stand, Mini Civil Station, North Paravur", 
+        "phone":"+91 484 244 0066",
+        "photo":"../../img/directory/office/office.jpg"
+    },
+    {
+        "name":"Taluk Civil Supply Office", 
+        "address":"Municipal Shopping Complex, Near Private Bus Stand, North Paravur", 
+        "phone":"+91 484 244 4438",
+        "photo":"../../img/directory/office/office.jpg"
+    },
+    {
+        "name":"RTO North Paravur", 
+        "address":"Republic Road, Perumpadanna, North Paravur", 
+        "phone":"+91 484 266 2522",
+        "email":"kl42@keralamvd.gov.in",
+        "photo":"../../img/directory/office/office.jpg"
+    },
+    {
+        "name":"KSEB North Paravur", 
+        "address":"Court Rd, North Paravur", 
+        "phone":"+91 484 244 2322",
+        "photo":"../../img/directory/office/kseb.jpg"
+    },
+    {
+        "name":"LIC North Paravur", 
+        "address":"P.B.No.16, Gurudarsan Bldg., Maion Road, North Paravur", 
+        "phone":"+91 484 244 3298",
+        "photo":"../../img/directory/office/lic.jpg"
+    },
+    {
+        "name":"North Paravur Main Post Office", 
+        "address":"Opp. Pvt. Bus Station, Main Road, North Paravur", 
+        "phone":"+91 484 244 2330",
+        "photo":"../../img/directory/office/post.jpg"
+    }
+]

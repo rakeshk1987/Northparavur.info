@@ -1,0 +1,112 @@
+[
+    {
+        "name":"Govt. Girls HSS", 
+        "address":"Municipal Jn. N.Paravoor, 683513", 
+        "class":"Std.V to XII",
+        "phone":"+91 484 244 6650",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/girls.jpg"
+    },
+    {
+        "name":"Govt. Boys HSS", 
+        "address":"Municipal Jn. N.Paravoor, 683513", 
+        "class":"Std.V to XII",
+        "phone":"+91 484 244 6650",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/boys.jpg"
+    },
+    {
+        "name":"Samooham HS", 
+        "address":"Cherai Rd, N.Paravoor, 683513", 
+        "class":"Std.V to X",
+        "phone":"+91 484 244 3588",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/samooham.jpg"
+    },
+    {
+        "name":"SNV Sanskrit HSS", 
+        "address":"Nanthiattukunnam, 683513", 
+        "class":"Std.V to XII",
+        "phone":"+91 484 244 7844",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/snv.jpg"
+    },
+    {
+        "name":"Sree Narayana HSS (SNHSS)", 
+        "address":"Near KSRTC Bus Station, 683513", 
+        "class":"Std.V to XII",
+        "phone":"+91 484 244 2196",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/snhss.jpg"
+    },
+    {
+        "name":"St. Alosius HS", 
+        "address":"Kannankulangara, N.Paravur. 683513", 
+        "class":"Std.V to X",
+        "phone":"+91 484 244 3341",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/Alosius.jpg"
+    },
+    {
+        "name":"Kizhakkepram Govt. UPS", 
+        "address":"Kizhakkepram, N.Paravur. 683513", 
+        "class":"Std.I to VII",
+        "phone":"NA",
+        "syllabus":"State",
+        "photo":"../../img/directory/schools/kizhakkepuram.jpg"
+    },
+    {
+        "name":"Little Hearts School", 
+        "address":"Kizhakkepram, N.Paravur. 683513", 
+        "class":"Pre-KG to XII",
+        "phone":"Pre-KG to XII",
+        "syllabus":"CBSE",
+        "website":"www.littleheartsschoolnparavur.com",
+        "photo":"../../img/directory/schools/littlehearts.jpg"
+    },
+    {
+        "name":"Infant Jesus Public School", 
+        "address":"Perupadanna, North Paravur P.O., 683513", 
+        "class":"Std.I to XII",
+        "phone":"+91 484 244 2677",
+        "syllabus":"CBSE",
+        "website":"infantjesusschool.ac.in",
+        "photo":"../../img/directory/schools/infant.jpg"
+    },
+    {
+        "name":"Maria Teresa Scrilli Public School", 
+        "address":"T B Road, N.Paravur. 683513", 
+        "class":"Std.I to X",
+        "phone":"NA",
+        "syllabus":"CBSE",
+        "website":"www.mariateresascrillipublicschool.com",
+        "photo":"../../img/directory/schools/scrilli.jpg"
+    },
+    {
+        "name":"Dr. N. International School", 
+        "address":"Aiswarya Nagar, North Paravoor P.O., 683513", 
+        "class":"re-KG to XII",
+        "phone":"+91 484 244 5422",
+        "syllabus":"CBSE",
+        "website":"www.drninternationalschool.com",
+        "photo":"../../img/directory/schools/drn.jpg"
+    },
+    {
+        "name":"Chavara Darsan CMI Public School", 
+        "address":"Koonammavu, N.Paravur, 683 518", 
+        "class":"Pre-KG to XII",
+        "phone":"+91 484 251 1162",
+        "syllabus":"CBSE",
+        "website":"www.chavaradarsan.com",
+        "photo":"../../img/directory/schools/chavara.jpg"
+    },
+    {
+        "name":"Adarsha Vidayabhavan", 
+        "address":"Nanthiattukunnam, North Paravur, 683513", 
+        "class":"Pre-KG to XII",
+        "phone":"+91 484 244 0270",
+        "syllabus":"CBSE",
+        "website":"www.adarshavidyabhavan.com",
+        "photo":"../../img/directory/schools/adarsha.jpg"
+    }
+]

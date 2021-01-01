@@ -1,0 +1,53 @@
+[
+    {
+        "name":"Govt. Taluk Hospital", 
+        "address":"Main Road, Near Private Bus Stand, North Paravur", 
+        "phone":"+91 484 244 4438",
+        "photo":"../../img/directory/hospitals/taluk.jpg"
+    },
+    {
+        "name":"SN Medical College Hospital", 
+        "address":"Manjali - Athani Rd, North Kuthiathode, Kunnukara", 
+        "phone":"+91 484 266 1500",
+        "email":"info@snims.org",
+        "photo":"../../img/directory/hospitals/sn.jpg"
+    },
+    {
+        "name":"Don Bosco Hospital", 
+        "address":"National Highway 66, N. Paravur", 
+        "phone":"+91 484 244 4875",
+        "email":"donboscohospital@yahoo.com",
+        "photo":"../../img/directory/hospitals/donbosco.jpg"
+    },
+    {
+        "name":"K.M.K. Hospital", 
+        "address":"KMK JN. National Highway 66, N. Paravur", 
+        "phone":"+91 484 244 6803",
+        "photo":"../../img/directory/hospitals/kmk.jpg"
+    },
+    {
+        "name":"Govt. Ayurveda Hospital", 
+        "address":"South Naluvazhi, N. Paravur", 
+        "phone":"+91 484 244 9868",
+        "photo":"../../img/directory/hospitals/ayurveda.jpg"
+    },
+    {
+        "name":"Govt Homoeopathic Hospital", 
+        "address":"Near East Nada, Peruvaram Temple, N.Paravur", 
+        "phone":"+91 484 244 2683",
+        "email":"ghhparavoor@gmail.com",
+        "photo":"../../img/directory/hospitals/homeo.jpg"
+    },   
+    {
+        "name":"Shanthi Hospital", 
+        "address":"Canal Rd, N. Paravur", 
+        "phone":"+91 484 244 2143",
+        "photo":"../../img/directory/hospitals/shanti.jpg"
+    },
+    {
+        "name":"Shaji Hospital", 
+        "address":"Mookambika Rd, N. Paravur", 
+        "phone":"+91 484 244 4904",
+        "photo":"../../img/directory/hospitals/shaji.jpg"
+    }
+]

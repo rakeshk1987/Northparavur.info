@@ -1,0 +1,63 @@
+[
+    {
+        "name":"Sree Narayana Institute of Medical Sciences (SNIMS)", 
+        "address":"Chalakka, P.O. North Kuthiyathodu, PIN- 683 594", 
+        "phone":"+91 484 266 1500",
+        "email":"info@snims.org",
+        "website":"www.snims.org", 
+        "photo":"../../img/directory/colleges/medicalcollege.jpg"
+    },
+    {
+        "name":"SNM Institute of Management and Technology (SNMIMT)", 
+        "address":"Maliankara P.O, Moothakunnam, N.Paravur. PIN- 683 516", 
+        "phone":"+91 484 248 4142",
+        "email":"info@snmimt.edu.in",
+        "website":"www.snmimt.edu.in", 
+        "photo":"../../img/directory/colleges/snm.jpg"
+    },
+    {
+        "name":"SNM College Maliankara", 
+        "address":"Maliankara P.O, Moothakunnam, N.Paravur. PIN- 683 516", 
+        "phone":"+91 484 248 3600",
+        "email":"snmcm@yahoo.com | principalsnmc@gmail.com",
+        "website":"www.snmcollege.in", 
+        "photo":"../../img/directory/colleges/maliankara.jpg"
+    },
+    {
+        "name":"Sri Narayana Guru Institute of Science & Technology (SNGIST)", 
+        "address":"Thekkethazham, Mannam P.O., N.Paravur. PIN- 683 520", 
+        "phone":"+91 484 288 7000",
+        "email":"sngist@sngist.org",
+        "website":"www.sngist.org", 
+        "photo":"../../img/directory/colleges/sngist.jpg"
+    },
+    {
+        "name":"MES College of Engineering and Technology", 
+        "address":"Kunnukara P.O, N. Paravur. PIN- 683 578", 
+        "phone":"+91 484 257 3661",
+        "email":"mescet.kunnukara@gmail.com",
+        "website":"mescet.ac.in", 
+        "photo":"../../img/directory/colleges/mes.jpg"
+    },
+    {
+        "name":"SNGIST Arts & Science College", 
+        "address":"Manakkapady, Karumalloor (P.O), North Paravur, PIN- 683 511", 
+        "phone":"+91 484 282 0078",
+        "website":"www.sngistasc.org", 
+        "photo":"../../img/directory/colleges/sngistartscollege.jpg"
+    },
+    {
+        "name":"SN Arts & Science College (SNAS)", 
+        "address":"Kedamangalam, N.Paravur. PIN- 683 513", 
+        "phone":"+91 484 250 9113",
+        "email":"snascollege@sify.com",
+        "photo":"../../img/directory/colleges/snas.jpg"
+    },   
+    {
+        "name":"Lakshmi College (Parallel)", 
+        "address":"Amman Kovil Road, N.Paravur. PIN- 683 513", 
+        "phone":"+91 484 266 5940",
+        "email":"lakshmicollege.npr@gmail.com",
+        "photo":"../../img/directory/colleges/lakshmi.jpg"
+    }
+]

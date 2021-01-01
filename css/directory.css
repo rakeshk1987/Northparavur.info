@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.gridwrapper{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contentText{
+	margin: 20px;
+	background-color: white;
+	text-align: justify;
+	font-size: 15px;
+}
+
+
+/* Card */
+
+.cardContainer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Dir_card {
+	text-align: center;
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px;	
+  }
+
+  .Dir_card a{
+	text-decoration: none;
+  }
+
+  .Dir_card a:visited{
+	  color: black;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+	.Dir_card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	
+  }
+
+  .Dir_card p:hover{
+	color: #3498DB;
+	font-size: medium;
+  }
+  
+  /* Add some padding inside the card container */
+  .Dir_container {
+	padding: 2px 16px;
+  }
+
+  .Dir_card img{
+	
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+	
+  }
+
+  @media screen and (max-width: 786px){
+    .gridwrapper{
+		grid-template-columns: 5% 90% 5%;
+	}
+}
+
+
+
+@media screen and (max-width: 574px){
+    .cardContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .cardContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* this is for sub pages */
+
+.contentDisplay{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	column-gap: 10px;
+	row-gap: 10px;
+	margin: 20px;
+	font-size: medium;
+	text-align: center;
+}
+
+.items {
+	max-width: inherit;
+	padding: 10px;
+	margin: 5px;
+	background-color: #FFF;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+	overflow: hidden;
+}
+
+  .items h4 {
+	margin: 5px 0 6px 0;
+	color: #3498DB;
+  }
+
+  .items a{
+	  text-decoration: none;
+  }
+
+  .items a:visited{
+	color: #3498DB;
+}
+
+  .items a:hover{
+	text-decoration: underline;
+  }
+
+  
+  
+  .items img {
+	width: 100%;
+	margin-right: 15px;
+	transition: 1s;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 5px;
+  }
+  
+  .items img:hover{
+	  filter:grayscale(100%);
+  }
+
+  @media screen and (max-width: 1030px) {
+    .contentDisplay{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+  
+@media screen and (max-width: 560px) {
+    .contentDisplay{
+		grid-template-columns: repeat(1,1fr);
+		font-size: small;
+	}
+}

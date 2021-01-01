@@ -21,3 +21,14 @@
     vertical-align: middle;
     padding: 10px;
 }
+
+.github{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+
+.github:hover {    
+    color: red;
+    text-decoration: none;
+}

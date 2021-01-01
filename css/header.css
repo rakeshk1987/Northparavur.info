@@ -129,7 +129,7 @@ nav button{
   }
 
 .active {
-    background-color: #0095CA;
+    background-color: #0095CA !important;
   }
 
   @media screen and (max-width: 960px){
