@@ -60,6 +60,24 @@
 	filter:grayscale(100%);
 }
 
+.places button{
+  background-color: #0095CA; /* Green */
+  border: none;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.places button:hover {
+	background-color: lightgrey; /* Green */
+	color: black;
+  }
 
 .bg-modal{
 	width: 100%;
@@ -105,6 +123,7 @@
 }
 
 .modal-desc{
+	font-family: 'Roboto', sans-serif;
 	padding: 30px;
 	justify-content: center;
 }

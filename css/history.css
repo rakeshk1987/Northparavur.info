@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
 body{
 	margin: 0;
 }
@@ -8,6 +10,7 @@ body{
 }
 
 .aboutCss{
+	line-height: 175%;
 	background-color: white;
 	margin: 20px;
 	text-align: justify;
