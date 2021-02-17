@@ -75,8 +75,8 @@ nav button{
   .menuTxt{
     display: none;
     position: absolute;
-    top: 53px;
-    left: 8px;
+    top: 50px;
+    left: 7px;
     font-size: x-small;
     font-family: 'Roboto', sans-serif;
   }
@@ -186,6 +186,12 @@ nav button{
     .menuTxt{
       display:block;
     }
+
+    .tagline{
+      margin-top: 8px;
+      margin-bottom: 10px;
+  }
+
   }
 
    
