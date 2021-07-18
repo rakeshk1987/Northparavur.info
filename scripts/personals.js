@@ -69,6 +69,16 @@ var personaldata = [
         photo_large:"",
         wiki:"https://en.wikipedia.org/wiki/Salim_Kumar"
     },
+    {
+        id: 8,
+        Name: "V. D. Satheesan",
+        Life: "1964-",
+        profession:"Politician",
+        details:"Vadassery Damodaran Satheesan (born 31 May 1964) is an Indian politician from the Indian National Congress serving as Leader of the Opposition in the 15th Kerala Legislative Assembly. He succeeds Ramesh Chennithala as the leader of opposition. He is also acting as MLA of North Paravur from 2021 onwards.",
+        photo_small:"../img/personals/vds.jpg",
+        photo_large:"",
+        wiki:"https://en.wikipedia.org/wiki/V._D._Satheesan"
+    }
 ];
 
 function personaldataTmplt(person)
