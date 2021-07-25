@@ -135,7 +135,7 @@ tourismTemplate = (place) =>{
 
 	<div class="places">
 
-		<a data-lightbox="myimage" data-title = "${place.name}" href="${place.photo}"> <img class="place-photo" src="${place.photosmall}"></a>
+		<a data-lightbox="myimage" data-title = "${place.name}" href="${place.photo}"> <img alt="${place.name}" class="place-photo" src="${place.photosmall}"></a>
 		<h4><b>${place.name}</b></h4>
 		<p><b>Category:</b> ${place.category}</P>
 		<p><b>Distance from Paravur:</b> ${place.distance}</P>
@@ -155,7 +155,7 @@ function tourismDesc(place){
 			<div class="modal-content">
 				<div class="closeButton" id="close" onclick="descClose(${place.id})">+</div>
 				<h3>${place.name}</h3>
-				<img src="${place.photo}">
+				<img alt="${place.name}" src="${place.photo}">
 				<p class="modal-desc">${place.description}</p>
 			</div>
 		</div>

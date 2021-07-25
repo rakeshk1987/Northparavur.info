@@ -86,7 +86,7 @@ ${imgData.map(galleryTemplate).join('')}`
 function galleryTemplate(img){
     return `
     
-        <a href="${img.photo}" data-lightbox="mygallery" data-title="${img.name}"><img src="${img.photosmall}"></a>
+        <a href="${img.photo}" data-lightbox="mygallery" data-title="${img.name}"><img alt="${img.name}" src="${img.photosmall}"></a>
     
     `
 }

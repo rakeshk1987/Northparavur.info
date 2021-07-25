@@ -17,7 +17,7 @@ if(result === 'hospitals.html')
             return `
             <div class="items">
                 <div>
-                    <img src="${hospital.photo}">
+                    <img alt="${hospital.name}" src="${hospital.photo}">
                 </div>
                 <div>
                     <h4>${hospital.name}</h4>
@@ -45,7 +45,7 @@ if(result === 'hotels.html')
             return `
             <div class="items">
                 <div>
-                    <img src="${hotel.photo}">
+                    <img alt="${hotel.name}" src="${hotel.photo}">
                 </div>
                 <div>
                     ${hotel.web ? `<a href="http://${hotel.web}" target="#">`: ''}<h4>${hotel.name} (${hotel.star})</h4></a>
@@ -73,7 +73,7 @@ if(result === 'colleges.html')
             return `
             <div class="items">
                 <div>
-                    <img src="${college.photo}">
+                    <img alt="${college.name}" src="${college.photo}">
                 </div>
                 <div>
                     ${college.website ? `<a href="http://${college.website}" target="#">` : ''}<h4>${college.name}</h4></a>
@@ -107,7 +107,7 @@ if(result === 'schools_aided.html')
         `
         <div class="items">
             <div>
-                <img src="${schools.photo}">
+                <img alt="${schools.name}" src="${schools.photo}">
             </div>
             <div>
                 ${schools.website ? `<a href="http://${schools.website}" target="#">` : ''}<h4>${schools.name}</h4></a>
@@ -141,7 +141,7 @@ if(result === 'schools_cbse.html')
         `
         <div class="items">
             <div>
-                <img src="${schools.photo}">
+                <img alt="${schools.name}" src="${schools.photo}">
             </div>
             <div>
                 ${schools.website ? `<a href="http://${schools.website}" target="#">` : ''}<h4>${schools.name}</h4></a>
@@ -175,7 +175,7 @@ if(result === 'offices.html')
         `
         <div class="items">
             <div>
-                <img src="${office.photo}">
+                <img alt="${office.name}" src="${office.photo}">
             </div>
             <div>
                 <h4>${office.name}</h4>

@@ -87,7 +87,7 @@ function personaldataTmplt(person)
     
     <div class="personals">
     
-        <a data-lightbox="myimage" data-title = "${person.Name}" href="${person.photo_small}"> <img class="place-photo" src="${person.photo_small}"></a>
+        <a data-lightbox="myimage" data-title = "${person.Name}" href="${person.photo_small}"> <img alt="${person.Name}" class="place-photo" src="${person.photo_small}"></a>
         <h4><b>${person.Name}</b></h4>
         <p><b>Years:</b> ${person.Life}</P>
         <p><b>Profession:</b> ${person.profession}</P>

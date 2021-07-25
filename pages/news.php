@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>North Paravur info | Events</title>
+	<title>North Paravur info | NEWS</title>
 	<link rel="icon" href="../img/favicon.ico"/>
 
 	<meta charset="utf-8">
@@ -87,16 +87,16 @@
 				<div>					
 					<div style="width: 100%; background-color: white;">
 						<div style="margin:10px; padding-bottom: 10px;">
-							<p class="smallNav" style="padding-top:20px; padding-bottom: 10px; padding-left: 10px; margin-bottom: 0px;"><a href="../index.html" style="text-decoration: none;">HOME</a> / Events</p>
-							<p>There's so much happening in North Paravur all year round. Browse through some of the best collections and attractions in North Paravur</p>
+							<p class="smallNav" style="padding-top:20px; padding-bottom: 10px; padding-left: 10px; margin-bottom: 0px;"><a href="../index.html" style="text-decoration: none;">HOME</a> / News</p>
+							<p>News will be updated soon!</p>
 						</div>
 						</div>
-					<div id="eventData"></div>					
+					<div id="newsData"></div>					
 				</div>
 			<div></div>
 		</div>
 
-		<div id="eventDesc"></div>
+		<div id="newsDesc"></div>
 
 
 
@@ -107,7 +107,7 @@
 	<!--footer endshere-->
 	
 	<script src="../scripts/common.js"></script>
-	<script src="../scripts/events.js"></script>	
+	<script src="../scripts/news.js"></script>	
 	<script src="../lightbox/js/lightbox.js"></script>	
 
 </body>
