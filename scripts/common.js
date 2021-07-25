@@ -39,7 +39,7 @@ document.getElementById('footer').innerHTML = `
 <div>  
     <footer class="footer">
       <p id="copyright" style="font-size: x-small; color:lightgray;"></p>
-      <p style="font-size: x-small;">Last Updated on 18/07/2021</p>
+      <p style="font-size: x-small;">Last Updated on 25/07/2021</p>
       <i class="fab fa-html5 circle-icon" style="color: white; font-size:30px;"></i>
       <i class="fab fa-css3-alt circle-icon" style="color: white; font-size:30px;"></i>
       <i class="fab fa-js circle-icon" style="color: white; font-size:30px;"></i>

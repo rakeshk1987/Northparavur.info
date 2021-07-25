@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.gridwrapper{
+
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+
+	font-family: 'Roboto', sans-serif;
+  	background-color: #EAEAEA;
+  	color: #333;
+  	padding: 10px 0 18px 0;
+  	margin: 0;
+}
+
+.gridwrapper img{
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+}
+
+.contentText{
+	margin: 10px;
+	background-color: white;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.places-photo {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.places {
+  max-width: inherit;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #FFF;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+  overflow: hidden;
+}
+
+.places h4 {
+  margin: 5px 0 6px 0;
+}
+
+.places img {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+  transition: 1s;
+}
+
+.places img:hover{
+	filter:grayscale(100%);
+}
+
+.places button{
+  background-color: #0095CA; /* Green */
+  border: none;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.places button:hover {
+	background-color: lightgrey; /* Green */
+	color: black;
+  }
+
+.bg-modal{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.bg-modal img{
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+}
+
+.modal-content{
+	position: relative;
+	width: 800px;
+	height: 800px;
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.closeButton{
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.modal-desc{
+	font-family: 'Roboto', sans-serif;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+@media screen and (max-width: 786px) {
+    .gridwrapper{
+		grid-template-columns: 5% 90% 5%;
+	}
+
+	.places img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.places {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
