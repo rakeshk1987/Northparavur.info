@@ -1,204 +1,486 @@
-body {
-    margin: 0;
-}
+/* ============================================================================
+   NorthParavur.in — Redesigned Homepage Styles
+   "Muziris Royal Heritage meets Modern Coastal Portal"
+   ============================================================================ */
 
-.mainBody {
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    background-color: var(--bg-body);
-}
-
-.image_wrapper, .imgWrapper {
+/* 1. HERO SECTION WITH GLOBAL SEARCH */
+.npHero {
     position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 20px 56px 20px;
     text-align: center;
+    color: #ffffff;
+    border-bottom: 4px solid var(--brand-accent);
 }
 
-.homeimg {
-    height: auto;
-    max-height: 440px;
-    object-fit: cover;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.npHeroInner {
+    max-width: 920px;
+    margin: 0 auto;
 }
 
-.welcomeModule {
-    font-family: 'Karla', 'Manjari', sans-serif;
-    padding: 10px 15px;
-}
-
-.welcomeModule h1 {
-    color: var(--text-primary);
-    text-align: center;
+.npHeroEyebrow {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 99px;
+    background: rgba(197, 137, 50, 0.28);
+    border: 1px solid rgba(255, 214, 138, 0.55);
+    color: #fde68a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     margin-bottom: 14px;
-    font-size: 2rem;
 }
 
-.welcomeModule ul {
-    list-style-type: none;
-    min-height: 40px;
-    padding: 0;
-    margin: 0px auto 20px;
+.npHero h1 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 2.75rem;
+    font-weight: 800;
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+.npHeroSubtitle {
+    font-size: 1.08rem;
+    max-width: 720px;
+    margin: 0 auto 28px auto;
+    color: #e2e8f0;
+    line-height: 1.65;
+}
+
+/* Global Omni-Search Box */
+.heroSearchWrap {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
+
+.heroSearchBar {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    background: var(--bg-surface);
+    border: 2px solid var(--brand-accent);
+    border-radius: 99px;
+    padding: 6px 8px 6px 22px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.heroSearchBar i.fa-search {
+    color: var(--brand-accent);
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.heroSearchBar input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: var(--text-primary);
+    font-size: 15.5px;
+    font-family: inherit;
+    padding: 10px 4px;
+}
+
+.heroSearchBar input:focus {
+    outline: none;
+}
+
+.heroSearchClear {
+    background: var(--brand-primary);
+    color: #fff;
+    border: none;
+    border-radius: 99px;
+    padding: 10px 22px;
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+[data-theme="dark"] .heroSearchClear {
+    color: #0b1517;
+}
+
+/* Quick Filter Chips inside Hero */
+.heroQuickChips {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
+    margin-top: 14px;
 }
 
-.welcomeModule li {
-    width: 240px;
+.heroChip {
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 99px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+    transition: all 0.2s;
 }
 
-.welcomeModule a {
+.heroChip:hover {
+    background: var(--brand-accent);
+    border-color: var(--brand-accent);
+    color: #fff;
+}
+
+/* Live Search Results Dropdown Panel */
+.globalSearchResults {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: var(--bg-surface);
+    color: var(--text-primary);
     border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    max-height: 420px;
+    overflow-y: auto;
+    z-index: 1500;
+    text-align: left;
+    padding: 12px;
+}
+
+.searchResultItem {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 6px 6px 18px;
-    background-color: var(--bg-surface);
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 8px;
     text-decoration: none;
-    box-shadow: var(--card-shadow);
-    transition: transform 0.15s ease, border-color 0.2s ease;
+    color: var(--text-primary);
+    transition: background-color 0.15s;
 }
 
-.welcomeModule a:hover {
-    transform: translateY(-2px);
+.searchResultItem:last-child {
+    border-bottom: none;
+}
+
+.searchResultItem:hover {
+    background-color: var(--bg-surface-alt);
+}
+
+.searchResultTitle {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--brand-primary);
+}
+
+.searchResultMeta {
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* 2. MAIN CONTAINER */
+.npContainer {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 36px 20px;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.sectionEyebrow {
+    color: var(--brand-accent);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.sectionHeader h2 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 2rem;
+    margin: 0 0 8px 0;
+    color: var(--text-primary);
+}
+
+.sectionHeader p {
+    color: var(--text-secondary);
+    max-width: 680px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+/* 3. DUAL-MODE EXPLORER TABS (TOURIST GUIDE vs LOCAL DIRECTORY) */
+.modeTabsBar {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.modeTabBtn {
+    padding: 12px 26px;
+    border-radius: 99px;
+    border: 1.5px solid var(--border-color);
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    font-weight: 700;
+    font-size: 14.5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: inherit;
+    box-shadow: var(--card-shadow);
+    transition: all 0.2s;
+}
+
+.modeTabBtn.activeTab, .modeTabBtn:hover {
+    background: var(--brand-primary);
+    color: #ffffff;
     border-color: var(--brand-primary);
 }
 
-.linkText {
-    flex: 1 1 auto;
-    padding-right: 10px;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1.3;
-    color: var(--brand-primary);
-    text-align: center;
+[data-theme="dark"] .modeTabBtn.activeTab,
+[data-theme="dark"] .modeTabBtn:hover {
+    color: #0b1517;
 }
 
-.linkIcon {
-    flex: 0 0 auto;
-    width: 44px;
-    height: 44px;
-    background-color: var(--brand-accent);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.linkiconBg {
-    font-size: 1.5rem;
-    color: white;
-}
-
-.info {
-    padding: 14px 20px;
-    margin: 0 auto 10px auto;
-    max-width: 900px;
-    text-align: center;
-    line-height: 1.65;
-    font-size: 16px;
-    color: var(--text-secondary);
-    font-family: 'Karla', 'Manjari', sans-serif;
-}
-
-/* News / Events / Info cards */
-.cardGrid {
+/* Portal Cards Grid */
+.portalGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 24px;
-    row-gap: 24px;
-    margin: 30px;
-    align-items: stretch;
+    gap: 22px;
 }
 
-.cardGrid a {
-    text-decoration: none;
-    display: block;
-    height: 100%;
-}
-
-.cardGrid > article {
-    background-color: var(--bg-surface);
+.portalCard {
+    background: var(--bg-surface);
     border: 1px solid var(--border-color);
-    box-shadow: var(--card-shadow);
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 14px;
     overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.cardGrid > article img {
+.portalCard:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-shadow-hover);
+    border-color: var(--brand-accent);
+}
+
+.portalCardImg {
     width: 100%;
-    height: 190px;
+    height: 185px;
     object-fit: cover;
     display: block;
 }
 
-.cardGrid > article p {
+.portalCardBody {
+    padding: 18px 20px;
+}
+
+.portalCardBody h3 {
+    margin: 4px 0 8px 0;
+    font-size: 18px;
+    color: var(--brand-primary);
+}
+
+.portalCardBody p {
+    margin: 0 0 12px 0;
     font-size: 14px;
     color: var(--text-secondary);
-    margin: 8px 0 0 0;
 }
 
-.cardGrid > article:hover {
-    transform: translateY(-4px);
+.portalCardFooter {
+    padding: 12px 20px 16px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.cardText {
-    padding: 16px;
-    color: var(--text-primary);
-    font-family: 'Karla', 'Manjari', sans-serif;
-}
-
-.cardText h4 {
-    margin: 0;
+.portalLink {
     color: var(--brand-primary);
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 13.5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
-/* Info Grid (Taluk at a glance, How to reach, Emergency, Useful Links) */
+.portalLink:hover {
+    color: var(--brand-accent);
+}
+
+/* 4. INTERACTIVE MUZIRIS DAY-TRIP ITINERARY BUILDER */
+.itineraryBox {
+    background: var(--bg-surface);
+    border: 1.5px solid var(--border-color);
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: var(--card-shadow);
+    margin-top: 16px;
+}
+
+.itinerarySelector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.itinBtn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-surface-alt);
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+}
+
+.itinBtn.activeItin {
+    background: var(--brand-accent);
+    color: #ffffff;
+    border-color: var(--brand-accent);
+}
+
+.itinTimeline {
+    position: relative;
+    padding-left: 26px;
+    border-left: 3px solid var(--brand-accent);
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.itinStop {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 16px 20px;
+    background: var(--bg-surface-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.itinStop::before {
+    content: '';
+    position: absolute;
+    left: -35px;
+    top: 20px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--brand-accent);
+    border: 3px solid var(--bg-surface);
+}
+
+.itinTime {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--brand-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.itinStop h4 {
+    margin: 4px 0 6px 0;
+    font-size: 16.5px;
+    color: var(--brand-primary);
+}
+
+.itinStop p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+/* 5. HERITAGE TIMELINE STRIP */
+.heritageScroll {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.eraCard {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--brand-accent);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: var(--card-shadow);
+}
+
+.eraBadge {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 13px;
+    color: var(--brand-accent);
+    margin-bottom: 6px;
+    display: block;
+}
+
+.eraCard h4 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: var(--brand-primary);
+}
+
+.eraCard p {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+}
+
+/* 6. CIVIC & EMERGENCY INFO GRID */
 .infoGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 24px;
-    column-gap: 24px;
-    margin: 30px;
+    gap: 22px;
+    margin-top: 20px;
 }
 
 .infoGrid > article {
-    font-family: 'Karla', 'Manjari', sans-serif;
     background-color: var(--bg-surface);
     border: 1px solid var(--border-color);
     box-shadow: var(--card-shadow);
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
-    transition: transform 0.2s ease;
-}
-
-.infoGrid > article:hover {
-    transform: translateY(-3px);
 }
 
 .infoGrid > article h3 {
     margin: 0;
     text-align: center;
     padding: 14px 16px;
-    background-color: var(--brand-accent);
-    color: white;
-    font-size: 17px;
-    letter-spacing: 0.5px;
+    background-color: var(--bg-nav);
+    border-bottom: 2px solid var(--brand-accent);
+    color: #f3efe6;
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
 }
 
 .infoGrid > article a {
-    margin: 0;
     color: var(--brand-primary);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .infoGrid > article a:hover {
@@ -206,46 +488,38 @@ body {
 }
 
 .infogridLists {
-    padding: 18px 20px;
+    padding: 18px 22px;
     color: var(--text-primary);
-    line-height: 1.8;
+    line-height: 1.85;
 }
 
 .infogridLists p {
     margin: 6px 0;
 }
 
-@media screen and (max-width: 1100px) {
-    .mainBody {
-        grid-template-columns: 5% 90% 5%;
+@media screen and (max-width: 980px) {
+    .portalGrid {
+        grid-template-columns: repeat(2, 1fr);
     }
     .infoGrid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+    }
+    .npHero h1 {
+        font-size: 2.1rem;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .mainBody {
-        grid-template-columns: 2% 96% 2%;
+@media screen and (max-width: 640px) {
+    .portalGrid {
+        grid-template-columns: 1fr;
     }
-    .cardGrid {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 16px;
+    .npHero {
+        padding: 44px 16px 40px 16px;
     }
-    .infoGrid {
-        margin: 16px;
+    .npHero h1 {
+        font-size: 1.7rem;
     }
-    .welcomeModule li {
-        width: calc(50% - 12px);
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .welcomeModule li {
-        width: 100%;
-    }
-    .infogridLists {
-        padding: 14px;
-        font-size: 14px;
+    .itineraryBox {
+        padding: 18px 14px;
     }
 }
