@@ -74,7 +74,8 @@
 							<a href="./pages/directory/offices.html"><i class="fas fa-building"></i> Govt. Offices</a>
 							<a href="./pages/directory/schools.html"><i class="fas fa-school"></i> Schools</a>
 							<a href="./pages/directory/colleges.html"><i class="fas fa-university"></i> Colleges</a>
-							<a href="./pages/directory/hotels.html"><i class="fas fa-hotel"></i> Hotels & Resorts</a>
+							<a href="./pages/directory/hotels.html"><i class="fas fa-hotel"></i> Hotels, Resorts & Bars</a>
+							<a href="./pages/directory/worship.html"><i class="fas fa-place-of-worship"></i> Temples, Churches & Mosques</a>
 						</div>
 					</div>
 					<a href="./pages/taluk.html"><i class="fas fa-map-marker-alt"></i> Taluk</a>
@@ -98,7 +99,7 @@
 			<div class="heroSearchWrap">
 				<div class="heroSearchBar">
 					<i class="fas fa-search"></i>
-					<input id="globalSearchInput" type="search" placeholder="Search Cherai Beach, Synagogue, Hospitals, Resorts, Schools, RTO..." aria-label="Search North Paravur" autocomplete="off">
+					<input id="globalSearchInput" type="search" placeholder="Search Temples, Churches, Resorts, Bars, Bus Timings, NH-66, Hospitals, Schools..." aria-label="Search North Paravur" autocomplete="off">
 					<button type="button" class="heroSearchClear" onclick="document.getElementById('globalSearchInput').focus()">Search</button>
 				</div>
 				<div id="globalSearchResults" class="globalSearchResults"></div>
@@ -106,10 +107,11 @@
 				<!-- Instant Search Filter Chips -->
 				<div class="heroQuickChips">
 					<span class="heroChip" data-quick-search="Cherai"><i class="fas fa-umbrella-beach"></i> Cherai & Beaches</span>
-					<span class="heroChip" data-quick-search="Muziris"><i class="fas fa-landmark"></i> Muziris Monuments</span>
+					<span class="heroChip" data-quick-search="Temple"><i class="fas fa-place-of-worship"></i> Temples, Churches & Mosques</span>
+					<span class="heroChip" data-quick-search="Resort"><i class="fas fa-glass-martini-alt"></i> Resorts, Hotels & Bars</span>
 					<span class="heroChip" data-quick-search="Hospital"><i class="fas fa-hospital"></i> Hospitals</span>
-					<span class="heroChip" data-quick-search="Resort"><i class="fas fa-hotel"></i> Resorts & Hotels</span>
-					<span class="heroChip" data-quick-search="School"><i class="fas fa-school"></i> Schools & Colleges</span>
+					<span class="heroChip" data-quick-search="Police"><i class="fas fa-shield-alt"></i> Police & Govt Offices</span>
+					<a class="heroChip" href="#transitHub"><i class="fas fa-bus"></i> Bus Timings & NH-66 Status</a>
 					<a class="heroChip" href="#emergency"><i class="fas fa-phone-alt"></i> Emergency Numbers</a>
 				</div>
 			</div>
@@ -123,7 +125,7 @@
 			<div class="sectionHeader">
 				<span class="sectionEyebrow">Explore North Paravur</span>
 				<h2>What Are You Looking For Today?</h2>
-				<p>Switch between our curated <b>Visitor & Heritage Guide</b> or our verified <b>Local Business & Civic Directory</b>.</p>
+				<p>Switch between our curated <b>Visitor & Heritage Guide</b> or our verified <b>Local Business & Civic Directory (110+ Listings)</b>.</p>
 			</div>
 
 			<div class="modeTabsBar">
@@ -163,7 +165,18 @@
 			</div>
 		</section>
 
-		<!-- 4. MUZIRIS HISTORICAL TIMELINE STRIP -->
+		<!-- 4. BUS TIMINGS (KSRTC & PRIVATE) + NH-66 WORK PROGRESS TRACKER -->
+		<section id="transitHub" style="margin-bottom: 52px;">
+			<div class="sectionHeader">
+				<span class="sectionEyebrow">Live Commuter & Highway Guide</span>
+				<h2>Bus Station Timings (KSRTC / Private) &amp; NH-66 Work Progress</h2>
+				<p>Check high-frequency bus schedules from North Paravur and track the 26.06 km Edappally – Paravur – Moothakunnam Six-Lane NH-66 widening status.</p>
+			</div>
+
+			<div id="transitAndNh66Container"></div>
+		</section>
+
+		<!-- 5. MUZIRIS HISTORICAL TIMELINE STRIP -->
 		<section style="margin-bottom: 52px;">
 			<div class="sectionHeader">
 				<span class="sectionEyebrow">2,000+ Years of Recorded History</span>
@@ -175,12 +188,12 @@
 
 			<div style="text-align: center; margin-top: 22px;">
 				<a class="btnWeb" href="./pages/history.html" style="padding: 10px 22px; font-size: 14px;">
-					<i class="fas fa-book-open"></i> Read Full History (English & മലയാളം) &rarr;
+					<i class="fas fa-book-open"></i> Read Full 12-Chapter History (English &amp; മലയാളം) &rarr;
 				</a>
 			</div>
 		</section>
 
-		<!-- 5. LIVE WEATHER WIDGET -->
+		<!-- 6. LIVE WEATHER WIDGET -->
 		<section style="margin-bottom: 44px;">
 			<a class="weatherwidget-io" href="https://forecast7.com/en/10d1476d23/north-paravur/" data-label_1="NORTH PARAVUR"
 				data-label_2="7-DAY WEATHER FORECAST" data-font="Verdana" data-icons="Climacons Animated" data-theme="pure">North
@@ -190,7 +203,7 @@
 			</script>
 		</section>
 
-		<!-- 6. CIVIC AT A GLANCE, TRANSIT & EMERGENCY NUMBERS -->
+		<!-- 7. CIVIC AT A GLANCE, TRANSIT & EMERGENCY NUMBERS -->
 		<section>
 			<div class="sectionHeader">
 				<span class="sectionEyebrow">Essential Civic Guide</span>

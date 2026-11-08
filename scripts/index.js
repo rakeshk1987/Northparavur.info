@@ -46,10 +46,11 @@
         // Directory categories
         var dirMap = [
             { key: "hospitals", url: "./pages/directory/hospitals.html", label: "Hospital" },
-            { key: "hotels", url: "./pages/directory/hotels.html", label: "Hotel / Resort" },
+            { key: "hotels", url: "./pages/directory/hotels.html", label: "Hotel / Resort / Bar" },
             { key: "colleges", url: "./pages/directory/colleges.html", label: "College" },
             { key: "schools", url: "./pages/directory/schools.html", label: "School" },
             { key: "offices", url: "./pages/directory/offices.html", label: "Govt. Office" },
+            { key: "worship", url: "./pages/directory/worship.html", label: "Place of Worship" },
             { key: "events", url: "./pages/events.html", label: "Featured / Event" }
         ];
 
@@ -62,14 +63,40 @@
                 }
                 items.push({
                     title: entry.name,
-                    category: group.label + (entry.phone && entry.phone !== "NA" ? " • " + entry.phone : ""),
-                    subtitle: entry.address || entry.about || entry.type || "",
+                    category: (entry.religion || group.label) + (entry.phone && entry.phone !== "NA" ? " • " + entry.phone : ""),
+                    subtitle: entry.address || entry.highlights || entry.about || entry.type || "",
                     url: targetUrl,
                     phone: entry.phone,
-                    badge: entry.badge || group.label
+                    badge: entry.religion || entry.badge || group.label
                 });
             });
         });
+
+        // Bus Timings
+        if (db.busTimings && db.busTimings.routes) {
+            db.busTimings.routes.forEach(function (r) {
+                items.push({
+                    title: "Bus: " + r.route,
+                    category: r.operator + " • " + r.frequency,
+                    subtitle: "First: " + r.firstBus + " | Last: " + r.lastBus + " | Via: " + r.via,
+                    url: "#transitHub",
+                    badge: "Bus Timing"
+                });
+            });
+        }
+
+        // NH-66 Progress
+        if (db.nh66Progress && db.nh66Progress.segments) {
+            db.nh66Progress.segments.forEach(function (s) {
+                items.push({
+                    title: "NH-66: " + s.segment,
+                    category: "NH-66 Six-Lane Work • " + s.percent + "% (" + s.status + ")",
+                    subtitle: s.detail,
+                    url: "#transitHub",
+                    badge: "NH-66 (" + s.percent + "%)"
+                });
+            });
+        }
 
         return items;
     }
@@ -97,7 +124,7 @@
             }).slice(0, 8);
 
             if (matches.length === 0) {
-                resultsBox.innerHTML = `<div style="padding:14px; color:var(--text-secondary);">No matching places or businesses found for "<b>${q}</b>". Try searching <i>Cherai, Synagogue, Hospital, Resort, School, RTO</i>.</div>`;
+                resultsBox.innerHTML = `<div style="padding:14px; color:var(--text-secondary);">No matching places or businesses found for "<b>${q}</b>". Try searching <i>Cherai, Temple, Church, Mosque, Resort, Bar, Bus, NH-66, Hospital, Police</i>.</div>`;
             } else {
                 resultsBox.innerHTML = matches.map(function (m) {
                     return `
@@ -178,50 +205,50 @@
                 `;
             }).join("");
         } else {
-            // Show 6 High-Utility Local & Business Directory Hubs with live counts
+            // Show High-Utility Local & Business Directory Hubs with live counts
             var d = db.directory;
             var hubs = [
                 {
-                    title: lang === "ml" ? "ആശുപത്രികളും ആരോഗ്യ കേന്ദ്രങ്ങളും" : "Hospitals & Emergency Care",
-                    badge: (d.hospitals.length) + " Verified Listings",
-                    desc: lang === "ml" ? "താലൂക്ക് ആശുപത്രി, ഡോൺ ബോസ്കോ, കെ.എം.കെ, എസ്.എൻ മെഡിക്കൽ കോളേജ്, ആയുർവേദ & ഹോമിയോ ആശുപത്രികൾ." : "24x7 Taluk Hospital, Don Bosco, KMK, SNIMS Medical College, Ayurveda & Homoeo centres with one-tap calling.",
-                    img: "./img/directory/hospitals/donbosco.jpg",
-                    url: "./pages/directory/hospitals.html"
+                    title: lang === "ml" ? "ക്ഷേത്രങ്ങൾ, പള്ളികൾ, മസ്ജിദുകൾ & സിനഗോഗുകൾ" : "Temples, Churches, Mosques & Synagogues",
+                    badge: ((d.worship && d.worship.length) || 26) + " Sacred Sites",
+                    desc: lang === "ml" ? "ദക്ഷിണ മൂകാംബിക, പെരുവാരം, കോട്ടക്കാവ് പള്ളി, ചേരമാൻ മസ്ജിദ്, പറവൂർ - ചേന്ദമംഗലം ജൂതപ്പള്ളികൾ." : "Explore 26 historic Temples, Pilgrim Churches, Juma Masjids & Jewish Synagogues with timings and maps.",
+                    img: "./img/tourism/kottakavu_small.jpg",
+                    url: "./pages/directory/worship.html"
                 },
                 {
-                    title: lang === "ml" ? "ഹോട്ടലുകളും ചെറായി റിസോർട്ടുകളും" : "Hotels & Cherai Beach Resorts",
-                    badge: (d.hotels.length) + " Featured Stays",
-                    desc: lang === "ml" ? "ചെറായി ബീച്ച് റിസോർട്ടുകൾ, ക്ലബ് മഹീന്ദ്ര, ഇന്ദ്രിയ സാൻഡ്സ്, പറവൂർ ടൗൺ ഹോട്ടലുകൾ." : "Book beachfront resorts in Cherai & Kuzhuppilly or business hotels in North Paravur town centre.",
+                    title: lang === "ml" ? "റിസോർട്ടുകൾ, ഹോട്ടലുകൾ & ബാറുകൾ" : "Resorts, Hotels, Homestays & Bars",
+                    badge: (d.hotels.length) + " Stays & Lounges",
+                    desc: lang === "ml" ? "ചെറായി ബീച്ച് റിസോർട്ടുകൾ, ഹോംസ്റ്റേകൾ, പറവൂർ ടൗൺ ഹോട്ടലുകൾ, ക്ലാസിഫൈഡ് ബാർ ഹോട്ടലുകൾ." : "Beachfront resorts in Cherai, family homestays, town hotels, and classified executive bar hotels.",
                     img: "./img/directory/hotels/cheraibeachresort.jpg",
                     url: "./pages/directory/hotels.html"
                 },
                 {
+                    title: lang === "ml" ? "ആശുപത്രികളും ആരോഗ്യ കേന്ദ്രങ്ങളും" : "Hospitals, Clinics & Eye Care",
+                    badge: (d.hospitals.length) + " Verified Listings",
+                    desc: lang === "ml" ? "താലൂക്ക് ആശുപത്രി, ഡോൺ ബോസ്കോ, കെ.എം.കെ, എസ്.എൻ മെഡിക്കൽ കോളേജ്, ആയുർവേദ & ഹോമിയോ ആശുപത്രികൾ." : "24x7 Taluk Hospital, Don Bosco, KMK, SNIMS Medical College, Eye hospitals, Ayurveda & Homoeo centres.",
+                    img: "./img/directory/hospitals/donbosco.jpg",
+                    url: "./pages/directory/hospitals.html"
+                },
+                {
+                    title: lang === "ml" ? "സർക്കാർ ഓഫീസുകൾ, പോലീസ് & ഫയർഫോഴ്സ്" : "Govt. Offices, Police & Fire Station",
+                    badge: (d.offices.length) + " Civic Offices",
+                    desc: lang === "ml" ? "പോലീസ് സ്റ്റേഷൻ, ഫയർ സ്റ്റേഷൻ, നഗരസഭ, താലൂക്ക് ഓഫീസ്, ആർ.ടി.ഒ (KL-42), കെ.എസ്.ആർ.ടി.സി, കെ.എസ്.ഇ.ബി." : "Police Stations, Fire & Rescue, Municipality, Taluk Office, RTO (KL-42), KSRTC, KWA, Excise & Village Offices.",
+                    img: "./img/directory/office/office.jpg",
+                    url: "./pages/directory/offices.html"
+                },
+                {
                     title: lang === "ml" ? "സ്കൂളുകൾ (State & CBSE)" : "Schools (State & CBSE Syllabus)",
                     badge: (d.schools.length) + " Schools Listed",
-                    desc: lang === "ml" ? "പറവൂരിലെ പ്രധാന സർക്കാർ, എയ്ഡഡ്, സി.ബി.എസ്.ഇ സ്കൂളുകളുടെ ഫോൺ നമ്പറുകളും വിവരങ്ങളും." : "Complete directory of Govt, Aided, and CBSE schools across North Paravur with contact details.",
+                    desc: lang === "ml" ? "പറവൂർ താലൂക്കിലെ പ്രധാന സർക്കാർ, എയ്ഡഡ്, സി.ബി.എസ്.ഇ സ്കൂളുകളുടെ ഫോൺ നമ്പറുകളും വിവരങ്ങളും." : "Complete directory of 21 Govt, Aided, and CBSE schools across North Paravur Taluk with contact details.",
                     img: "./img/directory/schools/snhss.jpg",
                     url: "./pages/directory/schools.html"
                 },
                 {
                     title: lang === "ml" ? "കോളേജുകളും ഉന്നത വിദ്യാഭ്യാസവും" : "Colleges & Higher Education",
                     badge: (d.colleges.length) + " Institutions",
-                    desc: lang === "ml" ? "മെഡിക്കൽ, എഞ്ചിനീയറിംഗ്, ആർട്സ് & സയൻസ് കോളേജുകൾ (SNM, SNIMS, SNGIST, MES)." : "Medical, Engineering, and Arts & Science colleges in Paravur Taluk with direct website & call links.",
+                    desc: lang === "ml" ? "മെഡിക്കൽ, എഞ്ചിനീയറിംഗ്, ആർട്സ് & സയൻസ് കോളേജുകൾ (കേസരി കോളേജ്, SNM, SNIMS, SNGIST, മാതാ കോളേജ്)." : "16 Medical, Engineering, B.Ed, Polytechnic, and Arts & Science colleges in Paravur Taluk.",
                     img: "./img/directory/colleges/snm.jpg",
                     url: "./pages/directory/colleges.html"
-                },
-                {
-                    title: lang === "ml" ? "സർക്കാർ ഓഫീസുകളും സേവനങ്ങളും" : "Govt. Offices & Civic Utilities",
-                    badge: (d.offices.length) + " Civic Offices",
-                    desc: lang === "ml" ? "നഗരസഭ, താലൂക്ക് ഓഫീസ്, ആർ.ടി.ഒ (KL-42), കെ.എസ്.ഇ.ബി, പോസ്റ്റ് ഓഫീസ്, ട്രഷറി." : "Municipality, Taluk Office, RTO (KL-42), KSEB, Sub Treasury, LIC & Main Post Office contacts.",
-                    img: "./img/directory/office/office.jpg",
-                    url: "./pages/directory/offices.html"
-                },
-                {
-                    title: lang === "ml" ? "സ്പോർട്സ് ടർഫുകളും ഇവന്റുകളും" : "Featured Businesses, Turfs & Events",
-                    badge: "Local Highlights",
-                    desc: lang === "ml" ? "ഒ ഫോർ സ്പോർട്സ് ഇൻഡോർ ടർഫ്, ചേന്ദമംഗലം കൈത്തറി സംഘങ്ങൾ, പ്രാദേശിക പരിപാടികൾ." : "Discover O Four Sports rooftop turf, GI-tagged Chendamangalam Handloom societies, and local events.",
-                    img: "./img/events/turf.jpg",
-                    url: "./pages/events.html"
                 }
             ];
 
@@ -296,7 +323,89 @@
         `;
     }
 
-    // 5. MUZIRIS HERITAGE TIMELINE CARDS
+    // 5. BUS STATION TIMINGS (KSRTC & PRIVATE) + NH-66 WORK PROGRESS TRACKER
+    function renderTransitAndNh66() {
+        var container = document.getElementById("transitAndNh66Container");
+        var db = window.NP_MASTER_DATA;
+        if (!container || !db || !db.busTimings || !db.nh66Progress) return;
+        var lang = getLang();
+        var bus = db.busTimings;
+        var nh = db.nh66Progress;
+
+        var routesHtml = bus.routes.map(function (r) {
+            return `
+                <div style="padding:14px; border:1px solid var(--border-subtle, #e2e8f0); border-radius:12px; background:var(--bg-body, #f8fafc);">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px; flex-wrap:wrap;">
+                        <h4 style="margin:0; font-size:14.5px; color:var(--text-primary);"><i class="fas fa-bus" style="color:var(--brand-accent, #d97706);"></i> ${r.route}</h4>
+                        <span class="npBadge npBadgeFeatured">${r.frequency}</span>
+                    </div>
+                    <p style="margin:6px 0 4px 0; font-size:12.5px; color:var(--text-secondary);"><b>Operator:</b> ${r.operator} &bull; <b>First Bus:</b> ${r.firstBus} &bull; <b>Last Bus:</b> ${r.lastBus}</p>
+                    <p style="margin:0; font-size:12px; color:var(--text-muted);"><b>Via:</b> ${r.via} — ${r.highlights}</p>
+                </div>
+            `;
+        }).join("");
+
+        var segmentsHtml = nh.segments.map(function (s) {
+            var barColor = s.percent >= 90 ? "#16a34a" : (s.percent >= 75 ? "#d97706" : "#0284c7");
+            return `
+                <div style="padding:14px; border:1px solid var(--border-subtle, #e2e8f0); border-radius:12px; background:var(--bg-body, #f8fafc);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; gap:8px;">
+                        <span style="font-weight:700; font-size:14px; color:var(--text-primary);">${s.segment}</span>
+                        <span style="font-size:12px; font-weight:700; padding:3px 9px; border-radius:999px; background:${barColor}20; color:${barColor};">${s.status} (${s.percent}%)</span>
+                    </div>
+                    <div style="width:100%; height:8px; background:var(--border-subtle, #e2e8f0); border-radius:999px; overflow:hidden; margin-bottom:8px;">
+                        <div style="width:${s.percent}%; height:100%; background:${barColor}; border-radius:999px;"></div>
+                    </div>
+                    <p style="margin:0; font-size:12.5px; color:var(--text-secondary); line-height:1.45;">${s.detail}</p>
+                </div>
+            `;
+        }).join("");
+
+        var summaryText = lang === "ml" ? nh.statusSummary_ml : nh.statusSummary_en;
+
+        container.innerHTML = `
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:24px;">
+                <!-- KSRTC & Private Bus Timings Card -->
+                <div style="background:var(--bg-surface, #fff); border:1px solid var(--border-subtle, #e2e8f0); border-radius:16px; padding:22px; box-shadow:var(--shadow-sm);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
+                        <div>
+                            <span class="npBadge">KSRTC &amp; Private Stand</span>
+                            <h3 style="margin:6px 0 2px 0; font-size:18px; color:var(--text-primary);">
+                                ${lang === "ml" ? "ബസ് സമയം (KSRTC & പ്രൈവറ്റ് ബസ്)" : "Bus Station Timings & Corridors"}
+                            </h3>
+                        </div>
+                        <a class="btnCall" href="tel:+914842444439" style="font-size:12.5px; padding:7px 12px;">
+                            <i class="fas fa-phone-alt"></i> KSRTC: 0484 2444439
+                        </a>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:10px;">
+                        ${routesHtml}
+                    </div>
+                </div>
+
+                <!-- NH-66 Six-Lane Work Progress Tracker Card -->
+                <div style="background:var(--bg-surface, #fff); border:1px solid var(--border-subtle, #e2e8f0); border-radius:16px; padding:22px; box-shadow:var(--shadow-sm);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+                        <div>
+                            <span class="npBadge npBadgeFeatured">NHAI Bharatmala • ${nh.overallCompletion}% Complete</span>
+                            <h3 style="margin:6px 0 2px 0; font-size:18px; color:var(--text-primary);">
+                                ${lang === "ml" ? "NH-66 ആറുവരിപ്പാത നിർമ്മാണ പുരോഗതി" : "NH-66 Six-Lane Work Progress Tracker"}
+                            </h3>
+                        </div>
+                        <span style="font-size:20px; font-weight:800; color:var(--brand-accent, #d97706);">${nh.overallCompletion}%</span>
+                    </div>
+                    <p style="font-size:13px; color:var(--text-secondary); margin:0 0 14px 0; line-height:1.55;">
+                        ${summaryText}
+                    </p>
+                    <div style="display:flex; flex-direction:column; gap:10px;">
+                        ${segmentsHtml}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // 6. MUZIRIS HERITAGE TIMELINE CARDS
     function renderHeritageTimeline() {
         var container = document.getElementById("heritageTimelineGrid");
         var db = window.NP_MASTER_DATA;
@@ -320,6 +429,7 @@
         initGlobalSearch();
         renderExplorerGrid();
         renderItinerary();
+        renderTransitAndNh66();
         renderHeritageTimeline();
     }
 
@@ -332,6 +442,7 @@
     window.addEventListener("npLanguageChanged", function () {
         renderExplorerGrid();
         renderItinerary();
+        renderTransitAndNh66();
         renderHeritageTimeline();
     });
 })();

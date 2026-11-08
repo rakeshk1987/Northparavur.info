@@ -14,7 +14,8 @@ const I18N = {
         nav_offices: '<i class="fas fa-building"></i> Govt. Offices',
         nav_schools: '<i class="fas fa-school"></i> Schools',
         nav_colleges: '<i class="fas fa-university"></i> Colleges',
-        nav_hotels: '<i class="fas fa-hotel"></i> Hotels & Resorts',
+        nav_hotels: '<i class="fas fa-hotel"></i> Hotels, Resorts & Bars',
+        nav_worship: '<i class="fas fa-place-of-worship"></i> Temples, Churches & Mosques',
         nav_taluk: '<i class="fas fa-map-marker-alt"></i> Taluk',
         nav_tourism: '<i class="fas fa-plane"></i> Tourism',
         nav_personalities: '<i class="fas fa-user-tie"></i> Personalities',
@@ -75,7 +76,8 @@ const I18N = {
         nav_offices: '<i class="fas fa-building"></i> സർക്കാർ ഓഫീസുകൾ',
         nav_schools: '<i class="fas fa-school"></i> സ്കൂളുകൾ',
         nav_colleges: '<i class="fas fa-university"></i> കോളേജുകൾ',
-        nav_hotels: '<i class="fas fa-hotel"></i> ഹോട്ടലുകൾ & റിസോർട്ടുകൾ',
+        nav_hotels: '<i class="fas fa-hotel"></i> ഹോട്ടലുകൾ, റിസോർട്ടുകൾ & ബാറുകൾ',
+        nav_worship: '<i class="fas fa-place-of-worship"></i> ക്ഷേത്രങ്ങൾ, പള്ളികൾ & മസ്ജിദുകൾ',
         nav_taluk: '<i class="fas fa-map-marker-alt"></i> താലൂക്ക്',
         nav_tourism: '<i class="fas fa-plane"></i> ടൂറിസം',
         nav_personalities: '<i class="fas fa-user-tie"></i> പ്രമുഖർ',
@@ -221,6 +223,18 @@ function applyLanguage(lang) {
     var dropBtn = document.querySelector("#myTopnav .dropdown .dropbtn");
     if (dropBtn) dropBtn.innerHTML = dict.nav_directory;
 
+    // Ensure worship.html is present in the dropdown menu across all pages
+    var dropMenu = document.querySelector("#myTopnav .dropdown-content");
+    if (dropMenu && !dropMenu.querySelector('a[href*="worship.html"]')) {
+        var hotelsLink = dropMenu.querySelector('a[href*="hotels.html"]');
+        if (hotelsLink) {
+            var worshipLink = document.createElement("a");
+            worshipLink.setAttribute("href", hotelsLink.getAttribute("href").replace("hotels.html", "worship.html"));
+            worshipLink.innerHTML = dict.nav_worship;
+            dropMenu.appendChild(worshipLink);
+        }
+    }
+
     var dropLinks = document.querySelectorAll("#myTopnav .dropdown-content a");
     dropLinks.forEach(function (a) {
         var href = a.getAttribute("href") || "";
@@ -229,6 +243,7 @@ function applyLanguage(lang) {
         else if (href.indexOf("schools.html") !== -1) a.innerHTML = dict.nav_schools;
         else if (href.indexOf("colleges.html") !== -1) a.innerHTML = dict.nav_colleges;
         else if (href.indexOf("hotels.html") !== -1) a.innerHTML = dict.nav_hotels;
+        else if (href.indexOf("worship.html") !== -1) a.innerHTML = dict.nav_worship;
     });
 
     // Update elements with data-i18n attribute

@@ -384,470 +384,1254 @@ window.NP_MASTER_DATA = {
         }
     ],
 
-    // 4. UNIFIED BUSINESS & CIVIC DIRECTORY
+    // 4. UNIFIED BUSINESS, HERITAGE & CIVIC DIRECTORY (111+ Verified Listings)
     directory: {
-        hospitals: [
-            {
-                name: "Govt. Taluk Headquarters Hospital",
-                category: "Hospitals",
-                badge: "24x7 Govt Emergency",
-                featured: true,
-                address: "Main Road, Near Private Bus Stand, North Paravur",
-                phone: "+91 484 244 4438",
-                photo: "img/directory/hospitals/taluk.jpg"
-            },
-            {
-                name: "Don Bosco Hospital",
-                category: "Hospitals",
-                badge: "Multi-Specialty",
-                featured: true,
-                address: "National Highway 66, North Paravur",
-                phone: "+91 484 244 4875",
-                email: "donboscohospital@yahoo.com",
-                photo: "img/directory/hospitals/donbosco.jpg"
-            },
-            {
-                name: "Sree Narayana Medical College Hospital (SNIMS)",
-                category: "Hospitals",
-                badge: "Medical College & Teaching Hospital",
-                featured: true,
-                address: "Manjali - Athani Rd, Chalakka, North Kuthiathode, Kunnukara",
-                phone: "+91 484 266 1500",
-                email: "info@snims.org",
-                website: "www.snims.org",
-                photo: "img/directory/hospitals/sn.jpg"
-            },
-            {
-                name: "K.M.K. Hospital",
-                category: "Hospitals",
-                badge: "General Hospital",
-                featured: false,
-                address: "KMK Junction, NH-66, North Paravur",
-                phone: "+91 484 244 6803",
-                photo: "img/directory/hospitals/kmk.jpg"
-            },
-            {
-                name: "Govt. Ayurveda Hospital",
-                category: "Hospitals",
-                badge: "Govt Ayurveda",
-                featured: false,
-                address: "South Naluvazhi, North Paravur",
-                phone: "+91 484 244 9868",
-                photo: "img/directory/hospitals/ayurveda.jpg"
-            },
-            {
-                name: "Govt. Homoeopathic Hospital",
-                category: "Hospitals",
-                badge: "Govt Homoeo",
-                featured: false,
-                address: "Near East Nada, Peruvaram Temple, North Paravur",
-                phone: "+91 484 244 2683",
-                email: "ghhparavoor@gmail.com",
-                photo: "img/directory/hospitals/homeo.jpg"
-            },
-            {
-                name: "Shanthi Hospital",
-                category: "Hospitals",
-                badge: "Clinic & Hospital",
-                featured: false,
-                address: "Canal Road, North Paravur",
-                phone: "+91 484 244 2143",
-                photo: "img/directory/hospitals/shanti.jpg"
-            },
-            {
-                name: "Shaji Hospital",
-                category: "Hospitals",
-                badge: "Clinic & Hospital",
-                featured: false,
-                address: "Mookambika Road, North Paravur",
-                phone: "+91 484 244 4904",
-                photo: "img/directory/hospitals/shaji.jpg"
-            }
+        "hospitals": [
+                {
+                        "name": "Govt. Taluk Headquarters Hospital",
+                        "address": "Main Road, Near Private Bus Stand, North Paravur",
+                        "phone": "+91 484 244 4438",
+                        "photo": "img/directory/hospitals/taluk.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Don Bosco Hospital",
+                        "address": "National Highway 66, North Paravur",
+                        "phone": "+91 484 244 4875",
+                        "email": "donboscohospital@yahoo.com",
+                        "photo": "img/directory/hospitals/donbosco.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Sree Narayana Medical College Hospital (SNIMS)",
+                        "address": "Manjali - Athani Rd, Chalakka, North Kuthiathode, Kunnukara",
+                        "phone": "+91 484 266 1500",
+                        "email": "info@snims.org",
+                        "photo": "img/directory/hospitals/sn.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "K.M.K. Hospital",
+                        "address": "KMK Junction, National Highway 66, North Paravur",
+                        "phone": "+91 484 244 6803",
+                        "photo": "img/directory/hospitals/kmk.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Govt. Ayurveda Hospital",
+                        "address": "South Naluvazhi, North Paravur",
+                        "phone": "+91 484 244 9868",
+                        "photo": "img/directory/hospitals/ayurveda.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Govt. Homoeopathic Hospital",
+                        "address": "Near East Nada, Peruvaram Temple, North Paravur",
+                        "phone": "+91 484 244 2683",
+                        "email": "ghhparavoor@gmail.com",
+                        "photo": "img/directory/hospitals/homeo.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Shanthi Hospital",
+                        "address": "Canal Road, Near Police Quarters, North Paravur",
+                        "phone": "+91 484 244 2143",
+                        "photo": "img/directory/hospitals/shanti.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Shaji Hospital",
+                        "address": "Mookambika Road, North Paravur",
+                        "phone": "+91 484 244 4904",
+                        "photo": "img/directory/hospitals/shaji.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Ahalia Foundation Eye Hospital",
+                        "address": "Pottan Street, Main Road, North Paravur",
+                        "phone": "+91 484 244 7780",
+                        "photo": "img/directory/hospitals/taluk.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Bharath Rural Hospital & Training Centre",
+                        "address": "South Kuriyappilly, Moothakunnam P.O., North Paravur",
+                        "phone": "+91 484 248 3395",
+                        "photo": "img/directory/hospitals/kmk.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "UB Trust Hospital & Diagnostic Centre",
+                        "address": "NH-66, Varapuzha, Paravur Taluk",
+                        "phone": "+91 484 251 2245",
+                        "photo": "img/directory/hospitals/donbosco.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Kottakkal Arya Vaidya Sala (Paravur Agency)",
+                        "address": "Republic Road / Main Road, North Paravur",
+                        "phone": "+91 484 244 2948",
+                        "photo": "img/directory/hospitals/ayurveda.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                },
+                {
+                        "name": "Family Health Centre (FHC) Koonammavu / Chittattukara",
+                        "address": "Koonammavu / Vadakkumpuram, North Paravur",
+                        "phone": "+91 484 251 3100",
+                        "photo": "img/directory/hospitals/taluk.jpg",
+                        "category": "Hospitals",
+                        "badge": "Hospitals"
+                }
         ],
-
-        hotels: [
-            {
-                name: "Cherai Beach Resorts",
-                category: "Hotels & Resorts",
-                type: "Beach & Backwater Resort",
-                star: "4-Star Resort",
-                featured: true,
-                badge: "Featured Beach Resort",
-                phone: "+91 484 248 1818",
-                distance: "7.6 KM from Town",
-                web: "cheraibeachresorts.com",
-                photo: "img/directory/hotels/cheraibeachresort.jpg"
-            },
-            {
-                name: "Club Mahindra Cherai Beach",
-                category: "Hotels & Resorts",
-                type: "Luxury Resort",
-                star: "4-Star Resort",
-                featured: true,
-                badge: "Premium Stay",
-                phone: "+91 484 286 1500",
-                distance: "7.6 KM from Town",
-                web: "clubmahindra.com",
-                photo: "img/directory/hotels/clubmahindra.jpg"
-            },
-            {
-                name: "Indriya Sands Resort",
-                category: "Hotels & Resorts",
-                type: "Beachfront & Backwater Resort",
-                star: "4-Star Resort",
-                featured: true,
-                badge: "Kuzhuppilly / Cherai",
-                phone: "+91 95262 28899",
-                distance: "8.0 KM from Town",
-                web: "indriyaresorts.com",
-                photo: "img/directory/hotels/indriya.jpg"
-            },
-            {
-                name: "Hotel Cee Cee Tower",
-                category: "Hotels & Resorts",
-                type: "Business & Family Hotel",
-                star: "3-Star Hotel",
-                featured: false,
-                badge: "Town Centre",
-                phone: "+91 484 244 5885",
-                distance: "500 M from Town",
-                web: "hotelceeceetower.com",
-                photo: "img/directory/hotels/ceecee.jpg"
-            },
-            {
-                name: "Hotel White City",
-                category: "Hotels & Resorts",
-                type: "Town Hotel",
-                star: "3-Star Hotel",
-                featured: false,
-                badge: "Town Centre",
-                phone: "+91 484 244 7893",
-                distance: "500 M from Town",
-                photo: "img/directory/hotels/whitecity.jpg"
-            }
+        "hotels": [
+                {
+                        "name": "Cherai Beach Resorts",
+                        "type": "Beach & Backwater Resort",
+                        "star": "&#9733;&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 248 1818",
+                        "distance": "7.6 KM",
+                        "web": "cheraibeachresorts.com",
+                        "photo": "img/directory/hotels/cheraibeachresort.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Beach & Backwater Resort"
+                },
+                {
+                        "name": "Club Mahindra Cherai Beach",
+                        "type": "Luxury Resort",
+                        "star": "&#9733;&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 286 1500",
+                        "distance": "7.6 KM",
+                        "web": "clubmahindra.com",
+                        "photo": "img/directory/hotels/clubmahindra.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Luxury Resort"
+                },
+                {
+                        "name": "Indriya Sands Resort",
+                        "type": "Beachfront & Backwater Resort",
+                        "star": "&#9733;&#9733;&#9733;&#9733;",
+                        "phone": "+91 95262 28899",
+                        "distance": "8.0 KM",
+                        "web": "indriyaresorts.com",
+                        "photo": "img/directory/hotels/indriya.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Beachfront & Backwater Resort"
+                },
+                {
+                        "name": "Les 3 Elephants Eco-Boutique Resort",
+                        "type": "Backwater Boutique Resort (Cherai)",
+                        "star": "&#9733;&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 241 6963",
+                        "distance": "6.8 KM",
+                        "web": "www.3elephants.in",
+                        "photo": "img/directory/hotels/cheraibeachresort.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Backwater Boutique Resort (Cherai)"
+                },
+                {
+                        "name": "Hotel Cee Cee Tower, N.Paravur",
+                        "type": "Business & Family Hotel / Bar",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 244 5885",
+                        "distance": "500 M",
+                        "web": "hotelceeceetower.com",
+                        "photo": "img/directory/hotels/ceecee.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Business & Family Hotel / Bar"
+                },
+                {
+                        "name": "Hotel White City (Bar & Restaurant), N.Paravur",
+                        "type": "Bar Hotel & Restaurant",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 244 7893",
+                        "distance": "500 M",
+                        "photo": "img/directory/hotels/whitecity.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Bar Hotel & Restaurant"
+                },
+                {
+                        "name": "Paravur Galaxy Hotel (Signature & Elexir Bar)",
+                        "type": "Bar Hotel & Multi-Cuisine Restaurant",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 244 3344",
+                        "distance": "600 M",
+                        "photo": "img/directory/hotels/ceecee.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Bar Hotel & Multi-Cuisine Restaurant"
+                },
+                {
+                        "name": "Paravur Tourist Home (PTH Bar & Hotel)",
+                        "type": "Bar Hotel & Lodging",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 244 2185",
+                        "distance": "300 M",
+                        "photo": "img/directory/hotels/whitecity.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Bar Hotel & Lodging"
+                },
+                {
+                        "name": "Cherai Tourist Home (CTH Bar & Restaurant)",
+                        "type": "Bar Hotel & Restaurant (Cherai Jn)",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 241 6450",
+                        "distance": "6.0 KM",
+                        "photo": "img/directory/hotels/whitecity.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Bar Hotel & Restaurant (Cherai Jn)"
+                },
+                {
+                        "name": "Grand Muziris Hotel, N.Paravur",
+                        "type": "Town Hotel & Restaurant",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 244 8800",
+                        "distance": "1.0 KM",
+                        "photo": "img/directory/hotels/ceecee.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Town Hotel & Restaurant"
+                },
+                {
+                        "name": "Gopika Residency, North Paravur",
+                        "type": "Hotel & Lodging",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 244 6111",
+                        "distance": "800 M",
+                        "photo": "img/directory/hotels/ceecee.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Hotel & Lodging"
+                },
+                {
+                        "name": "Smitha Tourist Home, North Paravur",
+                        "type": "Budget Hotel & Lodging",
+                        "star": "&#9733;&#9733;",
+                        "phone": "+91 484 244 2786",
+                        "distance": "400 M",
+                        "photo": "img/directory/hotels/whitecity.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Budget Hotel & Lodging"
+                },
+                {
+                        "name": "Camper By The Bay, Cherai",
+                        "type": "Beach Resort",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 98460 55440",
+                        "distance": "7.2 KM",
+                        "web": "camperbythebay.com",
+                        "photo": "img/directory/hotels/indriya.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Beach Resort"
+                },
+                {
+                        "name": "Baywatch Beach Homes, Cherai",
+                        "type": "Beachside Stay & Restaurant",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 484 248 0399",
+                        "distance": "7.0 KM",
+                        "photo": "img/directory/hotels/cheraibeachresort.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Beachside Stay & Restaurant"
+                },
+                {
+                        "name": "Oyster Bay Homestay, Cherai",
+                        "type": "Heritage Homestay",
+                        "star": "&#9733;&#9733;&#9733;",
+                        "phone": "+91 94473 90366",
+                        "distance": "6.5 KM",
+                        "photo": "img/directory/hotels/indriya.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Heritage Homestay"
+                },
+                {
+                        "name": "PWD Rest House, North Paravur",
+                        "type": "Govt. Guest House",
+                        "star": "Govt",
+                        "phone": "+91 484 244 2254",
+                        "distance": "500 M",
+                        "photo": "img/directory/hotels/ceecee.jpg",
+                        "category": "Hotels, Resorts & Bars",
+                        "badge": "Govt. Guest House"
+                }
         ],
-
-        colleges: [
-            {
-                name: "Sree Narayana Institute of Medical Sciences (SNIMS)",
-                category: "Colleges",
-                badge: "Medical College",
-                featured: true,
-                address: "Chalakka, P.O. North Kuthiyathodu, PIN- 683594",
-                phone: "+91 484 266 1500",
-                email: "info@snims.org",
-                website: "www.snims.org",
-                photo: "img/directory/colleges/medicalcollege.jpg"
-            },
-            {
-                name: "SNM College Maliankara",
-                category: "Colleges",
-                badge: "Arts & Science (Aided)",
-                featured: true,
-                address: "Maliankara P.O, Moothakunnam, N.Paravur, PIN- 683516",
-                phone: "+91 484 248 3600",
-                email: "principalsnmc@gmail.com",
-                website: "www.snmcollege.in",
-                photo: "img/directory/colleges/maliankara.jpg"
-            },
-            {
-                name: "SNM Institute of Management and Technology (SNMIMT)",
-                category: "Colleges",
-                badge: "Engineering & Polytechnic",
-                featured: false,
-                address: "Maliankara P.O, Moothakunnam, N.Paravur, PIN- 683516",
-                phone: "+91 484 248 4142",
-                email: "info@snmimt.edu.in",
-                website: "www.snmimt.edu.in",
-                photo: "img/directory/colleges/snm.jpg"
-            },
-            {
-                name: "Sri Narayana Guru Institute of Science & Technology (SNGIST)",
-                category: "Colleges",
-                badge: "Engineering & Management",
-                featured: false,
-                address: "Thekkethazham, Mannam P.O., N.Paravur, PIN- 683520",
-                phone: "+91 484 288 7000",
-                email: "sngist@sngist.org",
-                website: "www.sngist.org",
-                photo: "img/directory/colleges/sngist.jpg"
-            },
-            {
-                name: "MES College of Engineering and Technology",
-                category: "Colleges",
-                badge: "Engineering",
-                featured: false,
-                address: "Kunnukara P.O, N. Paravur, PIN- 683578",
-                phone: "+91 484 257 3661",
-                email: "mescet.kunnukara@gmail.com",
-                website: "mescet.ac.in",
-                photo: "img/directory/colleges/mes.jpg"
-            },
-            {
-                name: "SNGIST Arts & Science College",
-                category: "Colleges",
-                badge: "Arts & Science",
-                featured: false,
-                address: "Manakkapady, Karumalloor P.O, North Paravur, PIN- 683511",
-                phone: "+91 484 282 0078",
-                website: "www.sngistasc.org",
-                photo: "img/directory/colleges/sngistartscollege.jpg"
-            },
-            {
-                name: "SN Arts & Science College (SNAS)",
-                category: "Colleges",
-                badge: "Arts & Science",
-                featured: false,
-                address: "Kedamangalam, N.Paravur, PIN- 683513",
-                phone: "+91 484 250 9113",
-                email: "snascollege@sify.com",
-                photo: "img/directory/colleges/snas.jpg"
-            },
-            {
-                name: "Lakshmi College",
-                category: "Colleges",
-                badge: "Parallel College",
-                featured: false,
-                address: "Amman Kovil Road, N.Paravur, PIN- 683513",
-                phone: "+91 484 266 5940",
-                email: "lakshmicollege.npr@gmail.com",
-                photo: "img/directory/colleges/lakshmi.jpg"
-            }
+        "colleges": [
+                {
+                        "name": "Sree Narayana Institute of Medical Sciences (SNIMS)",
+                        "address": "Chalakka, P.O. North Kuthiyathodu, PIN- 683594",
+                        "phone": "+91 484 266 1500",
+                        "email": "info@snims.org",
+                        "website": "www.snims.org",
+                        "photo": "img/directory/colleges/medicalcollege.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "SNM College Maliankara",
+                        "address": "Maliankara P.O, Moothakunnam, N.Paravur, PIN- 683516",
+                        "phone": "+91 484 248 3600",
+                        "email": "principalsnmc@gmail.com",
+                        "website": "www.snmcollege.in",
+                        "photo": "img/directory/colleges/maliankara.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "SNM Institute of Management and Technology (SNMIMT)",
+                        "address": "Maliankara P.O, Moothakunnam, N.Paravur, PIN- 683516",
+                        "phone": "+91 484 248 4142",
+                        "email": "info@snmimt.edu.in",
+                        "website": "www.snmimt.edu.in",
+                        "photo": "img/directory/colleges/snm.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Sri Narayana Guru Institute of Science & Technology (SNGIST)",
+                        "address": "Thekkethazham, Mannam P.O., N.Paravur, PIN- 683520",
+                        "phone": "+91 484 288 7000",
+                        "email": "sngist@sngist.org",
+                        "website": "www.sngist.org",
+                        "photo": "img/directory/colleges/sngist.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "MES College of Engineering and Technology",
+                        "address": "Kunnukara P.O, N. Paravur, PIN- 683578",
+                        "phone": "+91 484 257 3661",
+                        "email": "mescet.kunnukara@gmail.com",
+                        "website": "mescet.ac.in",
+                        "photo": "img/directory/colleges/mes.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "SNGIST Arts & Science College",
+                        "address": "Manakkapady, Karumalloor (P.O), North Paravur, PIN- 683511",
+                        "phone": "+91 484 282 0078",
+                        "website": "www.sngistasc.org",
+                        "photo": "img/directory/colleges/sngistartscollege.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "SN Arts & Science College (SNAS)",
+                        "address": "Kedamangalam, N.Paravur, PIN- 683513",
+                        "phone": "+91 484 250 9113",
+                        "email": "snascollege@sify.com",
+                        "photo": "img/directory/colleges/snas.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Kesari Government Arts & Science College",
+                        "address": "Near Municipal Bus Stand, Kesari Balakrishna Pillai Rd, North Paravur, 683513",
+                        "phone": "+91 484 244 0225",
+                        "photo": "img/directory/colleges/snas.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "IHRD College of Applied Science (CAS), North Paravur",
+                        "address": "Puthenvelikkara / Vazhikulangara, North Paravur",
+                        "phone": "+91 484 244 4954",
+                        "website": "casparavur.ihrd.ac.in",
+                        "photo": "img/directory/colleges/sngistartscollege.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Mar Gregorios Abdul Jaleel Arts & Science College",
+                        "address": "Neericode, Alangad, North Paravur, PIN- 683511",
+                        "phone": "+91 484 267 1551",
+                        "photo": "img/directory/colleges/maliankara.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Matha College of Technology",
+                        "address": "Manakkapadi, Karumalloor P.O., North Paravur, 683511",
+                        "phone": "+91 484 267 0212",
+                        "photo": "img/directory/colleges/mes.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Presentation College of Applied Sciences",
+                        "address": "Manancherikunnu, Puthenvelikkara, Paravur Taluk, 683594",
+                        "phone": "+91 484 248 5400",
+                        "website": "presentationcollege.ac.in",
+                        "photo": "img/directory/colleges/snm.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "MES T.O. Abdulla Memorial College",
+                        "address": "Kunnukara, North Paravur, PIN- 683578",
+                        "phone": "+91 484 257 4957",
+                        "photo": "img/directory/colleges/mes.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "SNM Training College (B.Ed & M.Ed), Moothakunnam",
+                        "address": "Moothakunnam P.O., North Paravur, PIN- 683516",
+                        "phone": "+91 484 248 2115",
+                        "website": "snmtrainingcollege.org",
+                        "photo": "img/directory/colleges/maliankara.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Rural Academy for Management Studies (RAMS)",
+                        "address": "Kuzhuppilly, Ayyampilly P.O., Cherai - Vypin",
+                        "phone": "+91 484 241 7444",
+                        "photo": "img/directory/colleges/sngist.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                },
+                {
+                        "name": "Lakshmi College (Parallel)",
+                        "address": "Amman Kovil Road, N.Paravur, PIN- 683513",
+                        "phone": "+91 484 266 5940",
+                        "email": "lakshmicollege.npr@gmail.com",
+                        "photo": "img/directory/colleges/lakshmi.jpg",
+                        "category": "Colleges",
+                        "badge": "Colleges"
+                }
         ],
-
-        schools: [
-            {
-                name: "Govt. Boys Higher Secondary School",
-                category: "Schools",
-                address: "Municipal Jn., North Paravur, 683513",
-                class: "Std. V to XII",
-                phone: "+91 484 244 6650",
-                syllabus: "State",
-                photo: "img/directory/schools/boys.jpg"
-            },
-            {
-                name: "Govt. Girls Higher Secondary School",
-                category: "Schools",
-                address: "Municipal Jn., North Paravur, 683513",
-                class: "Std. V to XII",
-                phone: "+91 484 244 6650",
-                syllabus: "State",
-                photo: "img/directory/schools/girls.JPG"
-            },
-            {
-                name: "Samooham High School",
-                category: "Schools",
-                address: "Cherai Rd, North Paravur, 683513",
-                class: "Std. V to X",
-                phone: "+91 484 244 3588",
-                syllabus: "State",
-                photo: "img/directory/schools/samooham.jpg"
-            },
-            {
-                name: "SNV Sanskrit Higher Secondary School",
-                category: "Schools",
-                address: "Nanthiattukunnam, North Paravur, 683513",
-                class: "Std. V to XII",
-                phone: "+91 484 244 7844",
-                syllabus: "State",
-                photo: "img/directory/schools/snv.jpg"
-            },
-            {
-                name: "Sree Narayana HSS (SNHSS)",
-                category: "Schools",
-                address: "Near KSRTC Bus Station, North Paravur, 683513",
-                class: "Std. V to XII",
-                phone: "+91 484 244 2196",
-                syllabus: "State",
-                photo: "img/directory/schools/snhss.jpg"
-            },
-            {
-                name: "St. Aloysius High School",
-                category: "Schools",
-                address: "Kannankulangara, North Paravur, 683513",
-                class: "Std. V to X",
-                phone: "+91 484 244 3341",
-                syllabus: "State",
-                photo: "img/directory/schools/Alosius.jpg"
-            },
-            {
-                name: "Kizhakkepram Govt. UPS",
-                category: "Schools",
-                address: "Kizhakkepram, North Paravur, 683513",
-                class: "Std. I to VII",
-                phone: "NA",
-                syllabus: "State",
-                photo: "img/directory/schools/kizhakkepuram.jpg"
-            },
-            {
-                name: "Little Hearts School",
-                category: "Schools",
-                address: "Kizhakkepram, North Paravur, 683513",
-                class: "Pre-KG to XII",
-                phone: "+91 484 244 3313",
-                syllabus: "CBSE",
-                website: "www.littleheartsschoolnparavur.com",
-                photo: "img/directory/schools/littlehearts.jpg"
-            },
-            {
-                name: "Infant Jesus Public School",
-                category: "Schools",
-                address: "Perumpadanna, North Paravur P.O., 683513",
-                class: "Std. I to XII",
-                phone: "+91 484 244 2677",
-                syllabus: "CBSE",
-                website: "infantjesusschool.ac.in",
-                photo: "img/directory/schools/infant.jpg"
-            },
-            {
-                name: "Maria Teresa Scrilli Public School",
-                category: "Schools",
-                address: "T B Road, North Paravur, 683513",
-                class: "Std. I to X",
-                phone: "+91 484 244 7613",
-                syllabus: "CBSE",
-                website: "www.mariateresascrillipublicschool.com",
-                photo: "img/directory/schools/scrilli.jpg"
-            },
-            {
-                name: "Dr. N. International School",
-                category: "Schools",
-                address: "Aiswarya Nagar, North Paravur P.O., 683513",
-                class: "Pre-KG to XII",
-                phone: "+91 484 244 5422",
-                syllabus: "CBSE",
-                website: "www.drninternationalschool.com",
-                photo: "img/directory/schools/drn.jpg"
-            },
-            {
-                name: "Chavara Darsan CMI Public School",
-                category: "Schools",
-                address: "Koonammavu, North Paravur, 683518",
-                class: "Pre-KG to XII",
-                phone: "+91 484 251 1162",
-                syllabus: "CBSE",
-                website: "www.chavaradarsan.com",
-                photo: "img/directory/schools/chavara.jpg"
-            },
-            {
-                name: "Adarsha Vidyabhavan",
-                category: "Schools",
-                address: "Nanthiattukunnam, North Paravur, 683513",
-                class: "Pre-KG to XII",
-                phone: "+91 484 244 0270",
-                syllabus: "CBSE",
-                website: "www.adarshavidyabhavan.com",
-                photo: "img/directory/schools/adarsha.jpg"
-            }
+        "schools": [
+                {
+                        "name": "Govt. Girls Higher Secondary School",
+                        "address": "Municipal Jn., North Paravur, 683513",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 244 6650",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/girls.JPG",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Govt. Boys Higher Secondary School",
+                        "address": "Municipal Jn., North Paravur, 683513",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 244 6650",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/boys.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Samooham High School",
+                        "address": "Cherai Rd, North Paravur, 683513",
+                        "class": "Std. V to X",
+                        "phone": "+91 484 244 3588",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/samooham.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "SNV Sanskrit Higher Secondary School",
+                        "address": "Nanthiattukunnam, North Paravur, 683513",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 244 7844",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/snv.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Sree Narayana HSS (SNHSS) Pullamkulam",
+                        "address": "Near KSRTC Bus Station, North Paravur, 683513",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 244 2196",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/snhss.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "St. Aloysius High School",
+                        "address": "Kannankulangara, North Paravur, 683513",
+                        "class": "Std. V to X",
+                        "phone": "+91 484 244 3341",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/Alosius.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Paliyam Govt. Higher Secondary School",
+                        "address": "Chendamangalam, North Paravur, 683512",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 244 8210",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/boys.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "SNM Higher Secondary School, Moothakunnam",
+                        "address": "Moothakunnam P.O., North Paravur, 683516",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 248 2050",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/snhss.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "HMYS Higher Secondary School, Kottuvallikkad",
+                        "address": "Kottuvallikkad, Moothakunnam, North Paravur",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 248 3120",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/snv.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "St. Philomena's HSS, Koonammavu",
+                        "address": "Koonammavu, North Paravur, 683518",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 251 1240",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/Alosius.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Gothuruth St. Sebastian's Higher Secondary School",
+                        "address": "Gothuruth, North Paravur, 683516",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 244 5920",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/boys.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "rama Varma Union HSS (RVUHSS), Cherai",
+                        "address": "Cherai, North Paravur, 683514",
+                        "class": "Std. V to XII",
+                        "phone": "+91 484 248 8340",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/snhss.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Kizhakkepram Govt. UPS",
+                        "address": "Kizhakkepram, North Paravur, 683513",
+                        "class": "Std. I to VII",
+                        "phone": "NA",
+                        "syllabus": "State",
+                        "photo": "img/directory/schools/kizhakkepuram.jpg",
+                        "category": "Schools",
+                        "badge": "State Syllabus"
+                },
+                {
+                        "name": "Little Hearts School",
+                        "address": "Kizhakkepram, North Paravur, 683513",
+                        "class": "Pre-KG to XII",
+                        "phone": "+91 484 244 3313",
+                        "syllabus": "CBSE",
+                        "website": "www.littleheartsschoolnparavur.com",
+                        "photo": "img/directory/schools/littlehearts.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Infant Jesus Public School",
+                        "address": "Perumpadanna, North Paravur P.O., 683513",
+                        "class": "Std. I to XII",
+                        "phone": "+91 484 244 2677",
+                        "syllabus": "CBSE",
+                        "website": "infantjesusschool.ac.in",
+                        "photo": "img/directory/schools/infant.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Maria Teresa Scrilli Public School",
+                        "address": "T B Road, North Paravur, 683513",
+                        "class": "Std. I to X",
+                        "phone": "+91 484 244 7613",
+                        "syllabus": "CBSE",
+                        "website": "www.mariateresascrillipublicschool.com",
+                        "photo": "img/directory/schools/scrilli.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Dr. N. International School",
+                        "address": "Aiswarya Nagar, North Paravur P.O., 683513",
+                        "class": "Pre-KG to XII",
+                        "phone": "+91 484 244 5422",
+                        "syllabus": "CBSE",
+                        "website": "www.drninternationalschool.com",
+                        "photo": "img/directory/schools/drn.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Chavara Darsan CMI Public School",
+                        "address": "Koonammavu, North Paravur, 683518",
+                        "class": "Pre-KG to XII",
+                        "phone": "+91 484 251 1162",
+                        "syllabus": "CBSE",
+                        "website": "www.chavaradarsan.com",
+                        "photo": "img/directory/schools/chavara.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Adarsha Vidyabhavan",
+                        "address": "Nanthiattukunnam, North Paravur, 683513",
+                        "class": "Pre-KG to XII",
+                        "phone": "+91 484 244 0270",
+                        "syllabus": "CBSE",
+                        "website": "www.adarshavidyabhavan.com",
+                        "photo": "img/directory/schools/adarsha.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Mary Ward English Medium School (CBSE)",
+                        "address": "Kottakkavu, North Paravur, 683513",
+                        "class": "Pre-KG to X",
+                        "phone": "+91 484 244 6352",
+                        "syllabus": "CBSE",
+                        "photo": "img/directory/schools/scrilli.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                },
+                {
+                        "name": "Isabella De Rosis Public School (CBSE)",
+                        "address": "Gothuruth / Vadakkekara, North Paravur, 683516",
+                        "class": "Pre-KG to X",
+                        "phone": "+91 484 248 6120",
+                        "syllabus": "CBSE",
+                        "photo": "img/directory/schools/infant.jpg",
+                        "category": "Schools",
+                        "badge": "CBSE Syllabus"
+                }
         ],
-
-        offices: [
-            {
-                name: "North Paravur Municipality",
-                category: "Govt. Offices",
-                badge: "Municipal Office",
-                address: "Municipal Junction, Main Road, North Paravur",
-                phone: "+91 484 244 2327",
-                photo: "img/directory/office/office.jpg"
-            },
-            {
-                name: "Taluk Office North Paravur",
-                category: "Govt. Offices",
-                badge: "Revenue & Taluk HQ",
-                address: "First Floor, Police Station Rd, above Sub Registrar Office, North Paravur",
-                phone: "+91 484 244 2326",
-                photo: "img/directory/office/office.jpg"
-            },
-            {
-                name: "RTO North Paravur (KL-42)",
-                category: "Govt. Offices",
-                badge: "Motor Vehicles Dept",
-                address: "Republic Road, Perumpadanna, North Paravur",
-                phone: "+91 484 266 2522",
-                email: "kl42@keralamvd.gov.in",
-                photo: "img/directory/office/office.jpg"
-            },
-            {
-                name: "KSEB Electrical Section North Paravur",
-                category: "Govt. Offices",
-                badge: "Electricity Board",
-                address: "Court Road, North Paravur",
-                phone: "+91 484 244 2322",
-                photo: "img/directory/office/kseb.jpg"
-            },
-            {
-                name: "Sub Treasury North Paravur",
-                category: "Govt. Offices",
-                badge: "Treasury",
-                address: "Near Sub Court, North Paravur",
-                phone: "+91 484 244 2662",
-                photo: "img/directory/office/office.jpg"
-            },
-            {
-                name: "Employment Exchange Office",
-                category: "Govt. Offices",
-                badge: "Mini Civil Station",
-                address: "Near Private Bus Stand, Mini Civil Station, North Paravur",
-                phone: "+91 484 244 0066",
-                photo: "img/directory/office/office.jpg"
-            },
-            {
-                name: "Taluk Civil Supplies Office",
-                category: "Govt. Offices",
-                badge: "Civil Supplies",
-                address: "Municipal Shopping Complex, Near Private Bus Stand, North Paravur",
-                phone: "+91 484 244 4438",
-                photo: "img/directory/office/office.jpg"
-            },
-            {
-                name: "LIC of India — North Paravur Branch",
-                category: "Govt. Offices",
-                badge: "Insurance",
-                address: "P.B.No.16, Gurudarsan Bldg., Main Road, North Paravur",
-                phone: "+91 484 244 3298",
-                photo: "img/directory/office/lic.jpg"
-            },
-            {
-                name: "North Paravur Head Post Office (683513)",
-                category: "Govt. Offices",
-                badge: "India Post",
-                address: "Opp. Private Bus Stand, Main Road, North Paravur",
-                phone: "+91 484 244 2330",
-                photo: "img/directory/office/post.jpg"
-            }
+        "offices": [
+                {
+                        "name": "North Paravur Police Station (SHO / Circle Inspector)",
+                        "address": "Police Station Road, Near Sub Court, North Paravur",
+                        "phone": "+91 484 244 5525",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Fire and Rescue Station, North Paravur",
+                        "address": "Perumpadanna, NH-66, North Paravur",
+                        "phone": "+91 484 244 3101",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Vadakkekara Police Station",
+                        "address": "Moothakunnam / Vadakkekara, North Paravur",
+                        "phone": "+91 484 248 2028",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Varapuzha Police Station",
+                        "address": "Varapuzha, Paravur Taluk",
+                        "phone": "+91 484 251 3073",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Munambam Police Station",
+                        "address": "Pallippuram / Munambam, Vypin",
+                        "phone": "+91 484 248 8230",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "North Paravur Municipality Office",
+                        "address": "Municipal Junction, Main Road, North Paravur",
+                        "phone": "+91 484 244 2327",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Taluk Office North Paravur (Tahsildar)",
+                        "address": "First Floor, Mini Civil Station / Police Station Rd, North Paravur",
+                        "phone": "+91 484 244 2326",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "RTO North Paravur (KL-42 Sub Regional Transport Office)",
+                        "address": "Republic Road, Perumpadanna, North Paravur",
+                        "phone": "+91 484 266 2522",
+                        "email": "kl42@keralamvd.gov.in",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "KSEB Electrical Section North Paravur",
+                        "address": "Court Road, North Paravur",
+                        "phone": "+91 484 244 2322",
+                        "photo": "img/directory/office/kseb.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "KSRTC Bus Station (Enquiry Office), North Paravur",
+                        "address": "KSRTC Stand Road, Near Pullamkulam, North Paravur",
+                        "phone": "+91 484 244 4439",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Kerala Water Authority (KWA) Sub Division, Paravur",
+                        "address": "Near Municipal Junction, North Paravur",
+                        "phone": "+91 484 244 2615",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Excise Range Office, North Paravur",
+                        "address": "KMK Junction / Perumpadanna, North Paravur",
+                        "phone": "+91 484 244 1280",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Sub Treasury North Paravur",
+                        "address": "Near Sub Court, North Paravur",
+                        "phone": "+91 484 244 2662",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Employment Exchange Office",
+                        "address": "Near Private Bus Stand, Mini Civil Station, North Paravur",
+                        "phone": "+91 484 244 0066",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Taluk Civil Supply Office",
+                        "address": "Municipal Shopping Complex, Near Private Bus Stand, North Paravur",
+                        "phone": "+91 484 244 2248",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Chendamangalam Grama Panchayat Office",
+                        "address": "Gothuruth \u2013 Vadakkumpuram Road, Chendamangalam",
+                        "phone": "+91 484 251 8568",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "Chendamangalam Village Office",
+                        "address": "Chendamangalam, North Paravur Taluk",
+                        "phone": "+91 94960 45703",
+                        "photo": "img/directory/office/office.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "LIC North Paravur Branch",
+                        "address": "P.B.No.16, Gurudarsan Bldg., Main Road, North Paravur",
+                        "phone": "+91 484 244 3298",
+                        "photo": "img/directory/office/lic.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                },
+                {
+                        "name": "North Paravur Head Post Office (683513)",
+                        "address": "Opp. Pvt. Bus Station, Main Road, North Paravur",
+                        "phone": "+91 484 244 2330",
+                        "photo": "img/directory/office/post.jpg",
+                        "category": "Govt. Offices",
+                        "badge": "Govt. Offices"
+                }
         ],
-
-        events: [
-            {
-                id: "1",
-                name: "O FOUR SPORTS (Indoor Rooftop Turf)",
-                website: "ofoursports.com",
-                category: "SPORTS & LEISURE",
-                badge: "Featured Partner",
-                about: "Play 7's turf football and turf cricket in an indoor rooftop turf just 6 KM away from North Paravur town.",
-                location: "HM Building, Near Matha College of Technology, Manakkapadi-Manjaly Road, Karumalloor P.O., North Paravur 683513",
-                description: "Play 7's turf football and turf cricket in an all-weather indoor rooftop turf. Operating from 5:00 A.M to 10:00 P.M daily.",
-                phone: "+919846437740",
-                email: "midhun@ofoursports.com",
-                photo: "img/events/turf.jpg",
-                photosmall: "img/events/turf_small.jpg",
-                date: "Featured Venue"
-            },
-            {
-                id: "2",
-                name: "Chendamangalam GI Handloom Weavers Societies",
-                website: "muzirisheritage.org",
-                category: "HERITAGE CRAFT & SHOPPING",
-                badge: "GI Tagged Craft",
-                about: "Support local artisans by shopping authentic Geographical Indication (GI) tagged Chendamangalam Kasavu sarees, mundus, and fabrics.",
-                location: "Chendamangalam & Karimpadam Handloom Weavers Co-operative Societies, North Paravur Taluk",
-                description: "Renowned for centuries under the patronage of the Paliath Achans, Chendamangalam handloom is celebrated for its fine count cotton texture and traditional puliyilakara borders.",
-                phone: "+914842442327",
-                email: "contact@northparavur.in",
-                photo: "img/gallery/samooham.jpg",
-                photosmall: "img/gallery/samooham_small.jpg",
-                date: "Local Craft Highlight"
-            }
+        "worship": [
+                {
+                        "name": "Dakshina Mookambika Temple, North Paravur",
+                        "religion": "Temple",
+                        "deity": "Goddess Saraswathi (Bala Parameswari)",
+                        "address": "Mookambika Road, Near Municipal Junction, North Paravur 683513",
+                        "phone": "+91 484 244 2186",
+                        "timings": "4:00 AM \u2013 11:00 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Renowned as the 'Mookambika of the South'; sanctum surrounded by a sacred lotus pond. Famous for Vidyarambham (initiation into learning) and Navarathri Sangeethotsavam.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Peruvaram Mahadeva Temple",
+                        "religion": "Temple",
+                        "deity": "Lord Shiva & Goddess Parvathi (Twin Sanctum)",
+                        "address": "Peruvaram, Mannam P.O., North Paravur 683520",
+                        "phone": "+91 484 244 5210",
+                        "timings": "4:30 AM \u2013 11:00 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Ancient Travancore Devaswom Board Mahakshetram featuring a rare two-tiered circular Sreekovil where Lord Shiva faces East and Goddess Parvathi faces West.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Kannankulangara Maha Vishnu Temple",
+                        "religion": "Temple",
+                        "deity": "Lord Maha Vishnu",
+                        "address": "Kannankulangara, Main Road South, North Paravur 683513",
+                        "phone": "+91 484 244 3145",
+                        "timings": "5:00 AM \u2013 10:30 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Historic temple in the heart of North Paravur surrounded by a large temple pond (Chira) and traditionalagraharam heritage.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Gowreeswara Temple (Cherai Subramanya Temple)",
+                        "religion": "Temple",
+                        "deity": "Lord Subramanya",
+                        "address": "Cherai, Vypin Island, North Paravur Taluk 683514",
+                        "phone": "+91 484 248 0234",
+                        "timings": "5:00 AM \u2013 11:00 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Consecrated with the blessings of Sree Narayana Guru (1912) and managed by Vijnana Vardhini Sabha. Famous as the 'Palani of Kerala' for its grand Thaipooyam Utsavam and elephant pageantry.",
+                        "photo": "img/tourism/cherai_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Azheekkal Sree Varaha Venkitachalapathy Temple",
+                        "religion": "Temple",
+                        "deity": "Lord Varaha & Lord Venkateswara",
+                        "address": "Azheekkal, Cherai, North Paravur Taluk 683514",
+                        "phone": "+91 484 248 0327",
+                        "timings": "5:30 AM \u2013 11:30 AM, 5:30 PM \u2013 8:00 PM",
+                        "highlights": "19th-century GSB (Gowda Saraswat Brahmin) temple famous for its ornate golden Ratholsavam (Chariot Festival) featuring a massive hemispherical dome chariot.",
+                        "photo": "img/tourism/cherai_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Venketachalapathi Temple, Paravur Town",
+                        "religion": "Temple",
+                        "deity": "Lord Venkateswara (Thirumala Devaswom)",
+                        "address": "Near Samooham High School, North Paravur 683513",
+                        "phone": "NA",
+                        "timings": "5:30 AM \u2013 11:00 AM, 5:30 PM \u2013 8:00 PM",
+                        "highlights": "Historic Gowda Saraswat Brahmin temple located along the old Paravur merchant quarter.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Thonniyakavu Bhadrakali Temple",
+                        "religion": "Temple",
+                        "deity": "Goddess Bhadrakali",
+                        "address": "Thonniyakavu, Puthenvelikkara Road, North Paravur 683513",
+                        "phone": "+91 484 244 6212",
+                        "timings": "5:00 AM \u2013 11:00 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Famous sacred grove (Kavu) temple just outside Paravur town, renowned for its annual Kalamezhuthu Pattu and Thalapoli festival.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Kottayil Kovilakom Sree Krishna Temple",
+                        "religion": "Temple",
+                        "deity": "Lord Sree Krishna (Santana Gopala Moorthy)",
+                        "address": "Kottayil Kovilakom, Chendamangalam, North Paravur 683512",
+                        "phone": "NA",
+                        "timings": "5:00 AM \u2013 10:30 AM, 5:30 PM \u2013 7:30 PM",
+                        "highlights": "Royal family deity shrine of the Villarvattom Kshetriya dynasty and Paliath Achans; stands atop the Kottayil Kovilakom hillock alongside a Church, Mosque, and Synagogue.",
+                        "photo": "img/tourism/paliyammuseum_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Mannam Subramanya Swamy Temple",
+                        "religion": "Temple",
+                        "deity": "Lord Subramanya",
+                        "address": "Mannam P.O., North Paravur 683520",
+                        "phone": "NA",
+                        "timings": "5:00 AM \u2013 10:30 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Major Subramanya shrine in Mannam known for Thaipooyam Kavadiyattam processions.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Moothakunnam Sree Narayana Mangalam (SNM) Temple",
+                        "religion": "Temple",
+                        "deity": "Lord Shiva (Sree Narayana Guru Prathishta)",
+                        "address": "Moothakunnam, Vadakkekara P.O., North Paravur 683516",
+                        "phone": "+91 484 248 2160",
+                        "timings": "5:00 AM \u2013 11:00 AM, 5:00 PM \u2013 8:00 PM",
+                        "highlights": "Consecrated by Sree Narayana Guru in 1903 and managed by HMDP Sabha Moothakunnam.",
+                        "photo": "img/tourism/paliyam_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Temple"
+                },
+                {
+                        "name": "Kottakkavu Mar Thoma Syro-Malabar Pilgrim Church",
+                        "religion": "Church",
+                        "deity": "St. Thomas the Apostle (Founded 52 AD)",
+                        "address": "Kottakkavu, North Paravur 683513",
+                        "phone": "+91 484 244 2261",
+                        "website": "www.kottakkavuchurch.org",
+                        "timings": "5:30 AM \u2013 8:00 PM",
+                        "highlights": "One of the seven ancient churches (Ezharappallikal) established by St. Thomas the Apostle in 52 AD. Preserves a 9th-century Persian Stone Cross and heritage museum.",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "St. Thomas Jacobite Syrian Cathedral (Mar Thoman Cheriyapally)",
+                        "religion": "Church",
+                        "deity": "St. Thomas & Tomb of St. Gregorios Abdul Jaleel (1681 AD)",
+                        "address": "Cheriapally Road, Near Municipal Jn., North Paravur 683513",
+                        "phone": "+91 484 244 2354",
+                        "timings": "6:00 AM \u2013 7:30 PM",
+                        "highlights": "Constructed in 1566 AD; houses the sacred tomb of Mor Gregorios Abdul Jaleel Bawa (Syriac Orthodox Archbishop of Jerusalem who passed away in North Paravur in 1681 AD).",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "St. Don Bosco Roman Catholic Latin Church",
+                        "religion": "Church",
+                        "deity": "St. John Bosco",
+                        "address": "KMK Junction, NH-66, North Paravur 683513",
+                        "phone": "+91 484 244 2675",
+                        "timings": "6:00 AM \u2013 7:30 PM",
+                        "highlights": "Major Latin Catholic parish church located right at KMK Junction adjacent to Don Bosco Hospital.",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "Holy Cross Church (Mar Sleeva Church), Kottayil Kovilakom",
+                        "religion": "Church",
+                        "deity": "Holy Cross",
+                        "address": "Kottayil Kovilakom, Chendamangalam, North Paravur 683512",
+                        "phone": "NA",
+                        "timings": "6:00 AM \u2013 7:00 PM",
+                        "highlights": "Historic church established in 1075 AD at the foot of the Kottayil Kovilakom hillock in Chendamangalam.",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "Our Lady of Snows Basilica (Manjumatha Church), Pallippuram",
+                        "religion": "Church",
+                        "deity": "Our Lady of Snows (Manjumatha)",
+                        "address": "Pallippuram, Cherai\u2013Munambam Road, North Paravur Taluk 683515",
+                        "phone": "+91 484 248 8154",
+                        "timings": "5:30 AM \u2013 8:00 PM",
+                        "highlights": "Built by the Portuguese in 1503 AD near Pallippuram Fort; elevated to Minor Basilica status and famed for its miraculous protection during Tipu Sultan's campaign.",
+                        "photo": "img/tourism/pallipuram_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "St. Philomena's Forane Church & Chavara Pilgrim Centre, Koonammavu",
+                        "religion": "Church",
+                        "deity": "St. Philomena & St. Kuriakose Elias Chavara",
+                        "address": "Koonammavu, NH-66, North Paravur Taluk 683518",
+                        "phone": "+91 484 251 3246",
+                        "timings": "5:30 AM \u2013 8:00 PM",
+                        "highlights": "Founded in 1837; final resting place for many years and karma bhoomi of St. Kuriakose Elias Chavara and St. Euphrasia.",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "St. Antony's Pilgrim Shrine, Chettikkad (Moothakunnam)",
+                        "religion": "Church",
+                        "deity": "St. Antony of Padua",
+                        "address": "Chettikkad, Moothakunnam, North Paravur 683516",
+                        "phone": "+91 484 248 3315",
+                        "timings": "6:00 AM \u2013 7:30 PM",
+                        "highlights": "Renowned Tuesday Novena pilgrim shrine attracting devotees from across Ernakulam and Thrissur districts.",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "St. Sebastian's Church, Gothuruth",
+                        "religion": "Church",
+                        "deity": "St. Sebastian",
+                        "address": "Gothuruth Island, Chendamangalam P.O., North Paravur 683516",
+                        "phone": "+91 484 248 3270",
+                        "timings": "6:00 AM \u2013 7:30 PM",
+                        "highlights": "Historic island parish (1811 AD) renowned as the cradle of Chavittunadakam (traditional Indo-Portuguese Christian opera dance).",
+                        "photo": "img/tourism/kottakavu_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Church"
+                },
+                {
+                        "name": "Cheraman Juma Masjid (629 AD)",
+                        "religion": "Mosque",
+                        "deity": "Oldest Mosque in India (Founded by Malik Bin Dinar)",
+                        "address": "Cheraman Malik Manzil, NH-66, Kodungallur\u2013Paravur Corridor 680664",
+                        "phone": "+91 480 280 3770",
+                        "timings": "5:00 AM \u2013 9:00 PM",
+                        "highlights": "Built in 629 AD during the lifetime of Prophet Muhammad; features traditional Kerala wood architecture and an ancient oil lamp.",
+                        "photo": "img/tourism/cheraman_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Mosque"
+                },
+                {
+                        "name": "Paravur Town Juma Masjid",
+                        "religion": "Mosque",
+                        "deity": "Sunni Juma Masjid",
+                        "address": "Main Road, Market Junction, North Paravur 683513",
+                        "phone": "+91 484 244 2810",
+                        "timings": "4:45 AM \u2013 9:30 PM",
+                        "highlights": "Central congregational mosque located in the heart of North Paravur town.",
+                        "photo": "img/tourism/cheraman_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Mosque"
+                },
+                {
+                        "name": "Kottayil Kovilakom Juma Masjid, Chendamangalam",
+                        "religion": "Mosque",
+                        "deity": "Historic Mosque & Sufi Dargah",
+                        "address": "Kottayil Kovilakom Hill, Chendamangalam, North Paravur 683512",
+                        "phone": "NA",
+                        "timings": "5:00 AM \u2013 8:30 PM",
+                        "highlights": "Built on land granted by the Paliath Achan atop Kottayil Kovilakom hillock, completing the four-faith harmony ensemble.",
+                        "photo": "img/tourism/cheraman_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Mosque"
+                },
+                {
+                        "name": "Manjaly Makham & Juma Masjid",
+                        "religion": "Mosque",
+                        "deity": "Juma Masjid & Makham",
+                        "address": "Manjaly, Mannam P.O., North Paravur 683520",
+                        "phone": "NA",
+                        "timings": "5:00 AM \u2013 9:00 PM",
+                        "highlights": "Historic mosque along the Periyar riverbank in Manjaly, famous for the annual Manjaly Nercha and Halwa heritage.",
+                        "photo": "img/tourism/cheraman_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Mosque"
+                },
+                {
+                        "name": "Vaniyakkadu Juma Masjid",
+                        "religion": "Mosque",
+                        "deity": "Juma Masjid",
+                        "address": "Vaniyakkadu, Mannam P.O., NH-66, North Paravur 683520",
+                        "phone": "NA",
+                        "timings": "5:00 AM \u2013 9:00 PM",
+                        "highlights": "Major mosque serving the Vaniyakkadu and Vedimara area along the Paravur\u2013Varapuzha route.",
+                        "photo": "img/tourism/cheraman_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Mosque"
+                },
+                {
+                        "name": "Vadakkumpuram Juma Masjid",
+                        "religion": "Mosque",
+                        "deity": "Juma Masjid",
+                        "address": "Vadakkumpuram P.O., Chendamangalam, North Paravur 683521",
+                        "phone": "NA",
+                        "timings": "5:00 AM \u2013 9:00 PM",
+                        "highlights": "Congregational mosque serving Vadakkumpuram and Kuttikkattukara.",
+                        "photo": "img/tourism/cheraman_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Mosque"
+                },
+                {
+                        "name": "Paravur Jewish Synagogue (Kerala Jews History Museum)",
+                        "religion": "Synagogue",
+                        "deity": "Built 1164 AD \u2022 Reconstructed 1615\u20131616 AD by David Yaakov Castiel",
+                        "address": "Jew Street (Joothatheruvu), Near Old Market, North Paravur 683513",
+                        "phone": "+91 484 244 0808",
+                        "timings": "9:30 AM \u2013 5:00 PM (Closed Mondays)",
+                        "highlights": "One of the largest and most architecturally complete synagogues in Kerala, featuring a traditional Padippura gateway, colonnaded walkway, and museum exhibits on Cochin Jewish life.",
+                        "photo": "img/tourism/synagogue_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Synagogue"
+                },
+                {
+                        "name": "Chendamangalam Jewish Synagogue (1614 AD)",
+                        "religion": "Synagogue",
+                        "deity": "Malabar Yehudan Synagogue & 1269 AD Hebrew Tombstone",
+                        "address": "Kottayil Kovilakom, Chendamangalam, North Paravur 683512",
+                        "phone": "+91 484 244 0808",
+                        "timings": "9:30 AM \u2013 5:00 PM (Closed Mondays)",
+                        "highlights": "Built in 1614 AD on land gifted by the Paliath Achan; houses the 1269 AD tombstone of Sarah Bat Israel\u2014the oldest dated Hebrew inscription in India.",
+                        "photo": "img/tourism/synagogue_small.jpg",
+                        "category": "Places of Worship",
+                        "badge": "Synagogue"
+                }
+        ],
+        "events": [
+                {
+                        "id": "1",
+                        "name": "O FOUR SPORTS (Indoor Rooftop Turf)",
+                        "website": "ofoursports.com",
+                        "category": "SPORTS & LEISURE",
+                        "badge": "Featured Partner",
+                        "about": "Play 7's turf football and turf cricket in an indoor rooftop turf just 6 KM away from North Paravur town.",
+                        "location": "HM Building, Near Matha College of Technology, Manakkapadi-Manjaly Road, Karumalloor P.O., North Paravur 683513",
+                        "description": "Play 7's turf football and turf cricket in an all-weather indoor rooftop turf. Operating from 5:00 A.M to 10:00 P.M daily.",
+                        "phone": "+919846437740",
+                        "email": "midhun@ofoursports.com",
+                        "photo": "img/events/turf.jpg",
+                        "photosmall": "img/events/turf_small.jpg",
+                        "date": "Featured Venue"
+                },
+                {
+                        "id": "2",
+                        "name": "Chendamangalam GI Handloom Weavers Societies",
+                        "website": "muzirisheritage.org",
+                        "category": "HERITAGE CRAFT & SHOPPING",
+                        "badge": "GI Tagged Craft",
+                        "about": "Support local artisans by shopping authentic Geographical Indication (GI) tagged Chendamangalam Kasavu sarees, mundus, and fabrics.",
+                        "location": "Chendamangalam & Karimpadam Handloom Weavers Co-operative Societies, North Paravur Taluk",
+                        "description": "Renowned for centuries under the patronage of the Paliath Achans, Chendamangalam handloom is celebrated for its fine count cotton texture and traditional puliyilakara borders.",
+                        "phone": "+914842442327",
+                        "email": "contact@northparavur.in",
+                        "photo": "img/gallery/samooham.jpg",
+                        "photosmall": "img/gallery/samooham_small.jpg",
+                        "date": "Local Craft Highlight"
+                }
         ]
-    }
+},
+
+    // 5. BUS STATION TIMINGS (KSRTC & PRIVATE BUSES)
+    busTimings: {
+        "ksrtcEnquiry": "+91 484 244 4439",
+        "privateStandLocation": "Municipal Private Bus Stand, Main Road, North Paravur",
+        "ksrtcStandLocation": "KSRTC Sub-Depot, Near SNHSS, Main Road, North Paravur",
+        "routes": [
+                {
+                        "route": "North Paravur \u2194 Ernakulam (Kaloor / High Court / Vyttila Hub)",
+                        "operator": "Private & KSRTC",
+                        "via": "mannam, Koonammavu, Varapuzha Bridge, Cheranalloor / Edappally",
+                        "firstBus": "05:00 AM",
+                        "lastBus": "10:15 PM",
+                        "frequency": "Every 5 \u2013 8 mins (Peak) / 15 mins (Off-peak)",
+                        "highlights": "Direct green city buses & KSRTC services connecting Paravur to Edappally Luhlu Mall, Kaloor, High Court, and Vyttila Mobility Hub."
+                },
+                {
+                        "route": "North Paravur \u2194 Aluva Railway Station & Metro",
+                        "operator": "Private & KSRTC",
+                        "via": "Manjaly, Mannam, Vedimara, UC College, Aluva",
+                        "firstBus": "05:15 AM",
+                        "lastBus": "09:45 PM",
+                        "frequency": "Every 6 \u2013 10 mins",
+                        "highlights": "Fastest feeder route to Aluva Railway Station and Kochi Metro Terminal via Manjaly Bridge."
+                },
+                {
+                        "route": "North Paravur \u2194 Cherai Beach / Munambam / Vypin",
+                        "operator": "Private & KSRTC",
+                        "via": "Perumpadanna, Cherai Jn, Pallippuram, Kuzhuppilly / Munambam",
+                        "firstBus": "05:30 AM",
+                        "lastBus": "09:30 PM",
+                        "frequency": "Every 10 \u2013 12 mins",
+                        "highlights": "Connects North Paravur town directly to Cherai Beach, Munambam Harbour, and Vypin-Goshree corridor."
+                },
+                {
+                        "route": "North Paravur \u2194 Kodungallur / Guruvayur / Thrissur",
+                        "operator": "KSRTC & Private (NH-66)",
+                        "via": "Moothakunnam, Kottappuram, Kodungallur, Thriprayar / Irinjalakuda",
+                        "firstBus": "04:45 AM",
+                        "lastBus": "11:00 PM",
+                        "frequency": "Every 8 \u2013 12 mins (Kodungallur) / 25 mins (Guruvayur & Thrissur)",
+                        "highlights": "High-frequency NH-66 corridor buses + KSRTC Fast Passenger & Superfast services to Guruvayur, Thrissur, and Kozhikode."
+                },
+                {
+                        "route": "North Paravur \u2194 Angamaly / Nedumbassery Airport (CIAL) / Chalakudy",
+                        "operator": "Private & KSRTC",
+                        "via": "Puthenvelikkara / Manjaly \u2013 Chengamanad \u2013 Athani / Angamaly",
+                        "firstBus": "05:45 AM",
+                        "lastBus": "08:45 PM",
+                        "frequency": "Every 15 \u2013 20 mins",
+                        "highlights": "Connects Paravur to Athani (CIAL Airport Jn), Angamaly, and Mala/Chalakudy via Puthenvelikkara & Stationkadavu."
+                },
+                {
+                        "route": "KSRTC Long-Distance (Trivandrum, Kottayam, Munnar, Palakkad, Kozhikode)",
+                        "operator": "KSRTC Swift / Superfast / Fast Passenger",
+                        "via": "North Paravur KSRTC Sub-Depot",
+                        "firstBus": "04:30 AM",
+                        "lastBus": "11:30 PM",
+                        "frequency": "Scheduled Departures (Every 30 \u2013 60 mins)",
+                        "highlights": "Direct KSRTC reservations available at onlineksrtcswift.com (Stop Code: North Paravur)."
+                }
+        ]
+},
+
+    // 6. NH-66 (EDAPPALLY – NORTH PARAVUR – MOOTHAKUNNAM) WORK PROGRESS TRACKER
+    nh66Progress: {
+        "packageTitle": "NH-66 Six-Lane Widening: Kodungallur (Moothakunnam) \u2013 Edappally (26.06 KM)",
+        "contractor": "Oriental Structural Engineers Pvt. Ltd. (NHAI Bharatmala Pariyojana)",
+        "overallCompletion": 78,
+        "statusSummary_en": "Major bridges at Varapuzha and Moothakunnam are structurally complete, with Varapuzha New Parallel Bridge open to traffic. Flyover, underpass, and service road works across Koonammavu, Paravur Bypass (KMK Jn), and Edappally are in advanced stages.",
+        "statusSummary_ml": "\u0d07\u0d1f\u0d2a\u0d4d\u0d2a\u0d33\u0d4d\u0d33\u0d3f - \u0d2e\u0d42\u0d24\u0d4d\u0d24\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d02 NH-66 \u0d06\u0d31\u0d41\u0d35\u0d30\u0d3f\u0d2a\u0d4d\u0d2a\u0d3e\u0d24 \u0d28\u0d3f\u0d7c\u0d2e\u0d4d\u0d2e\u0d3e\u0d23\u0d02 78% \u0d2a\u0d42\u0d7c\u0d24\u0d4d\u0d24\u0d3f\u0d2f\u0d3e\u0d2f\u0d3f. \u0d35\u0d30\u0d3e\u0d2a\u0d4d\u0d2a\u0d41\u0d34 \u0d2a\u0d41\u0d24\u0d3f\u0d2f \u0d2a\u0d3e\u0d32\u0d02 \u0d17\u0d24\u0d3e\u0d17\u0d24\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d \u0d24\u0d41\u0d31\u0d28\u0d4d\u0d28\u0d41\u0d28\u0d7d\u0d15\u0d3f. \u0d2e\u0d42\u0d24\u0d4d\u0d24\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d02 \u0d2a\u0d3e\u0d32\u0d02, \u0d2a\u0d31\u0d35\u0d42\u0d7c \u0d2c\u0d48\u0d2a\u0d4d\u0d2a\u0d3e\u0d38\u0d4d, \u0d15\u0d42\u0d28\u0d2e\u0d4d\u0d2e\u0d3e\u0d35\u0d4d, \u0d07\u0d1f\u0d2a\u0d4d\u0d2a\u0d33\u0d4d\u0d33\u0d3f \u0d2b\u0d4d\u0d32\u0d48\u0d13\u0d35\u0d7c \u0d28\u0d3f\u0d7c\u0d2e\u0d4d\u0d2e\u0d3e\u0d23\u0d19\u0d4d\u0d19\u0d7e \u0d05\u0d35\u0d38\u0d3e\u0d28 \u0d18\u0d1f\u0d4d\u0d1f\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d3e\u0d23\u0d4d.",
+        "segments": [
+                {
+                        "segment": "Varapuzha New Parallel Six-Lane Bridge & Approaches",
+                        "status": "Opened to Traffic",
+                        "percent": 96,
+                        "detail": "New parallel bridge across Periyar backwaters completed and opened, dramatically easing the historic Varapuzha bottleneck."
+                },
+                {
+                        "segment": "Moothakunnam Bridge & Kottappuram Approach",
+                        "status": "Bridge Structure Ready",
+                        "percent": 85,
+                        "detail": "Major bridge spans across the Periyar river mouth completed; approach road blacktopping and retaining wall works underway."
+                },
+                {
+                        "segment": "North Paravur Town Bypass & KMK Junction",
+                        "status": "Active Construction",
+                        "percent": 72,
+                        "detail": "Hybrid 45m alignment straightening sharp curves; 14 km old highway stretch through Paravur & Koonammavu to be handed over to PWD as State Highway."
+                },
+                {
+                        "segment": "Koonammavu \u2013 Cheranalloor Elevated / Underpass Section",
+                        "status": "Advanced Stage",
+                        "percent": 76,
+                        "detail": "Vehicular underpasses (VUP), drainage culverts, and 6-lane main carriageway paving progressing rapidly."
+                },
+                {
+                        "segment": "Kunnumpuram & Edappally ROB / Flyover",
+                        "status": "Girder & Approach Works",
+                        "percent": 70,
+                        "detail": "3-lane Railway Overbridge (ROB) and Kunnumpuram junction flyover works in advanced stage ahead of final commissioning."
+                }
+        ]
+}
 };

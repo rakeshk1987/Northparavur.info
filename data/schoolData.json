@@ -1,55 +1,103 @@
 [
     {
-        "name": "Govt. Girls HSS", 
-        "address": "Municipal Jn. N.Paravur, 683513", 
+        "name": "Govt. Girls Higher Secondary School", 
+        "address": "Municipal Jn., North Paravur, 683513", 
         "class": "Std. V to XII",
         "phone": "+91 484 244 6650",
         "syllabus": "State",
         "photo": "../../img/directory/schools/girls.JPG"
     },
     {
-        "name": "Govt. Boys HSS", 
-        "address": "Municipal Jn. N.Paravur, 683513", 
+        "name": "Govt. Boys Higher Secondary School", 
+        "address": "Municipal Jn., North Paravur, 683513", 
         "class": "Std. V to XII",
         "phone": "+91 484 244 6650",
         "syllabus": "State",
         "photo": "../../img/directory/schools/boys.jpg"
     },
     {
-        "name": "Samooham HS", 
-        "address": "Cherai Rd, N.Paravur, 683513", 
+        "name": "Samooham High School", 
+        "address": "Cherai Rd, North Paravur, 683513", 
         "class": "Std. V to X",
         "phone": "+91 484 244 3588",
         "syllabus": "State",
         "photo": "../../img/directory/schools/samooham.jpg"
     },
     {
-        "name": "SNV Sanskrit HSS", 
-        "address": "Nanthiattukunnam, N.Paravur, 683513", 
+        "name": "SNV Sanskrit Higher Secondary School", 
+        "address": "Nanthiattukunnam, North Paravur, 683513", 
         "class": "Std. V to XII",
         "phone": "+91 484 244 7844",
         "syllabus": "State",
         "photo": "../../img/directory/schools/snv.jpg"
     },
     {
-        "name": "Sree Narayana HSS (SNHSS)", 
-        "address": "Near KSRTC Bus Station, N.Paravur, 683513", 
+        "name": "Sree Narayana HSS (SNHSS) Pullamkulam", 
+        "address": "Near KSRTC Bus Station, North Paravur, 683513", 
         "class": "Std. V to XII",
         "phone": "+91 484 244 2196",
         "syllabus": "State",
         "photo": "../../img/directory/schools/snhss.jpg"
     },
     {
-        "name": "St. Aloysius HS", 
-        "address": "Kannankulangara, N.Paravur, 683513", 
+        "name": "St. Aloysius High School", 
+        "address": "Kannankulangara, North Paravur, 683513", 
         "class": "Std. V to X",
         "phone": "+91 484 244 3341",
         "syllabus": "State",
         "photo": "../../img/directory/schools/Alosius.jpg"
     },
     {
+        "name": "Paliyam Govt. Higher Secondary School", 
+        "address": "Chendamangalam, North Paravur, 683512", 
+        "class": "Std. V to XII",
+        "phone": "+91 484 244 8210",
+        "syllabus": "State",
+        "photo": "../../img/directory/schools/boys.jpg"
+    },
+    {
+        "name": "SNM Higher Secondary School, Moothakunnam", 
+        "address": "Moothakunnam P.O., North Paravur, 683516", 
+        "class": "Std. V to XII",
+        "phone": "+91 484 248 2050",
+        "syllabus": "State",
+        "photo": "../../img/directory/schools/snhss.jpg"
+    },
+    {
+        "name": "HMYS Higher Secondary School, Kottuvallikkad", 
+        "address": "Kottuvallikkad, Moothakunnam, North Paravur", 
+        "class": "Std. V to XII",
+        "phone": "+91 484 248 3120",
+        "syllabus": "State",
+        "photo": "../../img/directory/schools/snv.jpg"
+    },
+    {
+        "name": "St. Philomena's HSS, Koonammavu", 
+        "address": "Koonammavu, North Paravur, 683518", 
+        "class": "Std. V to XII",
+        "phone": "+91 484 251 1240",
+        "syllabus": "State",
+        "photo": "../../img/directory/schools/Alosius.jpg"
+    },
+    {
+        "name": "Gothuruth St. Sebastian's Higher Secondary School", 
+        "address": "Gothuruth, North Paravur, 683516", 
+        "class": "Std. V to XII",
+        "phone": "+91 484 244 5920",
+        "syllabus": "State",
+        "photo": "../../img/directory/schools/boys.jpg"
+    },
+    {
+        "name": "rama Varma Union HSS (RVUHSS), Cherai", 
+        "address": "Cherai, North Paravur, 683514", 
+        "class": "Std. V to XII",
+        "phone": "+91 484 248 8340",
+        "syllabus": "State",
+        "photo": "../../img/directory/schools/snhss.jpg"
+    },
+    {
         "name": "Kizhakkepram Govt. UPS", 
-        "address": "Kizhakkepram, N.Paravur, 683513", 
+        "address": "Kizhakkepram, North Paravur, 683513", 
         "class": "Std. I to VII",
         "phone": "NA",
         "syllabus": "State",
@@ -57,7 +105,7 @@
     },
     {
         "name": "Little Hearts School", 
-        "address": "Kizhakkepram, N.Paravur, 683513", 
+        "address": "Kizhakkepram, North Paravur, 683513", 
         "class": "Pre-KG to XII",
         "phone": "+91 484 244 3313",
         "syllabus": "CBSE",
@@ -75,7 +123,7 @@
     },
     {
         "name": "Maria Teresa Scrilli Public School", 
-        "address": "T B Road, N.Paravur, 683513", 
+        "address": "T B Road, North Paravur, 683513", 
         "class": "Std. I to X",
         "phone": "+91 484 244 7613",
         "syllabus": "CBSE",
@@ -93,7 +141,7 @@
     },
     {
         "name": "Chavara Darsan CMI Public School", 
-        "address": "Koonammavu, N.Paravur, 683518", 
+        "address": "Koonammavu, North Paravur, 683518", 
         "class": "Pre-KG to XII",
         "phone": "+91 484 251 1162",
         "syllabus": "CBSE",
@@ -108,5 +156,21 @@
         "syllabus": "CBSE",
         "website": "www.adarshavidyabhavan.com",
         "photo": "../../img/directory/schools/adarsha.jpg"
+    },
+    {
+        "name": "Mary Ward English Medium School (CBSE)", 
+        "address": "Kottakkavu, North Paravur, 683513", 
+        "class": "Pre-KG to X",
+        "phone": "+91 484 244 6352",
+        "syllabus": "CBSE",
+        "photo": "../../img/directory/schools/scrilli.jpg"
+    },
+    {
+        "name": "Isabella De Rosis Public School (CBSE)", 
+        "address": "Gothuruth / Vadakkekara, North Paravur, 683516", 
+        "class": "Pre-KG to X",
+        "phone": "+91 484 248 6120",
+        "syllabus": "CBSE",
+        "photo": "../../img/directory/schools/infant.jpg"
     }
 ]

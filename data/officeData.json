@@ -1,14 +1,75 @@
 [
     {
-        "name": "North Paravur Municipality", 
-        "address": "Municipal Jn, North Paravur", 
+        "name": "North Paravur Police Station (SHO / Circle Inspector)", 
+        "address": "Police Station Road, Near Sub Court, North Paravur", 
+        "phone": "+91 484 244 5525",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "Fire and Rescue Station, North Paravur", 
+        "address": "Perumpadanna, NH-66, North Paravur", 
+        "phone": "+91 484 244 3101",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "Vadakkekara Police Station", 
+        "address": "Moothakunnam / Vadakkekara, North Paravur", 
+        "phone": "+91 484 248 2028",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "Varapuzha Police Station", 
+        "address": "Varapuzha, Paravur Taluk", 
+        "phone": "+91 484 251 3073",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "Munambam Police Station", 
+        "address": "Pallippuram / Munambam, Vypin", 
+        "phone": "+91 484 248 8230",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "North Paravur Municipality Office", 
+        "address": "Municipal Junction, Main Road, North Paravur", 
         "phone": "+91 484 244 2327",
         "photo": "../../img/directory/office/office.jpg"
     },
     {
-        "name": "Taluk Office North Paravur", 
-        "address": "First floor, Police Station Rd, above Sub Registrar Office, North Paravur", 
+        "name": "Taluk Office North Paravur (Tahsildar)", 
+        "address": "First Floor, Mini Civil Station / Police Station Rd, North Paravur", 
         "phone": "+91 484 244 2326",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "RTO North Paravur (KL-42 Sub Regional Transport Office)", 
+        "address": "Republic Road, Perumpadanna, North Paravur", 
+        "phone": "+91 484 266 2522",
+        "email": "kl42@keralamvd.gov.in",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "KSEB Electrical Section North Paravur", 
+        "address": "Court Road, North Paravur", 
+        "phone": "+91 484 244 2322",
+        "photo": "../../img/directory/office/kseb.jpg"
+    },
+    {
+        "name": "KSRTC Bus Station (Enquiry Office), North Paravur", 
+        "address": "KSRTC Stand Road, Near Pullamkulam, North Paravur", 
+        "phone": "+91 484 244 4439",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "Kerala Water Authority (KWA) Sub Division, Paravur", 
+        "address": "Near Municipal Junction, North Paravur", 
+        "phone": "+91 484 244 2615",
+        "photo": "../../img/directory/office/office.jpg"
+    },
+    {
+        "name": "Excise Range Office, North Paravur", 
+        "address": "KMK Junction / Perumpadanna, North Paravur", 
+        "phone": "+91 484 244 1280",
         "photo": "../../img/directory/office/office.jpg"
     },
     {
@@ -26,30 +87,29 @@
     {
         "name": "Taluk Civil Supply Office", 
         "address": "Municipal Shopping Complex, Near Private Bus Stand, North Paravur", 
-        "phone": "+91 484 244 4438",
+        "phone": "+91 484 244 2248",
         "photo": "../../img/directory/office/office.jpg"
     },
     {
-        "name": "RTO North Paravur (KL-42)", 
-        "address": "Republic Road, Perumpadanna, North Paravur", 
-        "phone": "+91 484 266 2522",
-        "email": "kl42@keralamvd.gov.in",
+        "name": "Chendamangalam Grama Panchayat Office", 
+        "address": "Gothuruth – Vadakkumpuram Road, Chendamangalam", 
+        "phone": "+91 484 251 8568",
         "photo": "../../img/directory/office/office.jpg"
     },
     {
-        "name": "KSEB North Paravur", 
-        "address": "Court Rd, North Paravur", 
-        "phone": "+91 484 244 2322",
-        "photo": "../../img/directory/office/kseb.jpg"
+        "name": "Chendamangalam Village Office", 
+        "address": "Chendamangalam, North Paravur Taluk", 
+        "phone": "+91 94960 45703",
+        "photo": "../../img/directory/office/office.jpg"
     },
     {
-        "name": "LIC North Paravur", 
+        "name": "LIC North Paravur Branch", 
         "address": "P.B.No.16, Gurudarsan Bldg., Main Road, North Paravur", 
         "phone": "+91 484 244 3298",
         "photo": "../../img/directory/office/lic.jpg"
     },
     {
-        "name": "North Paravur Main Post Office", 
+        "name": "North Paravur Head Post Office (683513)", 
         "address": "Opp. Pvt. Bus Station, Main Road, North Paravur", 
         "phone": "+91 484 244 2330",
         "photo": "../../img/directory/office/post.jpg"
