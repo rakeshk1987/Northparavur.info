@@ -221,24 +221,49 @@ function applyLanguage(lang) {
     });
 
     var dropBtn = document.querySelector("#myTopnav .dropdown .dropbtn");
-    if (dropBtn) dropBtn.innerHTML = dict.nav_directory;
-
-    // Ensure worship.html is present in the dropdown menu across all pages
     var dropMenu = document.querySelector("#myTopnav .dropdown-content");
-    if (dropMenu && !dropMenu.querySelector('a[href*="worship.html"]')) {
-        var hotelsLink = dropMenu.querySelector('a[href*="hotels.html"]');
-        if (hotelsLink) {
-            var worshipLink = document.createElement("a");
-            worshipLink.setAttribute("href", hotelsLink.getAttribute("href").replace("hotels.html", "worship.html"));
-            worshipLink.innerHTML = dict.nav_worship;
-            dropMenu.appendChild(worshipLink);
+    var hospitalsAnchor = dropMenu ? dropMenu.querySelector('a[href*="hospitals.html"]') : null;
+    var dirHubHref = hospitalsAnchor
+        ? hospitalsAnchor.getAttribute("href").replace("directory/hospitals.html", "directory.html")
+        : "./pages/directory.html";
+
+    if (dropBtn) {
+        dropBtn.innerHTML = dict.nav_directory;
+        if (!dropBtn.getAttribute("data-dir-bound")) {
+            dropBtn.setAttribute("data-dir-bound", "true");
+            dropBtn.addEventListener("click", function () {
+                window.location.href = dirHubHref;
+            });
+        }
+    }
+
+    // Ensure "All Directory Categories" and "worship.html" are present in the dropdown menu across all pages
+    if (dropMenu) {
+        if (!dropMenu.querySelector('a[data-dir-hub="true"]')) {
+            var allDirLink = document.createElement("a");
+            allDirLink.setAttribute("href", dirHubHref);
+            allDirLink.setAttribute("data-dir-hub", "true");
+            dropMenu.insertBefore(allDirLink, dropMenu.firstChild);
+        }
+        if (!dropMenu.querySelector('a[href*="worship.html"]')) {
+            var hotelsLink = dropMenu.querySelector('a[href*="hotels.html"]');
+            if (hotelsLink) {
+                var worshipLink = document.createElement("a");
+                worshipLink.setAttribute("href", hotelsLink.getAttribute("href").replace("hotels.html", "worship.html"));
+                worshipLink.innerHTML = dict.nav_worship;
+                dropMenu.appendChild(worshipLink);
+            }
         }
     }
 
     var dropLinks = document.querySelectorAll("#myTopnav .dropdown-content a");
     dropLinks.forEach(function (a) {
         var href = a.getAttribute("href") || "";
-        if (href.indexOf("hospitals.html") !== -1) a.innerHTML = dict.nav_hospitals;
+        if (a.getAttribute("data-dir-hub") === "true") {
+            a.innerHTML = lang === "ml"
+                ? '<i class="fas fa-th-large"></i> എല്ലാ ഡയറക്ടറി വിഭാഗങ്ങളും'
+                : '<i class="fas fa-th-large"></i> All Directory Categories';
+        } else if (href.indexOf("hospitals.html") !== -1) a.innerHTML = dict.nav_hospitals;
         else if (href.indexOf("offices.html") !== -1) a.innerHTML = dict.nav_offices;
         else if (href.indexOf("schools.html") !== -1) a.innerHTML = dict.nav_schools;
         else if (href.indexOf("colleges.html") !== -1) a.innerHTML = dict.nav_colleges;
