@@ -13,56 +13,77 @@ window.NP_MASTER_DATA = {
         lastUpdated: "2026"
     },
 
-    // 1. HISTORICAL TIMELINE (Bilingual EN & ML)
+    // 1. HISTORICAL TIMELINE (12 Chapters — Bilingual EN & ML)
     heritageTimeline: [
         {
-            era: "52 BC – 300 AD",
-            title_en: "Ancient Port of Muziris (Murachipattanam)",
-            title_ml: "പ്രാചീന മുസിരിസ് തുറമുഖം (മുരിച്ചിപട്ടണം)",
-            desc_en: "Under the early Chera rulers, Muziris (around Pattanam, 3 km from North Paravur) became the premier Spice Route emporium trading black pepper, ivory, and pearls with Rome, Greece, Egypt, and China.",
-            desc_ml: "ചേര രാജാക്കന്മാരുടെ കാലത്ത് റോം, ഗ്രീസ്, ഈജിപ്ത്, ചൈന എന്നിവിടങ്ങളുമായി കുരുമുളകും സുഗന്ധവ്യഞ്ജനങ്ങളും വ്യാപാരം നടത്തിയിരുന്ന ലോകപ്രശസ്ത തുറമുഖമായിരുന്നു മുസിരിസ്."
+            era: "1. Ancient Era • 1st Century",
+            title_en: "Ancient Paravur & Port of Muziris",
+            title_ml: "ചരിത്രം – പുരാതന പറവൂരും മുസിരിസും",
+            desc_en: "Located along the Periyar River and backwaters, Muziris connected early Chera Kerala with Egypt, Rome, Greece, Arabia, and West Asia in the spice, black pepper, ivory, and pearl trade.",
+            desc_ml: "പെരിയാർ നദിയുടെയും കായലുകളുടെയും സമീപത്തായി സ്ഥിതിചെയ്യുന്ന പറവൂരും മുസിരിസ് തുറമുഖവും ഈജിപ്ത്, റോം, ഗ്രീസ്, അറേബ്യ എന്നിവയുമായി കുരുമുളക് - സുഗന്ധവ്യഞ്ജന വ്യാപാരം നടത്തിയിരുന്നു."
         },
         {
-            era: "52 AD",
-            title_en: "Arrival of St. Thomas & Kottakkavu Church",
-            title_ml: "സെന്റ് തോമസിന്റെ വരവും കോട്ടക്കാവ് പള്ളിയും",
-            desc_en: "St. Thomas the Apostle landed at Muziris (Maliankara) in 52 AD and established the historic Kottakkavu Mar Thoma Church in North Paravur, home to an 880 AD Persian Stone Cross.",
-            desc_ml: "എ.ഡി 52-ൽ മുസിരിസിൽ (മാല്യങ്കര) കപ്പലിറങ്ങിയ സെന്റ് തോമസ് സ്ഥാപിച്ച ഏഴ് പള്ളികളിൽ ഒന്നാണ് പറവൂർ കോട്ടക്കാവ് പള്ളി."
+            era: "2. 200 BCE – 1000 CE",
+            title_en: "Pattanam Archaeological Excavations (KCHR 2007)",
+            title_ml: "പട്ടണം – പുരാതന മുസിരിസിന്റെ അവശേഷിപ്പുകൾ",
+            desc_en: "Excavations at Pattanam unearthed Roman-Mediterranean pottery, storage jars, brick structures, and wharf remains proving active global trade from the 2nd century BCE to 10th century CE.",
+            desc_ml: "2007-ൽ KCHR നേതൃത്വത്തിൽ പട്ടണത്ത് നടന്ന ഖനനങ്ങളിൽ റോമൻ-മെഡിറ്ററേനിയൻ മൺപാത്രങ്ങൾ, ഇഷ്ടിക നിർമ്മിതികൾ, പുരാതന കിണറുകൾ എന്നിവ കണ്ടെത്തി."
         },
         {
-            era: "629 AD",
-            title_en: "Cheraman Juma Masjid — India's First Mosque",
-            title_ml: "ചേരമാൻ ജുമാ മസ്ജിദ് — ഇന്ത്യയിലെ ആദ്യ മുസ്ലിം പള്ളി",
-            desc_en: "Built in 629 AD by Malik Bin Dinar along the Paravur–Kodungallur corridor, standing as a timeless monument to Kerala's maritime cultural harmony.",
-            desc_ml: "മാലിക് ബിൻ ദിനാർ എ.ഡി 629-ൽ നിർമ്മിച്ച ഇന്ത്യയിലെ തന്നെ ആദ്യത്തെ മുസ്ലിം പള്ളി."
+            era: "3. 9th – 12th Century CE",
+            title_en: "The Chera Dynasty & Mahodayapuram",
+            title_ml: "ചേരന്മാരും മഹോദയപുരവും",
+            desc_en: "From the Sangam Cheras to the Chera Perumals ruling from Mahodayapuram (Kodungallur), Paravur formed a key part of this political and commercial heartland.",
+            desc_ml: "ഒൻപതാം നൂറ്റാണ്ടിനും പന്ത്രണ്ടാം നൂറ്റാണ്ടിനും ഇടയിൽ മഹോദയപുരം ആസ്ഥാനമാക്കി ഭരിച്ച ചേര പെരുമാക്കന്മാരുടെ ചരിത്ര-സാംസ്കാരിക മേഖലയുടെ ഭാഗമായിരുന്നു പറവൂർ."
         },
         {
-            era: "1165 – 1615 AD",
-            title_en: "Paravur & Chendamangalam Jewish Synagogues",
-            title_ml: "പറവൂർ - ചേന്ദമംഗലം ജൂത സിനഗോഗുകൾ",
-            desc_en: "Sephardic and Malabar Jewish merchants thrived in Paravur market and Chendamangalam under the patronage of the Cochin Royal Family and Paliath Achans.",
-            desc_ml: "കൊച്ചി രാജാക്കന്മാരുടെയും പാലിയത്ത് അച്ചന്മാരുടെയും സംരക്ഷണയിൽ ജൂത വ്യാപാരികൾ നിർമ്മിച്ച ചരിത്രപ്രസിദ്ധമായ സിനഗോഗുകൾ."
+            era: "4. 52 CE & 9th Century",
+            title_en: "Christian Heritage – Kottakkavu Church",
+            title_ml: "ക്രൈസ്തവ പൈതൃകം – കോട്ടക്കാവ് പള്ളി",
+            desc_en: "Traditionally founded by St. Thomas the Apostle in 52 CE among his eight churches in Kerala, preserving an ancient 9th-century Persian Cross.",
+            desc_ml: "എ.ഡി. 52-ൽ വിശുദ്ധ തോമാശ്ലീഹാ സ്ഥാപിച്ച പള്ളികളിലൊന്നായ കോട്ടക്കാവ് പള്ളിയിൽ ഒൻപതാം നൂറ്റാണ്ടിലെ പുരാതന പേർഷ്യൻ കുരിശ് സംരക്ഷിക്കപ്പെടുന്നു."
         },
         {
-            era: "1341 AD",
-            title_en: "The Great Periyar Flood",
-            title_ml: "1341-ലെ പെരിയാർ മഹാപ്രളയം",
-            desc_en: "A massive flood in the Periyar River reshaped the coastline, silting up the ancient Muziris harbour and creating Vypin Island and the scenic backwater network.",
-            desc_ml: "പെരിയാറിലുണ്ടായ മഹാപ്രളയം മുസിരിസ് തുറമുഖത്തിന്റെ ഗതി മാറ്റുകയും വൈപ്പിൻ കര രൂപപ്പെടുകയും ചെയ്തു."
+            era: "5. 1164 / 1615–1616 CE",
+            title_en: "Jewish Heritage – Paravur Synagogue",
+            title_ml: "യഹൂദ പൈതൃകം – പറവൂർ ജൂതപ്പള്ളി",
+            desc_en: "Reconstructed in 1615–1616 on an earlier 1164 synagogue site, blending Kerala Padippura architecture with Jewish liturgical traditions; now preserved as the Kerala Jews History Museum.",
+            desc_ml: "1164-ലെ പഴയ ജൂതപ്പള്ളിയുടെ സ്ഥാനത്ത് 1615–1616-ൽ പുനർനിർമ്മിച്ച കേരളീയ-യഹൂദ വാസ്തുവിദ്യാ സ്മാരകം; ഇന്ന് കേരള ജൂത ചരിത്ര മ്യൂസിയം."
         },
         {
-            era: "1503 – 1663 AD",
-            title_en: "Portuguese, Dutch & Paliam Kovilakom Era",
-            title_ml: "പോർച്ചുഗീസ് - ഡച്ച് കാലഘട്ടവും പാലിയം കൊട്ടാരവും",
-            desc_en: "The Portuguese built India's oldest surviving European fort at Pallippuram (1503) and Kottappuram Fort (1523). The Dutch later renovated Paliam Palace in Chendamangalam for the Paliath Achan, Prime Minister of Cochin.",
-            desc_ml: "ഇന്ത്യയിലെ ഏറ്റവും പഴക്കമുള്ള യൂറോപ്യൻ കോട്ടയായ പള്ളിപ്പുറം കോട്ടയും (1503), കൊച്ചി രാജ്യത്തെ പ്രധാനമന്ത്രിമാരായിരുന്ന പാലിയത്ത് അച്ചന്മാരുടെ ചേന്ദമംഗലം പാലിയം കൊട്ടാരവും."
+            era: "6. 1498 – 18th Century",
+            title_en: "European Arrival & Kingdom of Cochin",
+            title_ml: "യൂറോപ്യന്മാരുടെ വരവും കൊച്ചി രാജ്യവും",
+            desc_en: "Following Vasco da Gama's arrival in 1498, the Portuguese, Dutch, and English shaped central Kerala's spice trade and fortifications.",
+            desc_ml: "1498-ൽ വാസ്കോ ഡ ഗാമയുടെ വരവിനുശേഷം പോർച്ചുഗീസുകാരും ഡച്ചുകാരും ഇംഗ്ലീഷുകാരും കൊച്ചി രാജ്യവുമായി ചേർന്ന് നടത്തിയ വ്യാപാര-രാഷ്ട്രീയ മാറ്റങ്ങൾ."
         },
         {
-            era: "May 1982",
-            title_en: "First Electronic Voting Machine (EVM) in India",
-            title_ml: "ഇന്ത്യയിൽ ആദ്യമായി ഇലക്ട്രോണിക് വോട്ടിംഗ് മെഷീൻ (EVM)",
-            desc_en: "North Paravur Assembly Constituency made modern democratic history on 19 May 1982 by becoming the very first place in India to use Electronic Voting Machines!",
-            desc_ml: "1982 മെയ് 19-ന് ഇന്ത്യയിൽ ആദ്യമായി ഇലക്ട്രോണിക് വോട്ടിംഗ് മെഷീൻ (EVM) ഉപയോഗിച്ച് ചരിത്രം സൃഷ്ടിച്ച മണ്ഡലമാണ് നോർത്ത് പറവൂർ."
+            era: "7. 1663 – 1809 CE",
+            title_en: "Chendamangalam & the Paliath Achans",
+            title_ml: "ചേന്ദമംഗലവും പാലിയത്തച്ചന്മാരും",
+            desc_en: "Ancestral seat of the Paliath Achans, hereditary Prime Ministers of Cochin, and a rare symbol of harmony where synagogue, church, temple, and palace stand together.",
+            desc_ml: "കൊച്ചി രാജാക്കന്മാരുടെ പ്രധാനമന്ത്രിമാരായിരുന്ന പാലിയത്തച്ചന്മാരുടെ ആസ്ഥാനവും മതസൗഹാർദ്ദത്തിന്റെ പ്രതീകവുമായ ചേന്ദമംഗലം."
+        },
+        {
+            era: "8. 1762 – 15 April 1790",
+            title_en: "Travancore Rule & Nedumkotta (Travancore Lines)",
+            title_ml: "തിരുവിതാംകൂർ ഭരണവും നെടുങ്കോട്ടയും",
+            desc_en: "Ceded to Travancore in 1762, Paravur stood along the strategic Nedumkotta fortifications before Tipu Sultan's forces breached the lines on 15 April 1790.",
+            desc_ml: "1762-ൽ തിരുവിതാംകൂറിന്റെ ഭാഗമായ പറവൂരും മൈസൂർ ആക്രമണങ്ങളെ ചെറുക്കാൻ നിർമ്മിച്ച ചരിത്രപ്രസിദ്ധമായ നെടുങ്കോട്ടയും."
+        },
+        {
+            era: "9. 1912 – 1945",
+            title_en: "Municipality (1912) & Freedom Struggle (1938–1945)",
+            title_ml: "സ്വാതന്ത്ര്യസമരവും നഗരസഭാ രൂപീകരണവും (1912)",
+            desc_en: "Established as a Municipality in 1912; hosted Mahatma Gandhi at the Concert Ground and formed the Travancore State Congress unit in 1938.",
+            desc_ml: "1912-ൽ നഗരസഭയായി രൂപീകരിക്കപ്പെട്ടു; മഹാത്മാഗാന്ധിയുടെ പറവൂർ സന്ദർശനവും 1938-ലെ സ്റ്റേറ്റ് കോൺഗ്രസ് പ്രക്ഷോഭങ്ങളും."
+        },
+        {
+            era: "10. 19 May 1982",
+            title_en: "India's First Electronic Voting Machine (EVM) Trial",
+            title_ml: "ഇന്ത്യയിലെ ആദ്യത്തെ ഇലക്ട്രോണിക് വോട്ടിംഗ് പരീക്ഷണം",
+            desc_en: "On 19 May 1982, 50 out of 84 polling stations in Paravur Assembly constituency made history with the first experimental use of EVMs in an Indian election!",
+            desc_ml: "1982 മെയ് 19-ന് പറവൂർ നിയമസഭാ മണ്ഡലത്തിലെ 50 പോളിംഗ് സ്റ്റേഷനുകളിൽ ഇന്ത്യയിൽ ആദ്യമായി ഇലക്ട്രോണിക് വോട്ടിംഗ് മെഷീനുകൾ പരീക്ഷിച്ചു."
         }
     ],
 

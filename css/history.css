@@ -2,43 +2,291 @@ body {
     margin: 0;
 }
 
-.gridwrapper {
-    display: grid;
-    grid-template-columns: 18% 64% 18%;
-    background-color: var(--bg-body);
+.historyContainer {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 32px 20px 56px 20px;
 }
 
-.aboutCss {
-    line-height: 1.85;
-    background-color: var(--bg-surface);
-    color: var(--text-primary);
-    margin: 20px;
-    padding: 28px;
-    border-radius: 10px;
+/* Header Card */
+.historyHeroBox {
+    background: var(--bg-surface);
     border: 1px solid var(--border-color);
+    border-top: 4px solid var(--brand-accent);
+    border-radius: 16px;
+    padding: 32px 28px;
     box-shadow: var(--card-shadow);
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'Manjari', 'Karla', sans-serif;
+    text-align: center;
+    margin-bottom: 28px;
 }
 
-.aboutCss h3 {
+.historyHeroBox h1 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 2.2rem;
     color: var(--brand-primary);
-    font-size: 24px;
-    margin-top: 10px;
+    margin: 8px 0 10px 0;
+    line-height: 1.3;
 }
 
-@media screen and (max-width: 900px) {
-    .gridwrapper {
-        grid-template-columns: 4% 92% 4%;
+.historySubtitle {
+    font-size: 1.08rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    max-width: 720px;
+    margin: 0 auto 20px auto;
+}
+
+.historyToolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.historySearchInput {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px 16px;
+    border-radius: 99px;
+    border: 1.5px solid var(--border-color);
+    background: var(--bg-surface-alt);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.historySearchInput:focus {
+    outline: none;
+    border-color: var(--brand-primary);
+}
+
+.viewToggleGroup {
+    display: inline-flex;
+    background: var(--bg-surface-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 99px;
+    padding: 4px;
+}
+
+.viewToggleBtn {
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    padding: 7px 16px;
+    border-radius: 99px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+}
+
+.viewToggleBtn.activeView {
+    background: var(--brand-primary);
+    color: #ffffff;
+}
+
+[data-theme="dark"] .viewToggleBtn.activeView {
+    color: #0b1517;
+}
+
+/* Chapter Quick Jump Pills */
+.chapterNavPills {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 4px 16px 4px;
+    margin-bottom: 18px;
+    scrollbar-width: thin;
+}
+
+.chapterPill {
+    flex: 0 0 auto;
+    padding: 7px 14px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 99px;
+    color: var(--text-secondary);
+    font-size: 12.5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    box-shadow: var(--card-shadow);
+}
+
+.chapterPill:hover {
+    background: var(--brand-accent);
+    color: #ffffff;
+    border-color: var(--brand-accent);
+}
+
+/* ============================================================================
+   TIMELINE VIEW
+   ============================================================================ */
+.historyTimeline {
+    position: relative;
+    max-width: 920px;
+    margin: 24px auto;
+    padding-left: 42px;
+}
+
+.historyTimeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    bottom: 8px;
+    width: 3px;
+    background: linear-gradient(180deg, var(--brand-accent), var(--brand-primary));
+    border-radius: 3px;
+}
+
+.timelineNode {
+    position: relative;
+    margin-bottom: 28px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 24px 28px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    scroll-margin-top: 80px;
+}
+
+.timelineNode:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--card-shadow-hover);
+    border-color: var(--brand-accent);
+}
+
+.timelineMarker {
+    position: absolute;
+    left: -42px;
+    top: 24px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--brand-accent);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--bg-body);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timelineNodeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 10px;
+}
+
+.timelineNode h2 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 1.35rem;
+    color: var(--brand-primary);
+    margin: 0;
+    line-height: 1.35;
+}
+
+.timelineEraBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-size: 11.5px;
+    font-weight: 700;
+    background: var(--brand-gold-soft);
+    color: var(--brand-accent);
+    border: 1px solid rgba(197, 137, 50, 0.35);
+    white-space: nowrap;
+}
+
+.timelineBody p {
+    margin: 0 0 12px 0;
+    font-size: 15.5px;
+    line-height: 1.82;
+    color: var(--text-primary);
+    text-align: left;
+}
+
+.timelineBody p:last-child {
+    margin-bottom: 0;
+}
+
+/* ============================================================================
+   READING / BOOK VIEW
+   ============================================================================ */
+.historyBookView {
+    max-width: 840px;
+    margin: 24px auto;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 36px 42px;
+    box-shadow: var(--card-shadow);
+}
+
+.bookChapter {
+    margin-bottom: 34px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid var(--border-color);
+    scroll-margin-top: 80px;
+}
+
+.bookChapter:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bookChapter h2 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    color: var(--brand-primary);
+    font-size: 1.45rem;
+    margin: 6px 0 14px 0;
+}
+
+.bookChapter p {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-primary);
+    margin: 0 0 14px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .historyHeroBox {
+        padding: 22px 16px;
     }
-}
-
-@media screen and (max-width: 660px) {
-    .aboutCss {
-        font-size: 15px;
-        padding: 18px;
-        margin: 12px;
-        text-align: left;
+    .historyHeroBox h1 {
+        font-size: 1.6rem;
+    }
+    .historyTimeline {
+        padding-left: 28px;
+    }
+    .historyTimeline::before {
+        left: 9px;
+    }
+    .timelineMarker {
+        left: -28px;
+        width: 24px;
+        height: 24px;
+        font-size: 11px;
+    }
+    .timelineNode {
+        padding: 18px 16px;
+    }
+    .historyBookView {
+        padding: 22px 18px;
     }
 }

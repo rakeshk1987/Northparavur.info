@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>NorthParavur.in | History of North Paravur & Ancient Muziris</title>
+	<title>NorthParavur.in | History of North Paravur & Ancient Muziris (Timeline)</title>
 	<link rel="icon" href="../img/favicon.ico"/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Explore the ancient history of North Paravur (Muziris), Kerala — from the Chera spice trade port to Kottakkavu Church, Jewish Synagogues, and Paliam Palace.">
+	<meta name="description" content="Explore the 12-chapter historical timeline of North Paravur (वടക്കൻ പറവൂർ) — from Ancient Muziris & Pattanam excavations to Kottakkavu Church, Paravur Synagogue, Paliam Achans, Nedumkotta, and India's first EVM.">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/header.css">
 	<link rel="stylesheet" href="../css/footer.css">
@@ -23,7 +23,7 @@
 			<div>
 				<a href="../index.html">
 					<div class="logo">NorthParavur.in</div>
-					<div class="tagline">A Local & Visitor Guide</div>
+					<div class="tagline">Gateway to Ancient Muziris &bull; Local Guide</div>
 				</a>
 			</div>	
 			<div class="language"></div>
@@ -58,19 +58,37 @@
 		<div>
 			<img alt="North Paravur Heritage Banner" src="../img/banner.jpg" class="bannerImg">
 		</div>
-		<div class="gridwrapper">
-			<div style="background-color: #EAEAEA;"></div>
-			<div>
-				<div class="aboutCss">
-					<p class="smallNav"><a href="../index.html">HOME</a> / History</p>
-					<h3>ചരിത്രം</h3>
+
+		<div class="historyContainer">
+			<div class="historyHeroBox">
+				<p class="smallNav" style="margin:0 0 6px 0;"><a href="../index.html">HOME</a> / History & Heritage Timeline</p>
+				<h1 id="historyMainTitle">North Paravur – Where History, Heritage and Culture Meet</h1>
+				<p id="historyMainSubtitle" class="historySubtitle">A journey through history, from the ancient world of Muziris to modern Kerala.</p>
+
+				<!-- Search & Timeline/Book View Switcher -->
+				<div class="historyToolbar">
+					<input id="historySearchInput" type="search" class="historySearchInput" placeholder="Search chapters (e.g., Muziris, Pattanam, Synagogue, Nedumkotta, EVM)...">
+					<div class="viewToggleGroup">
+						<button id="btnViewTimeline" type="button" class="viewToggleBtn activeView" onclick="setHistoryView('timeline')">
+							<i class="fas fa-stream"></i> Timeline View
+						</button>
+						<button id="btnViewBook" type="button" class="viewToggleBtn" onclick="setHistoryView('book')">
+							<i class="fas fa-book-open"></i> Reading View
+						</button>
+					</div>
 				</div>
-			</div>	
-			<div style="background-color: #EAEAEA;"></div>
-		</div>	
+			</div>
+
+			<!-- 12-Chapter Quick-Jump Bar -->
+			<nav id="historyChapterPills" class="chapterNavPills" aria-label="History Chapters"></nav>
+
+			<!-- Dynamic Markdown Timeline / Book Content Area -->
+			<div id="historyContentArea"></div>
+		</div>
 	</main>
 	
 	<div id="footer"></div>
 	<script src="../scripts/common.js"></script>
+	<script src="../scripts/history.js"></script>
 </body>
 </html>
