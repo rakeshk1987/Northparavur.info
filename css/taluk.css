@@ -1,63 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-
-.gridwrapper{
-
-	display: grid;
-	grid-template-columns: 25% 50% 25%;
+.gridwrapper {
+    display: grid;
+    grid-template-columns: 18% 64% 18%;
+    background-color: var(--bg-body);
 }
 
-
-.contentText{
-	margin: 20px;
-	background-color: white;
-	text-align: justify;
-	font-size: 15px;
+.contentText {
+    margin: 20px;
+    padding: 24px;
+    background-color: var(--bg-surface);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: var(--card-shadow);
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: 'Manjari', 'Karla', sans-serif;
 }
 
-/* Collapsible*/
+/* Collapsible */
 .collapsible {
-	font-size: 2ch;
-	background-color: white;
-	color: black;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-  }
-  
-  .active, .collapsible:hover {
-	background-color: #3498DB;
-	color:white;
-	font-size: 2.25ch;
-  }
-  
-  .collapsible:after {
-	content: '\002B';
-	color: black;
-	font-weight: bold;
-	float: right;
-	margin-left: 5px;
-  }
-  
-  .active:after {
-	content: "\2212";
-  }
-  
-  .content {
-	font-family: 'Karla', sans-serif;
-	font-size: large;
-	padding: 0 18px;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-	background-color: #f1f1f1;
-  }
-
-  @media screen and (max-width: 786px) {
-    .gridwrapper{
-		grid-template-columns: 5% 90% 5%;
-	}
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--bg-surface-alt);
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 16px 18px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.2s, color 0.2s;
 }
-  
+
+.collapsible.active, .collapsible:hover {
+    background-color: var(--brand-primary);
+    color: white;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: inherit;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.collapsible.active:after {
+    content: "\2212";
+}
+
+.content {
+    font-family: 'Karla', 'Manjari', sans-serif;
+    font-size: 15px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+    background-color: var(--bg-surface);
+    color: var(--text-secondary);
+    border-left: 2px solid var(--brand-primary);
+    margin-bottom: 6px;
+}
+
+.content a {
+    color: var(--brand-primary);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 786px) {
+    .gridwrapper {
+        grid-template-columns: 4% 92% 4%;
+    }
+    .contentText {
+        margin: 12px;
+        padding: 16px;
+        text-align: left;
+    }
+}

@@ -1,53 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-	<title>North Paravur info | Gallery</title>
+	<title>NorthParavur.in | Photo Gallery of North Paravur</title>
 	<link rel="icon" href="../img/favicon.ico"/>
-
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="North Paravur, formerly known as Parur, is a municipality in Ernakulam district in the Indian state of Kerala.">
-	<meta name="keywords" content="North Paravur, Paravur info, kochi, ernakulam, aluva">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Photo gallery of North Paravur, Muziris monuments, Cherai & Munambam beaches, Gothuruth boat race, and Kadamakudy backwaters.">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		
-	<link rel = "stylesheet" href="../css/header.css">
-	<link rel = "stylesheet" href="../css/footer.css" >
-	<link rel = "stylesheet" href="../css/history.css" >
-	<link rel = "stylesheet" href="../lightbox/css/lightbox.css" >
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/history.css">
+	<link rel="stylesheet" href="../lightbox/css/lightbox.css">
 	<link rel="stylesheet" href="../css/gallery.css">
 
 	<script src="../scripts/all.js" data-auto-a11y="true"></script>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-	
-	<!--Top Navigation Starts here-->
 	<header>
 		<div class="headerText">
 			<div class="respNav">
 				<div class="respNavPos">
-					<a href="javascript:void(0);" style="font-size:40px;" class="respIcon" onclick="respMenu()">&#9776;</a>
+					<a href="javascript:void(0);" class="respIcon" onclick="respMenu()" aria-label="Menu">&#9776;</a>
 				</div>
 			</div>
 			<div>
 				<a href="../index.html">
-					<div class="logo">North Paravur.Info</div>
-					<div class="tagline"></div>
+					<div class="logo">NorthParavur.in</div>
+					<div class="tagline">A Local & Visitor Guide</div>
 				</a>
 			</div>	
-			<div class="language">
-				<div class="langDropdown">
-					<button class="LangDropBtn">Dialect</button>
-					<div class="langdropdown-content">
-						<a href="#">English</a>
-						<a href="#">Malayalam</a>
-					</div>
-				</div>
-			</div>
+			<div class="language"></div>
 		</div>
 		<div class="navbar" id="myTopnav">
 			<div class="navbarposition">
@@ -56,7 +39,7 @@
 					<a href="../pages/history.html"><i class="fas fa-history"></i> History</a>
 					<a class="active" href="../pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
 					<div class="dropdown">
-						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy
+						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directory
 							<i class="fa fa-caret-down"></i>
 						</button>
 						<div class="dropdown-content">
@@ -75,38 +58,25 @@
 		</div>
 	</header>
 
-	<!--Top Navigation ends here-->
-
 	<main>
 		<div>
-			<img src="../img/banner.jpg" class="bannerImg">
+			<img alt="North Paravur Gallery Banner" src="../img/banner.jpg" class="bannerImg">
 		</div>		
 
 		<div class="gridwrapper">
 			<div style="background-color: #EAEAEA;"></div>
 			<div>
-				<div>
-					<p class="smallNav" style="margin-left:20px;"><a href="../index.html" style="text-decoration: none; ">HOME</a> / Gallery</p>
-					<div>
-						<div class="galleryBody" id="gallery">				
-						</div>
-					</div>
-				</div>
+				<p class="smallNav" style="margin:20px 20px 0 20px;"><a href="../index.html">HOME</a> / Gallery</p>
+				<div class="galleryBody" id="gallery"></div>
 			</div>
 			<div style="background-color: #EAEAEA;"></div>
 		</div>
 	</main>
 	
-	<!--footer Starts here-->
 	<div id="footer"></div>
-	<!--footer endshere-->
 	
 	<script src="../scripts/common.js"></script>
 	<script src="../scripts/galleryData.js"></script>	
 	<script src="../lightbox/js/lightbox.js"></script>	
-
-
-
-
 </body>
 </html>

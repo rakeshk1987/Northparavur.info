@@ -1,31 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
-
-body{
-	margin: 0;
+body {
+    margin: 0;
 }
 
-.gridwrapper{
-	display: grid;
-	grid-template-columns: 25% 50% 25%;
+.gridwrapper {
+    display: grid;
+    grid-template-columns: 18% 64% 18%;
+    background-color: var(--bg-body);
 }
 
-.aboutCss{
-	line-height: 175%;
-	background-color: white;
-	margin: 20px;
-	text-align: justify;
-	font-size: 15px;
+.aboutCss {
+    line-height: 1.85;
+    background-color: var(--bg-surface);
+    color: var(--text-primary);
+    margin: 20px;
+    padding: 28px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Manjari', 'Karla', sans-serif;
 }
 
-@media screen and (max-width: 786px) {
-    .gridwrapper{
-		grid-template-columns: 5% 90% 5%;
-	}
+.aboutCss h3 {
+    color: var(--brand-primary);
+    font-size: 24px;
+    margin-top: 10px;
 }
 
-@media screen and (max-width:660px){
-    .aboutCss {
-        font-size: 2vw;
+@media screen and (max-width: 900px) {
+    .gridwrapper {
+        grid-template-columns: 4% 92% 4%;
     }
 }
 
+@media screen and (max-width: 660px) {
+    .aboutCss {
+        font-size: 15px;
+        padding: 18px;
+        margin: 12px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://northparavur.in/sitemap.xml

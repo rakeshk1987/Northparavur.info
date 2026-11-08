@@ -1,332 +1,251 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
-.mainBody{
+.mainBody {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 15% 70% 15%;
+    background-color: var(--bg-body);
 }
 
-.image_wrapper {
+.image_wrapper, .imgWrapper {
     position: relative;
-    text-align: center;
-}
-
-.imgWrapper {
     text-align: center;
 }
 
 .homeimg {
     height: auto;
+    max-height: 440px;
+    object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
-.welcomeModule{
-    font-family: 'Karla', sans-serif;
+.welcomeModule {
+    font-family: 'Karla', 'Manjari', sans-serif;
+    padding: 10px 15px;
 }
 
-.welcomeModule h1{
-    color: grey;
+.welcomeModule h1 {
+    color: var(--text-primary);
     text-align: center;
-    margin-bottom:10px;
+    margin-bottom: 14px;
+    font-size: 2rem;
 }
 
-.welcomeModule ul{
+.welcomeModule ul {
     list-style-type: none;
     min-height: 40px;
     padding: 0;
     margin: 0px auto 20px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 12px;
 }
 
 .welcomeModule li {
-    margin: 10px;
-    width: 260px;
+    width: 240px;
 }
 
 .welcomeModule a {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 5px 5px 20px;
-    background-color: #fff;
+    padding: 6px 6px 6px 18px;
+    background-color: var(--bg-surface);
     text-decoration: none;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.15s ease, border-color 0.2s ease;
+}
+
+.welcomeModule a:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-primary);
 }
 
 .linkText {
     flex: 1 1 auto;
     padding-right: 10px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 15px;
-    line-height: 1.2;
-    color: #0095CA;
+    line-height: 1.3;
+    color: var(--brand-primary);
     text-align: center;
 }
 
 .linkIcon {
     flex: 0 0 auto;
-    width: 50px;
-    height: 50px;
-    background-color: #3498DB;
-    border-radius: 2px;
+    width: 44px;
+    height: 44px;
+    background-color: var(--brand-accent);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.linkiconBg{
-    font-size: 5rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 1%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding-left: 6px;
-    padding-top: 14px;
+.linkiconBg {
+    font-size: 1.5rem;
     color: white;
 }
 
-@media screen and (max-width: 1870px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 200px;
-    }
-
-}
-
-@media screen and (max-width: 1410px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 300px;
-    }
-}
-
-@media screen and (max-width: 967px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 100%;
-    }
-}
-
-.info{
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+.info {
+    padding: 14px 20px;
+    margin: 0 auto 10px auto;
+    max-width: 900px;
     text-align: center;
-    text-justify: auto;
-    font-family: 'Karla', sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+    color: var(--text-secondary);
+    font-family: 'Karla', 'Manjari', sans-serif;
 }
 
-/*news cards starts*/
-
-.cardGrid
-{
+/* News / Events / Info cards */
+.cardGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    margin: 40px;
-    align-items: center;
+    column-gap: 24px;
+    row-gap: 24px;
+    margin: 30px;
+    align-items: stretch;
 }
 
-.cardGrid a{
+.cardGrid a {
     text-decoration: none;
+    display: block;
+    height: 100%;
 }
 
-.cardGrid > article{
-
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-    border-radius: 3px;
+.cardGrid > article {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    border-radius: 10px;
     text-align: center;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.cardGrid > article img{
+.cardGrid > article img {
     width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
 }
 
-.cardGrid > article p{
-    font-size: small;
-    color: black;
+.cardGrid > article p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin: 8px 0 0 0;
 }
 
-.cardGrid > article:hover{
-    transition: transform .1s ease-out;
-    transform: translateY(5px);
+.cardGrid > article:hover {
+    transform: translateY(-4px);
 }
 
-
-.cardText{
-    padding: 10px;
-    color: DimGray;
-    font-family: 'Karla', sans-serif;
+.cardText {
+    padding: 16px;
+    color: var(--text-primary);
+    font-family: 'Karla', 'Manjari', sans-serif;
 }
 
-.cardText h4{
-    margin: 0px;
+.cardText h4 {
+    margin: 0;
+    color: var(--brand-primary);
+    font-size: 18px;
 }
 
-.cardText h4:hover{
-    color:black;
-}
-
-@media screen and (max-width: 967px){
-    .mainBody{
-        grid-template-columns: 5% 90% 5%;
-    }
-
-    .cardGrid {
-        margin:40px;        
-    }
-
-}
-
-@media screen and (max-width: 680px){
-    .cardGrid {
-        grid-template-columns: repeat(1, 1fr);
-        margin:80px;
-        row-gap: 20px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .cardGrid {        
-        margin:20px;
-        row-gap: 20px;
-    }
-}
-
-@media screen and (max-width: 400px){
-    
-    .cardGrid {
-        margin:20px;
-        row-gap: 20px;
-    }
-    
-    .cardGrid > article img{
-        display: none;        
-    }
-
-    .cardGrid > article p{
-        display: none;        
-    }
-
-    .cardText{
-        background: linear-gradient(180deg, rgba(46,130,186,1) 0%, rgba(52,152,219,1) 47%);
-        color: white;
-        padding: 15px;
-    }
-    
-    .cardText h4{
-        margin:0px;
-    }
-
-    .cardText h4:hover{
-        color:PapayaWhip;
-    }
-}
-
-  /*news cards ends*/
-
-/* info container starts*/
-
-.infoGrid
-{
+/* Info Grid (Taluk at a glance, How to reach, Emergency, Useful Links) */
+.infoGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
-    column-gap: 30px;
-    margin: 40px;
+    row-gap: 24px;
+    column-gap: 24px;
+    margin: 30px;
 }
 
-.infoGrid > article{    
-    font-family: 'Karla', sans-serif;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-    border-radius: 5px;
+.infoGrid > article {
+    font-family: 'Karla', 'Manjari', sans-serif;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
 }
 
-.infoGrid > article:hover{
-    transition: transform .1s ease-out;
-    transform: translateY(5px);
+.infoGrid > article:hover {
+    transform: translateY(-3px);
 }
 
-.infoGrid > article h3{
-    margin:0px;
+.infoGrid > article h3 {
+    margin: 0;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color:  #3498DB;
+    padding: 14px 16px;
+    background-color: var(--brand-accent);
     color: white;
-
+    font-size: 17px;
+    letter-spacing: 0.5px;
 }
-.infoGrid > article a{
-    margin:0px;   
-    color: black; 
+
+.infoGrid > article a {
+    margin: 0;
+    color: var(--brand-primary);
     text-decoration: none;
+    font-weight: 600;
 }
 
-.infoGrid > article a:visited{
-    color: black;
+.infoGrid > article a:hover {
+    text-decoration: underline;
 }
 
-.infoGrid > article a:hover{
-    color:red;
+.infogridLists {
+    padding: 18px 20px;
+    color: var(--text-primary);
+    line-height: 1.8;
 }
 
-
-
-.infogridLists{
-    padding: 20px;
+.infogridLists p {
+    margin: 6px 0;
 }
 
-@media screen and (max-width:1622px){
-    .infoGrid {
-        column-gap: 10px;
-        grid-template-columns: auto auto;
-        row-gap: 10px;
+@media screen and (max-width: 1100px) {
+    .mainBody {
+        grid-template-columns: 5% 90% 5%;
     }
-
-    .infogridLists{
-        padding-right: 0px;
-    }
-}
-
-@media screen and (max-width:1296px){
     .infoGrid {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width: 768px) {
+    .mainBody {
+        grid-template-columns: 2% 96% 2%;
+    }
+    .cardGrid {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 16px;
+    }
     .infoGrid {
-        margin: 20px;
+        margin: 16px;
     }
-
-    .infogridLists{
-        padding: 5px;      
-        font-size: 1vmax;
+    .welcomeModule li {
+        width: calc(50% - 12px);
     }
 }
 
-@media screen and (max-width:576px){
-    .circle-icon{
-        display: none;
+@media screen and (max-width: 500px) {
+    .welcomeModule li {
+        width: 100%;
+    }
+    .infogridLists {
+        padding: 14px;
+        font-size: 14px;
     }
 }
-
-/*info container ends*/

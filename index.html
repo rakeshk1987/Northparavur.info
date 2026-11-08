@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-		content="Welcome to northparavur.info, your travel guide to one of the historical place in south India. Find things to do, days out, attractions and sightseeing, what's on, North Paravur events, theatre, tours, restaurants and hotels. Plan day trip with useful traveller information and much more.">
-	<meta name="keywords" content="North Paravur, Paravur info, kochi, ernakulam, aluva, North Paravur Weather Forcast">
+		content="Welcome to NorthParavur.in — your local & visitor guide to North Paravur (ancient Muziris), Kerala. Explore Cherai Beach, Chendamangalam heritage, hospitals, schools, hotels, emergency numbers, and local events.">
+	<meta name="keywords" content="North Paravur, northparavur.in, Paravur guide, Muziris heritage, Cherai Beach, Chendamangalam, Kadamakudy, Hospitals in North Paravur, Schools in North Paravur">
+	<link rel="canonical" href="https://northparavur.in/">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<script src="./scripts/all.js" data-auto-a11y="true"></script>
+	<!-- OpenGraph / WhatsApp Preview Meta Tags -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://northparavur.in/">
+	<meta property="og:title" content="NorthParavur.in | Local & Visitor Guide to North Paravur">
+	<meta property="og:description" content="Explore North Paravur's history, Muziris & Cherai tourism, hospitals, schools, colleges, resorts, and emergency contacts.">
+	<meta property="og:image" content="https://northparavur.in/img/home.JPG">
 
-
-
-	<title>North Paravur info | Welcome</title>
+	<title>NorthParavur.in | Official Local & Visitor Guide to North Paravur</title>
 
 	<link rel="icon" href="./img/favicon.ico" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/header.css">
 	<link rel="stylesheet" href="./css/index.css">
 	<link rel="stylesheet" href="./css/footer.css">
 
+	<script src="./scripts/all.js" data-auto-a11y="true"></script>
 
+	<!-- JSON-LD Structured Data for Google Local SEO -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "NorthParavur.in",
+		"alternateName": "North Paravur Local & Visitor Guide",
+		"url": "https://northparavur.in/",
+		"description": "Comprehensive community directory and tourism guide for North Paravur Taluk, Ernakulam, Kerala."
+	}
+	</script>
 </head>
 
 <body>
@@ -31,26 +47,17 @@
 		<div class="headerText">
 			<div class="respNav">
 				<div class="respNavPos">
-					<a href="javascript:void(0);" style="font-size:50px;" class="respIcon"
-						onclick="respMenu()">&#9776;</a>
+					<a href="javascript:void(0);" class="respIcon" onclick="respMenu()" aria-label="Menu">&#9776;</a>
 					<p class="menuTxt">MENU</p>
 				</div>
 			</div>
 			<div>
 				<a href="index.html">
-					<div class="logo">North Paravur.Info</div>
+					<div class="logo">NorthParavur.in</div>
 					<div class="tagline">A Local & Visitor Guide</div>
 				</a>
 			</div>
-			<div class="language">
-				<div class="langDropdown">
-					<button class="LangDropBtn">Dialect</button>
-					<div class="langdropdown-content">
-						<a href="#">English</a>
-						<a href="#">Malayalam</a>
-					</div>
-				</div>
-			</div>
+			<div class="language"></div>
 		</div>
 		<div class="navbar" id="myTopnav">
 			<div class="navbarposition">
@@ -59,7 +66,7 @@
 					<a href="./pages/history.html"><i class="fas fa-history"></i> History</a>
 					<a href="./pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
 					<div class="dropdown">
-						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directoy
+						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directory
 							<i class="fa fa-caret-down"></i>
 						</button>
 						<div class="dropdown-content">
@@ -77,40 +84,39 @@
 			</div>
 		</div>
 	</header>
-
 	<!--Top Navigation ends here-->
 
 	<div class="imgWrapper">
-		<img alt="North Paravur" src="./img/home.JPG" class="homeimg">
+		<img alt="North Paravur Heritage & Backwaters" src="./img/home.JPG" class="homeimg">
 	</div>
 
 	<div class="mainBody">
 		<div style="background-color: #EAEAEA;"></div>
 		<div>
 			<div class="welcomeModule">
-				<h1>Welcome to North Paravur!</h1>
+				<h1 data-i18n="welcome_title">Welcome to North Paravur!</h1>
 				<ul>
 					<li>
 						<a href="./pages/history.html">
-							<span class="linkText">Know the History</span>
+							<span class="linkText" data-i18n="btn_know_history">Know the History</span>
 							<span class="linkIcon"><i class="fas fa-angle-right linkiconBg"></i></span>
 						</a>
 					</li>
 					<li>
 						<a href="./pages/tourism.html">
-							<span class="linkText">Top Attractions</span>
+							<span class="linkText" data-i18n="btn_top_attractions">Top Attractions</span>
 							<span class="linkIcon"><i class="fas fa-angle-right linkiconBg"></i></span>
 						</a>
 					</li>
 					<li>
 						<a href="#emergency">
-							<span class="linkText">Emergency Contacts</span>
+							<span class="linkText" data-i18n="btn_emergency_contacts">Emergency Contacts</span>
 							<span class="linkIcon"><i class="fas fa-angle-right linkiconBg"></i></span>
 						</a>
 					</li>
 					<li>
 						<a href="#howtoreach">
-							<span class="linkText">How to Reach</span>
+							<span class="linkText" data-i18n="btn_how_to_reach">How to Reach</span>
 							<span class="linkIcon"><i class="fas fa-angle-right linkiconBg"></i></span>
 						</a>
 					</li>
@@ -118,54 +124,49 @@
 			</div>
 
 			<div>
-				<div>
-					<p class="info">Welcome to northparavur.info, your travel guide to one of the historical place in
-						south India. <br> Find things to do, days out, attractions and sightseeing, what's on, North
-						Paravur events, theatre, tours, restaurants and hotels. Plan day trip with useful traveller
-						information.</p>
-				</div>
+				<p class="info" data-i18n="home_intro">Welcome to <b>NorthParavur.in</b>, your complete digital guide to one of the most historic towns in South India. Find things to do, Muziris & Cherai attractions, local directories, events, restaurants, and hotels.</p>
 			</div>
 
-			<hr style="color: #EAEAEA; border: 3px solid #EAEAEA;">
+			<hr style="color: #EAEAEA; border: 2px solid #EAEAEA;">
 
 			<a class="weatherwidget-io" href="https://forecast7.com/en/10d1476d23/north-paravur/" data-label_1="North Paravur"
-				data-label_2="WEATHER Forcast" data-font="Verdana" data-icons="Climacons Animated" data-theme="pure">North
-				Paravur 7 Days WEATHER Forcast</a>
+				data-label_2="WEATHER Forecast" data-font="Verdana" data-icons="Climacons Animated" data-theme="pure">North
+				Paravur 7 Days WEATHER Forecast</a>
 			<script>
 				!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
 			</script>
 
-			<hr style="color: #EAEAEA; border: 3px solid #EAEAEA;">
+			<hr style="color: #EAEAEA; border: 2px solid #EAEAEA;">
 
 			<div class="newsContainer">
 				<main class="cardGrid">
 
 					<article>
-						<a href="./pages/news.php">
-							<img alt="North Paravur News" src="./img/index/news.jpg" alt="news">
+						<a href="./pages/news.html">
+							<img alt="North Paravur News" src="./img/index/news.jpg" loading="lazy">
 							<div class="cardText">
-								<h4><b>NEWS</b></h4>
-								<p>click here to get the latest North Paravur news</p>
+								<h4 data-i18n="card_news_title"><b>NEWS</b></h4>
+								<p data-i18n="card_news_desc">Get the latest North Paravur updates & announcements</p>
 							</div>
 						</a>
 					</article>
 
 					<article>
 						<a href="./pages/events.html">
-							<img  alt="North Paravur Events" src="./img/index/event.jpg" alt="event">
+							<img alt="North Paravur Events" src="./img/index/event.jpg" loading="lazy">
 							<div class="cardText">
-								<h4><b>EVENTS</b></h4>
-								<p>click here to get the latest event in North Paravur</p>
+								<h4 data-i18n="card_events_title"><b>EVENTS & PROMOS</b></h4>
+								<p data-i18n="card_events_desc">Explore local events, sports turfs, and happenings in North Paravur</p>
 							</div>
 						</a>
 					</article>
 
 					<article>
 						<a href="./pages/taluk.html">
-							<img  alt="North Paravur Informations" src="./img/index/info.jpg" alt="info">
+							<img alt="North Paravur Information" src="./img/index/info.jpg" loading="lazy">
 							<div class="cardText">
-								<h4><b>INFO</b></h4>
-								<p>click here to get the North Paravur Taluk Information</p>
+								<h4 data-i18n="card_info_title"><b>TALUK INFO</b></h4>
+								<p data-i18n="card_info_desc">Explore Municipalities, Panchayats, and Villages in Paravur Taluk</p>
 							</div>
 						</a>
 					</article>
@@ -173,102 +174,65 @@
 				</main>
 			</div>
 
-			<hr style="color: #EAEAEA; border: 3px solid #EAEAEA;">
+			<hr style="color: #EAEAEA; border: 2px solid #EAEAEA;">
 
 			<div>
 				<main class="infoGrid">
 					<article>
-						<h3>TALUK AT A GLANCE</h3>
+						<h3 data-i18n="glance_title">TALUK AT A GLANCE</h3>
 						<div class="infogridLists">
-							<i class="fa fas fa-map-marked-alt circle-icon" style="color: white; font-size:18px;"></i>
-							<p style="display: inline-block;"><b>&nbspAREA: </b>195.25 sq km</p><br>
-							<i class="fas fa-phone-square-alt circle-icon" style="color: white; font-size:23px;"></i>
-							<p style="display: inline-block;"><b>&nbspTELEPHONE CODE: </b>0484</p><br>
-							<i class="fas fa-car circle-icon" style="color: white; font-size:20px;"></i>
-							<p style="display: inline-block;"><b>&nbspRTO CODE: </b>42</p><br>
-							<i class="fas fa-map-signs circle-icon" style="color: white; font-size:20px;"></i>
-							<p style="display: inline-block;"><b>&nbspVILLAGES: </b>14</p><br>
-							<i class="fas fa-map-marker-alt circle-icon" style="color: white; font-size:27px;"></i>
-							<p style="display: inline-block;"><b>&nbspBLOCKS: </b>2</p><br>
-							<i class="far fa-building circle-icon" style="color: white; font-size:23px;"></i>
-							<p style="display: inline-block;"><b>&nbspMUNICIPALITIES: </b>2</p>
+							<p><i class="fas fa-map-marked-alt circle-icon" style="color: white; font-size:16px;"></i> <b>AREA:</b> 191.82 sq km</p>
+							<p><i class="fas fa-phone-square-alt circle-icon" style="color: white; font-size:16px;"></i> <b>STD CODE:</b> 0484</p>
+							<p><i class="fas fa-car circle-icon" style="color: white; font-size:16px;"></i> <b>RTO CODE:</b> KL-42</p>
+							<p><i class="fas fa-map-signs circle-icon" style="color: white; font-size:16px;"></i> <b>VILLAGES:</b> 14</p>
+							<p><i class="fas fa-map-marker-alt circle-icon" style="color: white; font-size:16px;"></i> <b>BLOCKS:</b> 2 (Paravur, Alangad)</p>
+							<p><i class="far fa-building circle-icon" style="color: white; font-size:16px;"></i> <b>MUNICIPALITIES:</b> 2 (North Paravur, Eloor)</p>
 						</div>
 					</article>
 
 					<article id="howtoreach">
-						<h3 id="links">HOW TO REACH</h3>
+						<h3 data-i18n="reach_title">HOW TO REACH</h3>
 						<div class="infogridLists">
-							<i class="fas fa-plane circle-icon" style="color: white; font-size:16px;"></i>
-							<p style="display: inline-block;"><b>&nbspAirport: </b>Cochin International Airport (20KM)
-							</p><br>
-							<i class="fas fa-train circle-icon" style="color: white; font-size:20px;"></i>
-							<p style="display: inline-block;"><b>&nbspRailway Station: </b>Aluva (20KM) </p><br>
-							<i class="fas fa-bus-alt circle-icon" style="color: white; font-size:18px;"></i>
-							<p style="display: inline-block;">&nbspBuses available from Kochi, Thrissur, Kozhikode</p>
-							<br>
-							<i class="fas fa-car circle-icon" style="color: white; font-size:18px;"></i>
-							<p style="display: inline-block;">&nbsp<b>NH:66</b> Kochi (21KM) | Thrissur (48 KM) </p><br>
+							<p><i class="fas fa-plane circle-icon" style="color: white; font-size:16px;"></i> <b>Airport:</b> Cochin International Airport (22 KM)</p>
+							<p><i class="fas fa-train circle-icon" style="color: white; font-size:16px;"></i> <b>Railway Station:</b> Aluva (17 KM) / Ernakulam Town (24 KM)</p>
+							<p><i class="fas fa-bus-alt circle-icon" style="color: white; font-size:16px;"></i> <b>Road / Bus:</b> Frequent KSRTC & Private buses from Kochi, Aluva, Thrissur, Guruvayur</p>
+							<p><i class="fas fa-road circle-icon" style="color: white; font-size:16px;"></i> <b>NH-66:</b> Kochi (21 KM) | Kodungallur (12 KM) | Thrissur (48 KM)</p>
 						</div>
 					</article>
 
 					<article>
-						<h3 id="emergency">EMERGENCY NUMBERS</h3>
+						<h3 id="emergency" data-i18n="emergency_title">EMERGENCY NUMBERS</h3>
 						<div class="infogridLists">
-							<i class="fas fa-user-shield circle-icon" style="color: white; font-size:16px;"></i>
-							<p style="display: inline-block; text-transform: uppercase;"><b>&nbspPolice Station:</b></p>
-							<p style="display: inline;"> +91 484 244 5525</p><br>
-							<i class="fas fa-fire-alt circle-icon" style="color: white; font-size:22px;"></i>
-							<p style="display: inline-block; text-transform: uppercase;"><b>&nbspFire Station:</b></p>
-							<p style="display: inline;"> +91 484 244 3101</p><br>
-							<i class="fas fa-hospital circle-icon" style="color: white; font-size:22px;"></i>
-							<p style="display: inline-block; text-transform: uppercase;"><b>&nbspTaluk Hospital:</b></p>
-							<p style="display: inline;"> +91 484 244 4438</p><br>
-							<i class="fas fa-bus-alt circle-icon" style="color: white; font-size:19px;"></i>
-							<p style="display: inline-block; text-transform: uppercase;"><b>&nbspKSRTC Stand:</b></p>
-							<p style="display: inline;"> +91 484 244 4439</p><br>
-							<i class="fas fa-bolt circle-icon" style="color: white; font-size:31px;"></i>
-							<p style="display: inline-block; text-transform: uppercase;"><b>&nbspKSEB Paravur:</b></p>
-							<p style="display: inline;"> +91 484 244 2322</p><br>
-							<i class="fas fa-female circle-icon" style="color: white; font-size:38px;"></i>
-							<p style="display: inline-block; text-transform: uppercase;"><b>&nbspWOMAN Helpline:</b></p>
-							<p style="display: inline;"> 1091 , 181</p><br>
+							<p><i class="fas fa-user-shield circle-icon" style="color: white; font-size:15px;"></i> <b>POLICE STATION:</b> <a href="tel:+914842445525">+91 484 244 5525</a></p>
+							<p><i class="fas fa-fire-alt circle-icon" style="color: white; font-size:16px;"></i> <b>FIRE STATION:</b> <a href="tel:+914842443101">+91 484 244 3101</a></p>
+							<p><i class="fas fa-hospital circle-icon" style="color: white; font-size:16px;"></i> <b>TALUK HOSPITAL:</b> <a href="tel:+914842444438">+91 484 244 4438</a></p>
+							<p><i class="fas fa-bus-alt circle-icon" style="color: white; font-size:16px;"></i> <b>KSRTC STAND:</b> <a href="tel:+914842444439">+91 484 244 4439</a></p>
+							<p><i class="fas fa-bolt circle-icon" style="color: white; font-size:16px;"></i> <b>KSEB PARAVUR:</b> <a href="tel:+914842442322">+91 484 244 2322</a></p>
+							<p><i class="fas fa-female circle-icon" style="color: white; font-size:18px;"></i> <b>WOMEN HELPLINE:</b> <a href="tel:1091">1091</a> / <a href="tel:181">181</a></p>
 						</div>
 					</article>
 
 					<article>
-						<h3 id="links">USEFUL LINKS</h3>
+						<h3 id="links" data-i18n="links_title">USEFUL LINKS</h3>
 						<div class="infogridLists">
-							<i class="fab fa-internet-explorer circle-icon" style="color: white; font-size:18px;"></i>
-							<a href="http://www.northparavurmunicipality.in/">
-								<p style="display: inline-block;">North Paravur Municipality</p>
-							</a><br>
-							<i class="fab fa-internet-explorer circle-icon" style="color: white; font-size:18px;"></i>
-							<a href="https://edistrict.kerala.gov.in/">
-								<p style="display: inline-block;">E-District</p>
-							</a><br>
-							<i class="fab fa-internet-explorer circle-icon" style="color: white; font-size:18px;"></i>
-							<a href="https://ernakulam.nic.in/helpline/">
-								<p style="display: inline-block;">District Helpline</p>
-							</a><br>
-							<i class="fab fa-internet-explorer circle-icon" style="color: white; font-size:18px;"></i>
-							<a href="https://ernakulam.nic.in/disaster-management/">
-								<p style="display: inline-block;">Disaster Management</p>
-							</a><br>
+							<p><i class="fas fa-external-link-alt circle-icon" style="color: white; font-size:14px;"></i> <a href="https://lsgkerala.gov.in/" target="_blank" rel="noopener">LSG Kerala / North Paravur Municipality</a></p>
+							<p><i class="fas fa-external-link-alt circle-icon" style="color: white; font-size:14px;"></i> <a href="https://edistrict.kerala.gov.in/" target="_blank" rel="noopener">Kerala E-District Portal</a></p>
+							<p><i class="fas fa-external-link-alt circle-icon" style="color: white; font-size:14px;"></i> <a href="https://ernakulam.nic.in/helpline/" target="_blank" rel="noopener">Ernakulam District Helpline</a></p>
+							<p><i class="fas fa-external-link-alt circle-icon" style="color: white; font-size:14px;"></i> <a href="https://www.muzirisheritage.org/" target="_blank" rel="noopener">Muziris Heritage Project</a></p>
 						</div>
 					</article>
 
 				</main>
-				<hr style="color: #EAEAEA; border: 3px solid #EAEAEA;">
+				<hr style="color: #EAEAEA; border: 2px solid #EAEAEA;">
 			</div>
 
 		</div>
 		<div style="background-color: #EAEAEA;"></div>
 	</div>
 
-
 	<!--footer Starts here-->
 	<div id="footer"></div>
-	<!--footer endshere-->
+	<!--footer ends here-->
 
 	<script src="./scripts/common.js"></script>
 

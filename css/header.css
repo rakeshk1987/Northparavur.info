@@ -1,13 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@400;600;700&family=Manjari:wght@400;700&family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
 
-body{
-  margin: 0px;
+:root {
+    --bg-body: #f4f6f9;
+    --bg-side: #eaeaea;
+    --bg-surface: #ffffff;
+    --bg-surface-alt: #f8fafc;
+    --bg-header: #ffffff;
+    --bg-nav: #222b35;
+    --bg-footer: #1e262f;
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --brand-primary: #0095CA;
+    --brand-hover: #0077a3;
+    --brand-accent: #3498DB;
+    --border-color: #e2e8f0;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --modal-overlay: rgba(0, 0, 0, 0.75);
 }
 
-.headerText{
+[data-theme="dark"] {
+    --bg-body: #0f172a;
+    --bg-side: #0b1120;
+    --bg-surface: #1e293b;
+    --bg-surface-alt: #334155;
+    --bg-header: #1e293b;
+    --bg-nav: #0f172a;
+    --bg-footer: #090d16;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --brand-primary: #38bdf8;
+    --brand-hover: #0284c7;
+    --brand-accent: #0284c7;
+    --border-color: #334155;
+    --card-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+    --modal-overlay: rgba(0, 0, 0, 0.85);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-body);
+    color: var(--text-primary);
+    font-family: 'Karla', 'Manjari', sans-serif;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+header {
+    background-color: var(--bg-header);
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.25s ease;
+}
+
+.headerText {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 8px 16px;
 }
 
 .headerText a {
@@ -15,288 +70,391 @@ body{
     cursor: pointer;
 }
 
-.logo{
+.logo {
     font-family: 'Anton', sans-serif;
     text-align: center;
-    font-size: 50px;    
+    font-size: 46px;
     text-transform: uppercase;
-    color: #0095CA;
-    margin-top: 18px;
-}
-
-.tagline{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    white-space:nowrap;
-    font-weight: bold;
-    font-size: 108%;
+    color: var(--brand-primary);
     margin-top: 8px;
-    margin-bottom: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    text-align: center;
+    font-family: 'Montserrat', 'Manjari', sans-serif;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    letter-spacing: 2.5px;
     text-transform: uppercase;
-    color: black;
+    color: var(--text-secondary);
 }
 
-nav{
-    font-family: sans-serif;
-    font-stretch: expanded;
+/* Header Controls (Theme + Language) */
+.headerControls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
-nav button{
-    font-family: sans-serif;
+.controlBtn {
+    background-color: var(--bg-surface-alt);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Karla', 'Manjari', sans-serif;
+    transition: all 0.2s ease;
 }
 
-.navbarposition{
-    margin: auto; 
+.controlBtn:hover {
+    background-color: var(--brand-primary);
+    color: #fff;
+    border-color: var(--brand-primary);
+}
+
+nav {
+    font-family: 'Roboto', 'Manjari', sans-serif;
+}
+
+nav button {
+    font-family: 'Roboto', 'Manjari', sans-serif;
+}
+
+.navbarposition {
+    margin: auto;
     width: fit-content;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #333;
+    overflow: visible;
+    background-color: var(--bg-nav);
     border-width: 1px 0;
-  }
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
 
-  .respNav{
+.respNav {
     position: relative;
-  }
+}
 
-  .respNavPos{
-    color:  #0095CA;
-    position: absolute;
-    top: 10%;
-    left: 2%;
-  }
+.respNavPos {
+    color: var(--brand-primary);
+     display: flex;
+    align-items: center;
+}
 
-  .respIcon {
+.respIcon {
     display: none;
-  }
+}
 
-  .menuTxt{
+.menuTxt {
     display: none;
-    position: absolute;
-    top: 50px;
-    left: 7px;
-    font-size: x-small;
+    font-size: 11px;
     font-family: 'Roboto', sans-serif;
-  }
-  
-  .navbar a {
+    margin-left: 6px;
+    color: var(--text-secondary);
+}
+
+.navbar a {
     float: left;
-    font-size: 16px;
-    color: white;
+    font-size: 15px;
+    color: #ffffff;
     text-align: center;
-    padding: 16px 30px 16px 30px;
+    padding: 15px 24px;
     text-decoration: none;
-  }
-  
-  .dropdown {
+    transition: background-color 0.2s;
+}
+
+.dropdown {
     float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    font-size: 15px;
     border: none;
     outline: none;
     color: white;
-    padding: 16px 30px 16px 30px;
+    padding: 15px 24px;
     background-color: inherit;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Manjari', sans-serif;
     margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #0095CA;
-    border-bottom: none;
-  }
-  
-  .dropdown-content {
+    cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: var(--brand-primary);
+    color: #fff;
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
+    top: 100%;
+    left: 0;
+    background-color: var(--bg-surface);
+    min-width: 210px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border-color);
+    border-radius: 0 0 6px 6px;
+    z-index: 1001;
+}
+
+.dropdown-content a {
     float: none;
-    color: black;
+    color: var(--text-primary);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--brand-primary);
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 .active {
-    background-color: #0095CA !important;
-  }
+    background-color: var(--brand-primary) !important;
+    color: #fff !important;
+}
 
-  @media screen and (max-width: 960px){
-    .navbar a {
-        padding: 16px 16px 16px 16px;
-    }
-
-    .dropdown .dropbtn{
-        padding: 16px 16px 16px 16px;
-    }
-  }
-
-  @media screen and (max-width: 850px){
-    .logo{
-        font-size: 30px;
-    }
-    .tagline{
-        font-size: 10px;   
-    }
-  }
-
-  @media screen and (max-width: 340px){
-    .logo{
-        font-size: 20px;
-    }
-    .tagline{
-        font-size: 10px;   
-    }
-  }
-
-  @media screen and (max-width: 786px) {
-    .navbar a, .dropdown .dropbtn{
-        display: none;
-    }
-    .navbarposition{
-        width:auto;
-    }
-    a.respIcon {
-      
-      color: #0095CA;
-      float: left;
-      display: block; 
-    }
-
-    .menuTxt{
-      display:block;
-    }
-
-    .tagline{
-      margin-top: 8px;
-      margin-bottom: 10px;
-  }
-
-  }
-
-   
-  @media screen and (max-width: 786px) {
-    .navbar.responsive {
-        position: fixed;
-    }
-    .respIcon {
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
-    .navbar.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .navbar.responsive .dropdown {float: none;}
-    .navbar.responsive .dropdown-content {position: relative;}
-    .navbar.responsive .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-
-  /* How TO - Sticky/Affix Navbar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
-  .sticky {
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sticky + .content {
     padding-top: 60px;
-  }
-
-  /*Dropdown div starts here*/
-.language{
-  margin: 0 auto;
 }
 
-
-.smallNav{
-  font-family: 'Karla', sans-serif;
+.smallNav {
+    font-family: 'Karla', 'Manjari', sans-serif;
+    color: var(--text-secondary);
+    font-weight: 600;
 }
 
-.smallNav a{
-  text-decoration: none;
+.smallNav a {
+    text-decoration: none;
+    color: var(--brand-primary);
 }
 
-.LangDropBtn {
-  opacity: .7;
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  font-size: 12px;
-  border: none;
-  border-radius: 9px;
-  cursor: pointer;
-  margin-top: -6px;
+.smallNav a:hover {
+    text-decoration: underline;
 }
 
-.langDropdown {
-  position: relative;
-  display: inline-block;
+/* Legacy language dropdown support */
+.language {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
 }
 
-.langdropdown-content {
-  display: none;
-  font-family: 'Roboto', sans-serif;;
-  font-size: small;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.bannerImg {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    max-height: 280px;
+    object-fit: cover;
 }
 
-.langdropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+/* Universal Action Buttons & Search Bar */
+.searchContainer {
+    margin: 15px 20px 10px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
-.langdropdown-content a:hover {background-color: #f1f1f1}
-
-.langDropdown:hover .langdropdown-content {
-  display: block;
+.searchInput {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--bg-surface);
+    color: var(--text-primary);
+    font-size: 15px;
+    font-family: 'Karla', 'Manjari', sans-serif;
+    box-shadow: var(--card-shadow);
 }
 
-.langDropdown:hover .LangDropBtn {
-  background-color: #3498DB;
+.searchInput:focus {
+    outline: 2px solid var(--brand-primary);
 }
 
-/*Dropdown div ends*/
+.actionBtns {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
 
-/* Banner Img on all pages except index.html*/
-.bannerImg{
-  width: 100%;
-  padding: 0px;
-  border: 0px;
-  border-radius: 0;
-  margin: 0px;
+.btnCall, .btnWeb, .btnWhatsApp {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 13px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: opacity 0.2s, transform 0.15s;
+}
+
+.btnCall {
+    background-color: var(--brand-primary);
+    color: #ffffff !important;
+}
+
+.btnWeb {
+    background-color: var(--bg-surface-alt);
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color);
+}
+
+.btnWhatsApp {
+    background-color: #25D366;
+    color: #ffffff !important;
+}
+
+.btnCall:hover, .btnWeb:hover, .btnWhatsApp:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+}
+
+/* Dark mode overrides for hardcoded inline backgrounds across pages */
+[data-theme="dark"] div[style*="background-color: #EAEAEA"],
+[data-theme="dark"] div[style*="background-color:#EAEAEA"] {
+    background-color: var(--bg-side) !important;
+}
+
+[data-theme="dark"] div[style*="background-color: white"],
+[data-theme="dark"] div[style*="background-color:white"] {
+    background-color: var(--bg-surface) !important;
+    color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] hr {
+    border-color: var(--border-color) !important;
+    color: var(--border-color) !important;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar a, .dropdown .dropbtn {
+        padding: 14px 14px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .logo {
+        font-size: 28px;
+    }
+    .tagline {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+    .headerText {
+        grid-template-columns: 18% 52% 30%;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .navbar {
+        display: block;
+    }
+    .navbar a, .dropdown .dropbtn {
+        display: none;
+    }
+    .navbarposition {
+        width: auto;
+    }
+    a.respIcon {
+        color: var(--brand-primary);
+        display: block;
+        font-size: 34px !important;
+        line-height: 1;
+    }
+    .menuTxt {
+        display: none;
+    }
+    .tagline {
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+    .controlBtn {
+        padding: 6px 9px;
+        font-size: 11px;
+    }
+    .navbar.responsive {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar.responsive .dropdown {
+        float: none;
+    }
+    .navbar.responsive .dropdown-content {
+        position: relative;
+        display: block;
+        padding-left: 20px;
+    }
+    .navbar.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .logo {
+        font-size: 21px;
+    }
+    .tagline {
+        font-size: 9px;
+        white-space: normal;
+    }
+    .headerControls {
+        gap: 4px;
+    }
+    .controlBtn span.btnLabel {
+        display: none;
+    }
 }
