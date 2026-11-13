@@ -1,0 +1,36 @@
+name: Update North Paravur News Feed
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch English & Malayalam Google News RSS
+        run: python3 scripts/fetch_news.py
+
+      - name: Commit updated newsFeed.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/newsFeed.json
+          if git diff --staged --quiet; then
+            echo "No news updates."
+          else
+            git commit -m "chore: update North Paravur daily news feed"
+            git push
+          fi

@@ -1,332 +1,525 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+/* ============================================================================
+   NorthParavur.in — Redesigned Homepage Styles
+   "Muziris Royal Heritage meets Modern Coastal Portal"
+   ============================================================================ */
 
-body{
-    margin:0;
-}
-
-.mainBody{
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-}
-
-.image_wrapper {
+/* 1. HERO SECTION WITH GLOBAL SEARCH */
+.npHero {
     position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 20px 56px 20px;
     text-align: center;
+    color: #ffffff;
+    border-bottom: 4px solid var(--brand-accent);
 }
 
-.imgWrapper {
-    text-align: center;
+.npHeroInner {
+    max-width: 920px;
+    margin: 0 auto;
 }
 
-.homeimg {
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.npHeroEyebrow {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 99px;
+    background: rgba(197, 137, 50, 0.28);
+    border: 1px solid rgba(255, 214, 138, 0.55);
+    color: #fde68a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
 }
 
-.welcomeModule{
-    font-family: 'Karla', sans-serif;
+.npHero h1 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 2.75rem;
+    font-weight: 800;
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
 }
 
-.welcomeModule h1{
-    color: grey;
-    text-align: center;
-    margin-bottom:10px;
+.npHeroSubtitle {
+    font-size: 1.08rem;
+    max-width: 720px;
+    margin: 0 auto 28px auto;
+    color: #e2e8f0;
+    line-height: 1.65;
 }
 
-.welcomeModule ul{
-    list-style-type: none;
-    min-height: 40px;
-    padding: 0;
-    margin: 0px auto 20px;
+/* Global Omni-Search Box */
+.heroSearchWrap {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
+
+.heroSearchBar {
     display: flex;
-    flex-direction:row;
+    align-items: center;
+    background: var(--bg-surface);
+    border: 2px solid var(--brand-accent);
+    border-radius: 99px;
+    padding: 6px 8px 6px 22px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.heroSearchBar i.fa-search {
+    color: var(--brand-accent);
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.heroSearchBar input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: var(--text-primary);
+    font-size: 15.5px;
+    font-family: inherit;
+    padding: 10px 4px;
+}
+
+.heroSearchBar input:focus {
+    outline: none;
+}
+
+.heroSearchClear {
+    background: var(--brand-primary);
+    color: #fff;
+    border: none;
+    border-radius: 99px;
+    padding: 10px 22px;
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+[data-theme="dark"] .heroSearchClear {
+    color: #0b1517;
+}
+
+/* Quick Filter Chips inside Hero */
+.heroQuickChips {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
 }
 
-.welcomeModule li {
-    margin: 10px;
-    width: 260px;
+.heroChip {
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 99px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+    transition: all 0.2s;
 }
 
-.welcomeModule a {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.heroChip:hover {
+    background: var(--brand-accent);
+    border-color: var(--brand-accent);
+    color: #fff;
+}
+
+/* Live Search Results Dropdown Panel */
+.globalSearchResults {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    max-height: 420px;
+    overflow-y: auto;
+    z-index: 1500;
+    text-align: left;
+    padding: 12px;
+}
+
+.searchResultItem {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 5px 5px 20px;
-    background-color: #fff;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 8px;
     text-decoration: none;
+    color: var(--text-primary);
+    transition: background-color 0.15s;
 }
 
-.linkText {
-    flex: 1 1 auto;
-    padding-right: 10px;
-    font-weight: 600;
+.searchResultItem:last-child {
+    border-bottom: none;
+}
+
+.searchResultItem:hover {
+    background-color: var(--bg-surface-alt);
+}
+
+.searchResultTitle {
+    font-weight: 700;
     font-size: 15px;
-    line-height: 1.2;
-    color: #0095CA;
+    color: var(--brand-primary);
+}
+
+.searchResultMeta {
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* 2. MAIN CONTAINER */
+.npContainer {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 36px 20px;
+}
+
+.sectionHeader {
     text-align: center;
+    margin-bottom: 28px;
 }
 
-.linkIcon {
-    flex: 0 0 auto;
-    width: 50px;
-    height: 50px;
-    background-color: #3498DB;
-    border-radius: 2px;
+.sectionEyebrow {
+    color: var(--brand-accent);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
 }
 
-.linkiconBg{
-    font-size: 5rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 1%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding-left: 6px;
-    padding-top: 14px;
-    color: white;
+.sectionHeader h2 {
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 2rem;
+    margin: 0 0 8px 0;
+    color: var(--text-primary);
 }
 
-@media screen and (max-width: 1870px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 200px;
-    }
-
+.sectionHeader p {
+    color: var(--text-secondary);
+    max-width: 680px;
+    margin: 0 auto;
+    font-size: 15px;
 }
 
-@media screen and (max-width: 1410px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 300px;
-    }
+/* 3. DUAL-MODE EXPLORER TABS (TOURIST GUIDE vs LOCAL DIRECTORY) */
+.modeTabsBar {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width: 967px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 200px;
-    }
+.modeTabBtn {
+    padding: 12px 26px;
+    border-radius: 99px;
+    border: 1.5px solid var(--border-color);
+    background: var(--bg-surface);
+    color: var(--text-secondary);
+    font-weight: 700;
+    font-size: 14.5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: inherit;
+    box-shadow: var(--card-shadow);
+    transition: all 0.2s;
 }
 
-@media screen and (max-width: 600px){
-    .welcomeModule li {
-        margin: 5px;
-        width: 100%;
-    }
+.modeTabBtn.activeTab, .modeTabBtn:hover {
+    background: var(--brand-primary);
+    color: #ffffff;
+    border-color: var(--brand-primary);
 }
 
-.info{
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    text-justify: auto;
-    font-family: 'Karla', sans-serif;
+[data-theme="dark"] .modeTabBtn.activeTab,
+[data-theme="dark"] .modeTabBtn:hover {
+    color: #0b1517;
 }
 
-/*news cards starts*/
-
-.cardGrid
-{
+/* Portal Cards Grid */
+.portalGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    margin: 40px;
+    gap: 22px;
+}
+
+.portalCard {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portalCard:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-shadow-hover);
+    border-color: var(--brand-accent);
+}
+
+.portalCardImg {
+    width: 100%;
+    height: 185px;
+    object-fit: cover;
+    display: block;
+}
+
+.portalCardBody {
+    padding: 18px 20px;
+}
+
+.portalCardBody h3 {
+    margin: 4px 0 8px 0;
+    font-size: 18px;
+    color: var(--brand-primary);
+}
+
+.portalCardBody p {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.portalCardFooter {
+    padding: 12px 20px 16px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.cardGrid a{
+.portalLink {
+    color: var(--brand-primary);
+    font-weight: 700;
+    font-size: 13.5px;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
-.cardGrid > article{
-
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-    border-radius: 3px;
-    text-align: center;
+.portalLink:hover {
+    color: var(--brand-accent);
 }
 
-.cardGrid > article img{
-    width: 100%;
+/* 4. INTERACTIVE MUZIRIS DAY-TRIP ITINERARY BUILDER */
+.itineraryBox {
+    background: var(--bg-surface);
+    border: 1.5px solid var(--border-color);
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: var(--card-shadow);
+    margin-top: 16px;
 }
 
-.cardGrid > article p{
-    font-size: small;
-    color: black;
+.itinerarySelector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
 }
 
-.cardGrid > article:hover{
-    transition: transform .1s ease-out;
-    transform: translateY(5px);
+.itinBtn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-surface-alt);
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
 }
 
-
-.cardText{
-    padding: 10px;
-    color: DimGray;
-    font-family: 'Karla', sans-serif;
+.itinBtn.activeItin {
+    background: var(--brand-accent);
+    color: #ffffff;
+    border-color: var(--brand-accent);
 }
 
-.cardText h4{
-    margin: 0px;
+.itinTimeline {
+    position: relative;
+    padding-left: 26px;
+    border-left: 3px solid var(--brand-accent);
+    max-width: 860px;
+    margin: 0 auto;
 }
 
-.cardText h4:hover{
-    color:black;
+.itinStop {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 16px 20px;
+    background: var(--bg-surface-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
 }
 
-@media screen and (max-width: 967px){
-    .mainBody{
-        grid-template-columns: 5% 90% 5%;
-    }
-
-    .cardGrid {
-        margin:40px;        
-    }
-
+.itinStop::before {
+    content: '';
+    position: absolute;
+    left: -35px;
+    top: 20px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--brand-accent);
+    border: 3px solid var(--bg-surface);
 }
 
-@media screen and (max-width: 680px){
-    .cardGrid {
-        grid-template-columns: repeat(1, 1fr);
-        margin:80px;
-        row-gap: 20px;
-    }
+.itinTime {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--brand-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
-@media screen and (max-width: 500px){
-    .cardGrid {        
-        margin:20px;
-        row-gap: 20px;
-    }
+.itinStop h4 {
+    margin: 4px 0 6px 0;
+    font-size: 16.5px;
+    color: var(--brand-primary);
 }
 
-@media screen and (max-width: 400px){
-    
-    .cardGrid {
-        margin:20px;
-        row-gap: 20px;
-    }
-    
-    .cardGrid > article img{
-        display: none;        
-    }
-
-    .cardGrid > article p{
-        display: none;        
-    }
-
-    .cardText{
-        background: linear-gradient(180deg, rgba(46,130,186,1) 0%, rgba(52,152,219,1) 47%);
-        color: white;
-        padding: 15px;
-    }
-    
-    .cardText h4{
-        margin:0px;
-    }
-
-    .cardText h4:hover{
-        color:PapayaWhip;
-    }
+.itinStop p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-secondary);
 }
 
-  /*news cards ends*/
+/* 5. HERITAGE TIMELINE STRIP */
+.heritageScroll {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
 
-/* info container starts*/
+.eraCard {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--brand-accent);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: var(--card-shadow);
+}
 
-.infoGrid
-{
+.eraBadge {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 13px;
+    color: var(--brand-accent);
+    margin-bottom: 6px;
+    display: block;
+}
+
+.eraCard h4 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: var(--brand-primary);
+}
+
+.eraCard p {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+}
+
+/* 6. CIVIC & EMERGENCY INFO GRID */
+.infoGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
-    column-gap: 30px;
-    margin: 40px;
+    gap: 22px;
+    margin-top: 20px;
 }
 
-.infoGrid > article{    
-    font-family: 'Karla', sans-serif;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-    border-radius: 5px;
+.infoGrid > article {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-.infoGrid > article:hover{
-    transition: transform .1s ease-out;
-    transform: translateY(5px);
-}
-
-.infoGrid > article h3{
-    margin:0px;
+.infoGrid > article h3 {
+    margin: 0;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color:  #3498DB;
-    color: white;
-
+    padding: 14px 16px;
+    background-color: var(--bg-nav);
+    border-bottom: 2px solid var(--brand-accent);
+    color: #f3efe6;
+    font-family: 'Cinzel', 'Manjari', serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
 }
-.infoGrid > article a{
-    margin:0px;   
-    color: black; 
+
+.infoGrid > article a {
+    color: var(--brand-primary);
     text-decoration: none;
+    font-weight: 700;
 }
 
-.infoGrid > article a:visited{
-    color: black;
+.infoGrid > article a:hover {
+    text-decoration: underline;
 }
 
-.infoGrid > article a:hover{
-    color:red;
+.infogridLists {
+    padding: 18px 22px;
+    color: var(--text-primary);
+    line-height: 1.85;
 }
 
-
-
-.infogridLists{
-    padding: 20px;
+.infogridLists p {
+    margin: 6px 0;
 }
 
-@media screen and (max-width:1622px){
+@media screen and (max-width: 980px) {
+    .portalGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .infoGrid {
-        column-gap: 10px;
-        grid-template-columns: auto auto;
-        row-gap: 10px;
+        grid-template-columns: 1fr;
     }
-
-    .infogridLists{
-        padding-right: 0px;
+    .npHero h1 {
+        font-size: 2.1rem;
     }
 }
 
-@media screen and (max-width:1296px){
-    .infoGrid {
-        grid-template-columns: repeat(1, 1fr);
+@media screen and (max-width: 640px) {
+    .portalGrid {
+        grid-template-columns: 1fr;
+    }
+    .npHero {
+        padding: 44px 16px 40px 16px;
+    }
+    .npHero h1 {
+        font-size: 1.7rem;
+    }
+    .itineraryBox {
+        padding: 18px 14px;
     }
 }
-
-@media screen and (max-width:700px){
-    .infoGrid {
-        margin: 20px;
-    }
-
-    .infogridLists{
-        padding: 5px;      
-        font-size: 1vmax;
-    }
-}
-
-@media screen and (max-width:576px){
-    .circle-icon{
-        display: none;
-    }
-}
-
-/*info container ends*/

@@ -1,53 +1,83 @@
 [
     {
-        "name":"Govt. Taluk Hospital", 
-        "address":"Main Road, Near Private Bus Stand, North Paravur", 
-        "phone":"+91 484 244 4438",
-        "photo":"../../img/directory/hospitals/taluk.jpg"
+        "name": "Govt. Taluk Headquarters Hospital", 
+        "address": "Main Road, Near Private Bus Stand, North Paravur", 
+        "phone": "+91 484 244 4438",
+        "photo": "../../img/directory/hospitals/taluk.jpg"
     },
     {
-        "name":"SN Medical College Hospital", 
-        "address":"Manjali - Athani Rd, North Kuthiathode, Kunnukara", 
-        "phone":"+91 484 266 1500",
-        "email":"info@snims.org",
-        "photo":"../../img/directory/hospitals/sn.jpg"
+        "name": "Don Bosco Hospital", 
+        "address": "National Highway 66, North Paravur", 
+        "phone": "+91 484 244 4875",
+        "email": "donboscohospital@yahoo.com",
+        "photo": "../../img/directory/hospitals/donbosco.jpg"
     },
     {
-        "name":"Don Bosco Hospital", 
-        "address":"National Highway 66, N. Paravur", 
-        "phone":"+91 484 244 4875",
-        "email":"donboscohospital@yahoo.com",
-        "photo":"../../img/directory/hospitals/donbosco.jpg"
+        "name": "Sree Narayana Medical College Hospital (SNIMS)", 
+        "address": "Manjali - Athani Rd, Chalakka, North Kuthiathode, Kunnukara", 
+        "phone": "+91 484 266 1500",
+        "email": "info@snims.org",
+        "photo": "../../img/directory/hospitals/sn.jpg"
     },
     {
-        "name":"K.M.K. Hospital", 
-        "address":"KMK JN. National Highway 66, N. Paravur", 
-        "phone":"+91 484 244 6803",
-        "photo":"../../img/directory/hospitals/kmk.jpg"
+        "name": "K.M.K. Hospital", 
+        "address": "KMK Junction, National Highway 66, North Paravur", 
+        "phone": "+91 484 244 6803",
+        "photo": "../../img/directory/hospitals/kmk.jpg"
     },
     {
-        "name":"Govt. Ayurveda Hospital", 
-        "address":"South Naluvazhi, N. Paravur", 
-        "phone":"+91 484 244 9868",
-        "photo":"../../img/directory/hospitals/ayurveda.jpg"
+        "name": "Govt. Ayurveda Hospital", 
+        "address": "South Naluvazhi, North Paravur", 
+        "phone": "+91 484 244 9868",
+        "photo": "../../img/directory/hospitals/ayurveda.jpg"
     },
     {
-        "name":"Govt Homoeopathic Hospital", 
-        "address":"Near East Nada, Peruvaram Temple, N.Paravur", 
-        "phone":"+91 484 244 2683",
-        "email":"ghhparavoor@gmail.com",
-        "photo":"../../img/directory/hospitals/homeo.jpg"
+        "name": "Govt. Homoeopathic Hospital", 
+        "address": "Near East Nada, Peruvaram Temple, North Paravur", 
+        "phone": "+91 484 244 2683",
+        "email": "ghhparavoor@gmail.com",
+        "photo": "../../img/directory/hospitals/homeo.jpg"
     },   
     {
-        "name":"Shanthi Hospital", 
-        "address":"Canal Rd, N. Paravur", 
-        "phone":"+91 484 244 2143",
-        "photo":"../../img/directory/hospitals/shanti.jpg"
+        "name": "Shanthi Hospital", 
+        "address": "Canal Road, Near Police Quarters, North Paravur", 
+        "phone": "+91 484 244 2143",
+        "photo": "../../img/directory/hospitals/shanti.jpg"
     },
     {
-        "name":"Shaji Hospital", 
-        "address":"Mookambika Rd, N. Paravur", 
-        "phone":"+91 484 244 4904",
-        "photo":"../../img/directory/hospitals/shaji.jpg"
+        "name": "Shaji Hospital", 
+        "address": "Mookambika Road, North Paravur", 
+        "phone": "+91 484 244 4904",
+        "photo": "../../img/directory/hospitals/shaji.jpg"
+    },
+    {
+        "name": "Ahalia Foundation Eye Hospital", 
+        "address": "Pottan Street, Main Road, North Paravur", 
+        "phone": "+91 484 244 7780",
+        "photo": "../../img/directory/hospitals/taluk.jpg"
+    },
+    {
+        "name": "Bharath Rural Hospital & Training Centre", 
+        "address": "South Kuriyappilly, Moothakunnam P.O., North Paravur", 
+        "phone": "+91 484 248 3395",
+        "photo": "../../img/directory/hospitals/kmk.jpg"
+    },
+    {
+        "name": "UB Trust Hospital & Diagnostic Centre", 
+        "address": "NH-66, Varapuzha, Paravur Taluk", 
+        "phone": "+91 484 251 2245",
+        "photo": "../../img/directory/hospitals/donbosco.jpg"
+    },
+    {
+        "name": "Kottakkal Arya Vaidya Sala (Paravur Agency)", 
+        "address": "Republic Road / Main Road, North Paravur", 
+        "phone": "+91 484 244 2948",
+        "photo": "../../img/directory/hospitals/ayurveda.jpg"
+    },
+    {
+        "name": "Family Health Centre (FHC) Koonammavu / Chittattukara", 
+        "address": "Koonammavu / Vadakkumpuram, North Paravur", 
+        "phone": "+91 484 251 3100",
+        "photo": "../../img/directory/hospitals/taluk.jpg"
     }
 ]

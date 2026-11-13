@@ -1,34 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-
-.footer
-{
-	padding-top: 20px;
-	padding-bottom: 15px;
-	background-color: #333;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	margin-bottom: -10px;
-}
-
-.circle-icon{
-    background: #3498DB;
-    width: 20px;
-    height: 20px;
-    border-radius: 1%;
+.footer {
+    padding: 32px 20px 24px 20px;
+    background-color: var(--bg-footer, #1e262f);
+    color: #f1f5f9;
+    font-family: 'Montserrat', 'Manjari', sans-serif;
     text-align: center;
-    line-height: 100px;
+    border-top: 1px solid var(--border-color, #334155);
+}
+
+.footerCtaBox {
+    max-width: 680px;
+    margin: 0 auto 22px auto;
+    padding: 18px 24px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 10px;
+}
+
+.footerCtaBox h4 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: #38bdf8;
+}
+
+.footerCtaBox p {
+    margin: 0 0 14px 0;
+    font-size: 13px;
+    color: #cbd5e1;
+}
+
+.footerCtaBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #0095CA;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background-color 0.2s, transform 0.15s;
+}
+
+.footerCtaBtn:hover {
+    background-color: #0284c7;
+    transform: translateY(-1px);
+}
+
+.circle-icon {
+    background: var(--brand-accent, #3498DB);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px !important;
     vertical-align: middle;
-    padding: 10px;
+    padding: 0 !important;
+    display: inline-block;
+    margin: 4px;
 }
 
-.github{
-    font-size: small;
-    color: white;
+.github {
+    font-size: 13px;
+    color: #38bdf8;
     text-decoration: none;
+    margin: 0 10px;
 }
 
-.github:hover {    
-    color: red;
-    text-decoration: none;
+.github:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }

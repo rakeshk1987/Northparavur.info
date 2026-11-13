@@ -1,46 +1,136 @@
 [
     {
-        "name":"Hotel Cee Cee Tower, N.Paravur", 
-        "type":"Hotel",
-        "star":"&#9734&#9734&#9734", 
-        "phone":"+91 484 244 5885",
-        "distance":"500M",
-        "web":"hotelceeceetower.com",
-        "photo":"../../img/directory/hotels/ceecee.jpg"
+        "name": "Cherai Beach Resorts",
+        "type": "Beach & Backwater Resort", 
+        "star": "&#9733;&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 248 1818",
+        "distance": "7.6 KM",
+        "web": "cheraibeachresorts.com",
+        "photo": "../../img/directory/hotels/cheraibeachresort.jpg"
     },
     {
-        "name":"Hotel White City, N.Paravur", 
-        "type":"Hotel",
-        "star":"&#9734&#9734&#9734", 
-        "phone":"+91 484 244 7893",
-        "distance":"500M",
-        "photo":"../../img/directory/hotels/whitecity.jpg"
+        "name": "Club Mahindra Cherai Beach",
+        "type": "Luxury Resort", 
+        "star": "&#9733;&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 286 1500",
+        "distance": "7.6 KM",
+        "web": "clubmahindra.com",
+        "photo": "../../img/directory/hotels/clubmahindra.jpg"
     },
     {
-        "name":"Cherai Beach Resort",
-        "type":"Resort", 
-        "star":"&#9734&#9734&#9734&#9734", 
-        "phone":"+91 484 248 1818",
-        "distance":"7.6KM",
-        "web":"cheraibeachresorts.com",
-        "photo":"../../img/directory/hotels/cheraibeachresort.jpg"
+        "name": "Indriya Sands Resort", 
+        "type": "Beachfront & Backwater Resort",
+        "star": "&#9733;&#9733;&#9733;&#9733;", 
+        "phone": "+91 95262 28899",
+        "distance": "8.0 KM",
+        "web": "indriyaresorts.com",
+        "photo": "../../img/directory/hotels/indriya.jpg"
     },
     {
-        "name":"Club Mahindra Cherai Beach",
-        "type":"Resort", 
-        "star":"&#9734&#9734&#9734&#9734", 
-        "phone":"+91 484 286 1500",
-        "distance":"7.6KM",
-        "web":"clubmahindra.com",
-        "photo":"../../img/directory/hotels/clubmahindra.jpg"
+        "name": "Les 3 Elephants Eco-Boutique Resort", 
+        "type": "Backwater Boutique Resort (Cherai)",
+        "star": "&#9733;&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 241 6963",
+        "distance": "6.8 KM",
+        "web": "www.3elephants.in",
+        "photo": "../../img/directory/hotels/cheraibeachresort.jpg"
     },
     {
-        "name":"Indriya Sands", 
-        "type":"Resort",
-        "star":"&#9734&#9734&#9734&#9734", 
-        "phone":"+91 9526 22 8899",
-        "distance":"8Km",
-        "web":"indriyaresorts.com",
-        "photo":"../../img/directory/hotels/indriya.jpg"
+        "name": "Hotel Cee Cee Tower, N.Paravur", 
+        "type": "Business & Family Hotel / Bar",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 244 5885",
+        "distance": "500 M",
+        "web": "hotelceeceetower.com",
+        "photo": "../../img/directory/hotels/ceecee.jpg"
+    },
+    {
+        "name": "Hotel White City (Bar & Restaurant), N.Paravur", 
+        "type": "Bar Hotel & Restaurant",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 244 7893",
+        "distance": "500 M",
+        "photo": "../../img/directory/hotels/whitecity.jpg"
+    },
+    {
+        "name": "Paravur Galaxy Hotel (Signature & Elexir Bar)", 
+        "type": "Bar Hotel & Multi-Cuisine Restaurant",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 244 3344",
+        "distance": "600 M",
+        "photo": "../../img/directory/hotels/ceecee.jpg"
+    },
+    {
+        "name": "Paravur Tourist Home (PTH Bar & Hotel)", 
+        "type": "Bar Hotel & Lodging",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 244 2185",
+        "distance": "300 M",
+        "photo": "../../img/directory/hotels/whitecity.jpg"
+    },
+    {
+        "name": "Cherai Tourist Home (CTH Bar & Restaurant)", 
+        "type": "Bar Hotel & Restaurant (Cherai Jn)",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 241 6450",
+        "distance": "6.0 KM",
+        "photo": "../../img/directory/hotels/whitecity.jpg"
+    },
+    {
+        "name": "Grand Muziris Hotel, N.Paravur", 
+        "type": "Town Hotel & Restaurant",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 244 8800",
+        "distance": "1.0 KM",
+        "photo": "../../img/directory/hotels/ceecee.jpg"
+    },
+    {
+        "name": "Gopika Residency, North Paravur", 
+        "type": "Hotel & Lodging",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 244 6111",
+        "distance": "800 M",
+        "photo": "../../img/directory/hotels/ceecee.jpg"
+    },
+    {
+        "name": "Smitha Tourist Home, North Paravur", 
+        "type": "Budget Hotel & Lodging",
+        "star": "&#9733;&#9733;", 
+        "phone": "+91 484 244 2786",
+        "distance": "400 M",
+        "photo": "../../img/directory/hotels/whitecity.jpg"
+    },
+    {
+        "name": "Camper By The Bay, Cherai", 
+        "type": "Beach Resort",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 98460 55440",
+        "distance": "7.2 KM",
+        "web": "camperbythebay.com",
+        "photo": "../../img/directory/hotels/indriya.jpg"
+    },
+    {
+        "name": "Baywatch Beach Homes, Cherai", 
+        "type": "Beachside Stay & Restaurant",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 484 248 0399",
+        "distance": "7.0 KM",
+        "photo": "../../img/directory/hotels/cheraibeachresort.jpg"
+    },
+    {
+        "name": "Oyster Bay Homestay, Cherai", 
+        "type": "Heritage Homestay",
+        "star": "&#9733;&#9733;&#9733;", 
+        "phone": "+91 94473 90366",
+        "distance": "6.5 KM",
+        "photo": "../../img/directory/hotels/indriya.jpg"
+    },
+    {
+        "name": "PWD Rest House, North Paravur", 
+        "type": "Govt. Guest House",
+        "star": "Govt", 
+        "phone": "+91 484 244 2254",
+        "distance": "500 M",
+        "photo": "../../img/directory/hotels/ceecee.jpg"
     }
 ]

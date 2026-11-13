@@ -1,0 +1,353 @@
+[
+    {
+        "name": "Dakshina Mookambika Temple, North Paravur",
+        "religion": "Temple",
+        "deity": "Goddess Saraswathi (Bala Parameswari)",
+        "address": "Mookambika Road, Near Municipal Junction, North Paravur 683513",
+        "phone": "+91 484 244 2186",
+        "timings": "4:00 AM – 11:00 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Renowned as the 'Mookambika of the South'; sanctum surrounded by a sacred lotus pond. Famous for Vidyarambham (initiation into learning) and Navarathri Sangeethotsavam.",
+        "photo": "../../img/directory/worship/dakshina_mookambika.jpg"
+    },
+    {
+        "name": "Peruvaram Mahadeva Temple",
+        "religion": "Temple",
+        "deity": "Lord Shiva & Goddess Parvathi (Twin Sanctum)",
+        "address": "Peruvaram, Mannam P.O., North Paravur 683520",
+        "phone": "+91 484 244 5210",
+        "timings": "4:30 AM – 11:00 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Ancient Travancore Devaswom Board Mahakshetram featuring a rare two-tiered circular Sreekovil where Lord Shiva faces East and Goddess Parvathi faces West.",
+        "photo": "../../img/directory/worship/peruvaram_temple.jpg"
+    },
+    {
+        "name": "Kannankulangara Maha Vishnu Temple",
+        "religion": "Temple",
+        "deity": "Lord Maha Vishnu",
+        "address": "Kannankulangara, Main Road South, North Paravur 683513",
+        "phone": "+91 484 244 3145",
+        "timings": "5:00 AM – 10:30 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Historic temple in the heart of North Paravur surrounded by a large temple pond (Chira) and traditionalagraharam heritage.",
+        "photo": ""
+    },
+    {
+        "name": "Gowreeswara Temple (Cherai Subramanya Temple)",
+        "religion": "Temple",
+        "deity": "Lord Subramanya",
+        "address": "Cherai, Vypin Island, North Paravur Taluk 683514",
+        "phone": "+91 484 248 0234",
+        "timings": "5:00 AM – 11:00 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Consecrated with the blessings of Sree Narayana Guru (1912) and managed by Vijnana Vardhini Sabha. Famous as the 'Palani of Kerala' for its grand Thaipooyam Utsavam and elephant pageantry.",
+        "photo": ""
+    },
+    {
+        "name": "Azheekkal Sree Varaha Venkitachalapathy Temple",
+        "religion": "Temple",
+        "deity": "Lord Varaha & Lord Venkateswara",
+        "address": "Azheekkal, Cherai, North Paravur Taluk 683514",
+        "phone": "+91 484 248 0327",
+        "timings": "5:30 AM – 11:30 AM, 5:30 PM – 8:00 PM",
+        "highlights": "19th-century GSB (Gowda Saraswat Brahmin) temple famous for its ornate golden Ratholsavam (Chariot Festival) featuring a massive hemispherical dome chariot.",
+        "photo": ""
+    },
+    {
+        "name": "Venketachalapathi Temple, Paravur Town",
+        "religion": "Temple",
+        "deity": "Lord Venkateswara (Thirumala Devaswom)",
+        "address": "Near Samooham High School, North Paravur 683513",
+        "phone": "NA",
+        "timings": "5:30 AM – 11:00 AM, 5:30 PM – 8:00 PM",
+        "highlights": "Historic Gowda Saraswat Brahmin temple located along the old Paravur merchant quarter.",
+        "photo": ""
+    },
+    {
+        "name": "Thonniyakavu Bhadrakali Temple",
+        "religion": "Temple",
+        "deity": "Goddess Bhadrakali",
+        "address": "Thonniyakavu, Puthenvelikkara Road, North Paravur 683513",
+        "phone": "+91 484 244 6212",
+        "timings": "5:00 AM – 11:00 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Famous sacred grove (Kavu) temple just outside Paravur town, renowned for its annual Kalamezhuthu Pattu and Thalapoli festival.",
+        "photo": ""
+    },
+    {
+        "name": "Kottayil Kovilakom Sree Krishna Temple",
+        "religion": "Temple",
+        "deity": "Lord Sree Krishna (Santana Gopala Moorthy)",
+        "address": "Kottayil Kovilakom, Chendamangalam, North Paravur 683512",
+        "phone": "NA",
+        "timings": "5:00 AM – 10:30 AM, 5:30 PM – 7:30 PM",
+        "highlights": "Royal family deity shrine of the Villarvattom Kshetriya dynasty and Paliath Achans; stands atop the Kottayil Kovilakom hillock alongside a Church, Mosque, and Synagogue.",
+        "photo": "../../img/directory/worship/kottayil_krishna_temple.jpg"
+    },
+    {
+        "name": "Mannam Subramanya Swamy Temple",
+        "religion": "Temple",
+        "deity": "Lord Subramanya",
+        "address": "Mannam P.O., North Paravur 683520",
+        "phone": "NA",
+        "timings": "5:00 AM – 10:30 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Major Subramanya shrine in Mannam known for Thaipooyam Kavadiyattam processions.",
+        "photo": ""
+    },
+    {
+        "name": "Moothakunnam Sree Narayana Mangalam (SNM) Temple",
+        "religion": "Temple",
+        "deity": "Lord Shiva (Sree Narayana Guru Prathishta)",
+        "address": "Moothakunnam, Vadakkekara P.O., North Paravur 683516",
+        "phone": "+91 484 248 2160",
+        "timings": "5:00 AM – 11:00 AM, 5:00 PM – 8:00 PM",
+        "highlights": "Consecrated by Sree Narayana Guru in 1903 and managed by HMDP Sabha Moothakunnam.",
+        "photo": ""
+    },
+    {
+        "name": "Kottakkavu Mar Thoma Syro-Malabar Pilgrim Church",
+        "religion": "Church",
+        "deity": "St. Thomas the Apostle (Founded 52 AD)",
+        "address": "Kottakkavu, North Paravur 683513",
+        "phone": "+91 484 244 2261",
+        "website": "www.kottakkavuchurch.org",
+        "timings": "5:30 AM – 8:00 PM",
+        "highlights": "One of the seven ancient churches (Ezharappallikal) established by St. Thomas the Apostle in 52 AD. Preserves a 9th-century Persian Stone Cross and heritage museum.",
+        "photo": "../../img/directory/worship/kottakkavu_church.jpg"
+    },
+    {
+        "name": "St. Thomas Jacobite Syrian Cathedral (Mar Thoman Cheriyapally)",
+        "religion": "Church",
+        "deity": "St. Thomas & Tomb of St. Gregorios Abdul Jaleel (1681 AD)",
+        "address": "Cheriapally Road, Near Municipal Jn., North Paravur 683513",
+        "phone": "+91 484 244 2354",
+        "timings": "6:00 AM – 7:30 PM",
+        "highlights": "Constructed in 1566 AD; houses the sacred tomb of Mor Gregorios Abdul Jaleel Bawa (Syriac Orthodox Archbishop of Jerusalem who passed away in North Paravur in 1681 AD).",
+        "photo": "../../img/directory/worship/cheriyapally.jpg"
+    },
+    {
+        "name": "St. Don Bosco Roman Catholic Latin Church",
+        "religion": "Church",
+        "deity": "St. John Bosco",
+        "address": "KMK Junction, NH-66, North Paravur 683513",
+        "phone": "+91 484 244 2675",
+        "timings": "6:00 AM – 7:30 PM",
+        "highlights": "Major Latin Catholic parish church located right at KMK Junction adjacent to Don Bosco Hospital.",
+        "photo": ""
+    },
+    {
+        "name": "Holy Cross Church (Mar Sleeva Church), Kottayil Kovilakom",
+        "religion": "Church",
+        "deity": "Holy Cross",
+        "address": "Kottayil Kovilakom, Chendamangalam, North Paravur 683512",
+        "phone": "NA",
+        "timings": "6:00 AM – 7:00 PM",
+        "highlights": "Historic church established in 1075 AD at the foot of the Kottayil Kovilakom hillock in Chendamangalam.",
+        "photo": "../../img/directory/worship/kottayil_church.jpg"
+    },
+    {
+        "name": "Our Lady of Snows Basilica (Manjumatha Church), Pallippuram",
+        "religion": "Church",
+        "deity": "Our Lady of Snows (Manjumatha)",
+        "address": "Pallippuram, Cherai–Munambam Road, North Paravur Taluk 683515",
+        "phone": "+91 484 248 8154",
+        "timings": "5:30 AM – 8:00 PM",
+        "highlights": "Built by the Portuguese in 1503 AD near Pallippuram Fort; elevated to Minor Basilica status and famed for its miraculous protection during Tipu Sultan's campaign.",
+        "photo": "../../img/directory/worship/manjumatha_basilica.jpg"
+    },
+    {
+        "name": "St. Philomena's Forane Church & Chavara Pilgrim Centre, Koonammavu",
+        "religion": "Church",
+        "deity": "St. Philomena & St. Kuriakose Elias Chavara",
+        "address": "Koonammavu, NH-66, North Paravur Taluk 683518",
+        "phone": "+91 484 251 3246",
+        "timings": "5:30 AM – 8:00 PM",
+        "highlights": "Founded in 1837; final resting place for many years and karma bhoomi of St. Kuriakose Elias Chavara and St. Euphrasia.",
+        "photo": "../../img/directory/worship/koonammavu_church.jpg"
+    },
+    {
+        "name": "St. Antony's Pilgrim Shrine, Chettikkad (Moothakunnam)",
+        "religion": "Church",
+        "deity": "St. Antony of Padua",
+        "address": "Chettikkad, Moothakunnam, North Paravur 683516",
+        "phone": "+91 484 248 3315",
+        "timings": "6:00 AM – 7:30 PM",
+        "highlights": "Renowned Tuesday Novena pilgrim shrine attracting devotees from across Ernakulam and Thrissur districts.",
+        "photo": ""
+    },
+    {
+        "name": "St. Sebastian's Church, Gothuruth",
+        "religion": "Church",
+        "deity": "St. Sebastian",
+        "address": "Gothuruth Island, Chendamangalam P.O., North Paravur 683516",
+        "phone": "+91 484 248 3270",
+        "timings": "6:00 AM – 7:30 PM",
+        "highlights": "Historic island parish (1811 AD) renowned as the cradle of Chavittunadakam (traditional Indo-Portuguese Christian opera dance).",
+        "photo": "../../img/directory/worship/gothuruth_church.jpg"
+    },
+    {
+        "name": "Cheraman Juma Masjid (629 AD)",
+        "religion": "Mosque",
+        "deity": "Oldest Mosque in India (Founded by Malik Bin Dinar)",
+        "address": "Cheraman Malik Manzil, NH-66, Kodungallur–Paravur Corridor 680664",
+        "phone": "+91 480 280 3770",
+        "timings": "5:00 AM – 9:00 PM",
+        "highlights": "Built in 629 AD during the lifetime of Prophet Muhammad; features traditional Kerala wood architecture and an ancient oil lamp.",
+        "photo": "../../img/directory/worship/cheraman_masjid.jpg"
+    },
+    {
+        "name": "Paravur Town Juma Masjid",
+        "religion": "Mosque",
+        "deity": "Sunni Juma Masjid",
+        "address": "Main Road, Market Junction, North Paravur 683513",
+        "phone": "+91 484 244 2810",
+        "timings": "4:45 AM – 9:30 PM",
+        "highlights": "Central congregational mosque located in the heart of North Paravur town.",
+        "photo": ""
+    },
+    {
+        "name": "Kottayil Kovilakom Juma Masjid, Chendamangalam",
+        "religion": "Mosque",
+        "deity": "Historic Mosque & Sufi Dargah",
+        "address": "Kottayil Kovilakom Hill, Chendamangalam, North Paravur 683512",
+        "phone": "NA",
+        "timings": "5:00 AM – 8:30 PM",
+        "highlights": "Built on land granted by the Paliath Achan atop Kottayil Kovilakom hillock, completing the four-faith harmony ensemble.",
+        "photo": ""
+    },
+    {
+        "name": "Manjaly Makham & Juma Masjid",
+        "religion": "Mosque",
+        "deity": "Juma Masjid & Makham",
+        "address": "Manjaly, Mannam P.O., North Paravur 683520",
+        "phone": "NA",
+        "timings": "5:00 AM – 9:00 PM",
+        "highlights": "Historic mosque along the Periyar riverbank in Manjaly, famous for the annual Manjaly Nercha and Halwa heritage.",
+        "photo": "../../img/directory/worship/manjaly_mosque.jpg"
+    },
+    {
+        "name": "Vaniyakkadu Juma Masjid",
+        "religion": "Mosque",
+        "deity": "Juma Masjid",
+        "address": "Vaniyakkadu, Mannam P.O., NH-66, North Paravur 683520",
+        "phone": "NA",
+        "timings": "5:00 AM – 9:00 PM",
+        "highlights": "Major mosque serving the Vaniyakkadu and Vedimara area along the Paravur–Varapuzha route.",
+        "photo": ""
+    },
+    {
+        "name": "Vadakkumpuram Juma Masjid",
+        "religion": "Mosque",
+        "deity": "Juma Masjid",
+        "address": "Vadakkumpuram P.O., Chendamangalam, North Paravur 683521",
+        "phone": "NA",
+        "timings": "5:00 AM – 9:00 PM",
+        "highlights": "Congregational mosque serving Vadakkumpuram and Kuttikkattukara.",
+        "photo": ""
+    },
+    {
+        "name": "Paravur Jewish Synagogue (Kerala Jews History Museum)",
+        "religion": "Synagogue",
+        "deity": "Built 1164 AD • Reconstructed 1615–1616 AD by David Yaakov Castiel",
+        "address": "Jew Street (Joothatheruvu), Near Old Market, North Paravur 683513",
+        "phone": "+91 484 244 0808",
+        "timings": "9:30 AM – 5:00 PM (Closed Mondays)",
+        "highlights": "One of the largest and most architecturally complete synagogues in Kerala, featuring a traditional Padippura gateway, colonnaded walkway, and museum exhibits on Cochin Jewish life.",
+        "photo": "../../img/directory/worship/paravur_synagogue.jpg"
+    },
+    {
+        "name": "Chendamangalam Jewish Synagogue (1614 AD)",
+        "religion": "Synagogue",
+        "deity": "Malabar Yehudan Synagogue & 1269 AD Hebrew Tombstone",
+        "address": "Kottayil Kovilakom, Chendamangalam, North Paravur 683512",
+        "phone": "+91 484 244 0808",
+        "timings": "9:30 AM – 5:00 PM (Closed Mondays)",
+        "highlights": "Built in 1614 AD on land gifted by the Paliath Achan; houses the 1269 AD tombstone of Sarah Bat Israel—the oldest dated Hebrew inscription in India.",
+        "photo": "../../img/directory/worship/chendamangalam_synagogue.jpg"
+    },
+    {
+        "name": "Kalikulangara Bhagavathy Temple",
+        "religion": "Temple",
+        "deity": "Goddess Bhadrakali",
+        "address": "Kalikulangara, Near KMK Junction, North Paravur 683513",
+        "phone": "NA",
+        "timings": "5:00 AM – 10:30 AM, 5:30 PM – 8:00 PM",
+        "highlights": "Ancient Devi temple in North Paravur town renowned for its annual Thalapoli, Kalam Pattu, and traditional Kerala temple rituals.",
+        "photo": ""
+    },
+    {
+        "name": "Valuthattu Bhagavathy Temple",
+        "religion": "Temple",
+        "deity": "Goddess Bhagavathy",
+        "address": "Valuthattu, North Paravur 683513",
+        "phone": "NA",
+        "timings": "5:30 AM – 10:30 AM, 5:30 PM – 8:00 PM",
+        "highlights": "Celebrated locally for its vibrant annual Theyyam and Bharani festival traditions.",
+        "photo": ""
+    },
+    {
+        "name": "Thirumuppam Mahadeva Temple",
+        "religion": "Temple",
+        "deity": "Lord Shiva",
+        "address": "Thirumuppam, Kottuvally, North Paravur 683519",
+        "phone": "NA",
+        "timings": "5:00 AM – 10:30 AM, 5:30 PM – 8:00 PM",
+        "highlights": "Historic Shiva temple in Kottuvally known for Shivaratri celebrations and serene Kerala temple architecture.",
+        "photo": ""
+    },
+    {
+        "name": "Thrikkapuram Mahavishnu & Shiva Temple",
+        "religion": "Temple",
+        "deity": "Lord Mahavishnu & Lord Shiva",
+        "address": "Thrikkapuram, North Paravur 683513",
+        "phone": "NA",
+        "timings": "5:00 AM – 10:00 AM, 5:30 PM – 8:00 PM",
+        "highlights": "Ancient temple complex in Thrikkapuram revered across North Paravur for Ekadashi and Ashtami Rohini.",
+        "photo": ""
+    },
+    {
+        "name": "Makkanayi Shiva Temple",
+        "religion": "Temple",
+        "deity": "Lord Shiva",
+        "address": "Makkanayi, Mannam P.O., North Paravur 683520",
+        "phone": "NA",
+        "timings": "5:30 AM – 10:00 AM, 5:30 PM – 7:45 PM",
+        "highlights": "Historic riverside Shiva shrine in Makkanayi (Mannam) serving devotees in Paravur Taluk.",
+        "photo": ""
+    },
+    {
+        "name": "Muziris Kizhthali Mahadeva Temple",
+        "religion": "Temple",
+        "deity": "Lord Shiva (Chera Era)",
+        "address": "Kizhthali, Methala / Kodungallur–Paravur Muziris Corridor 680664",
+        "phone": "NA",
+        "timings": "5:00 AM – 11:00 AM, 5:00 PM – 8:00 PM",
+        "highlights": "One of the oldest Chera-era Mahakshetrams in the Muziris heritage zone with ancient stone inscriptions.",
+        "photo": "../../img/gallery/kizhthali_small.jpg"
+    },
+    {
+        "name": "Our Lady of Mount Carmel & St. Joseph Church, Varapuzha (1673 AD)",
+        "religion": "Church",
+        "deity": "Mount Carmel & St. Joseph (Verapoly Archdiocese Heritage)",
+        "address": "Varapuzha Island, North Paravur Taluk 683517",
+        "phone": "+91 484 251 2245",
+        "timings": "5:30 AM – 8:00 PM",
+        "highlights": "Founded in 1673 AD by Carmelite missionaries; historic seat of the Vicariate Apostolic of Malabar (Verapoly) along the Periyar river.",
+        "photo": "../../img/directory/worship/varapuzha_church.jpg"
+    },
+    {
+        "name": "St. Sebastian Church, Valluvally",
+        "religion": "Church",
+        "deity": "St. Sebastian",
+        "address": "Valluvally, Koonammavu P.O., North Paravur 683518",
+        "phone": "+91 484 251 1280",
+        "timings": "6:00 AM – 7:30 PM",
+        "highlights": "Major historic parish in Valluvally famous for its grand St. Sebastian Feast (Ambu Perunnal).",
+        "photo": ""
+    },
+    {
+        "name": "St. George Forane Church, Puthenpally (Varapuzha)",
+        "religion": "Church",
+        "deity": "St. George",
+        "address": "Puthenpally, Varapuzha, North Paravur Taluk 683517",
+        "phone": "+91 484 251 2410",
+        "timings": "5:45 AM – 7:45 PM",
+        "highlights": "Prominent Syro-Malabar Forane church serving Puthenpally and Varapuzha.",
+        "photo": ""
+    }
+]
