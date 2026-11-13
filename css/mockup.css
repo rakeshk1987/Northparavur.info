@@ -707,8 +707,23 @@ footer.mockFooter {
     .threeColGrid {
         grid-template-columns: 1fr;
     }
+    .threeColGrid > section {
+        order: 1;
+    }
+    .threeColGrid > .stickyRail:not(.rightRail) {
+        order: 2;
+    }
+    .threeColGrid > .rightRail {
+        order: 3;
+    }
     .stickyRail {
         position: static;
+    }
+    .compactHero {
+        padding: 22px 18px;
+    }
+    .compactHero h1 {
+        font-size: 24px;
     }
     .pageShell {
         padding: 14px 14px 36px 14px;
