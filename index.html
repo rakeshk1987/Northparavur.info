@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-		content="Welcome to NorthParavur.in — the official digital guide to North Paravur (Ancient Muziris), Kerala. Search tourist attractions, Cherai Beach resorts, Chendamangalam heritage, hospitals, schools, and local businesses.">
-	<meta name="keywords" content="North Paravur, northparavur.in, Muziris Heritage, Cherai Beach, Chendamangalam, Kadamakudy, Hospitals in North Paravur, Schools in North Paravur">
+		content="Welcome to NorthParavur.in — the official digital guide to North Paravur (Ancient Muziris), Kerala. Search tourist attractions, Cherai Beach resorts, Chendamangalam heritage, hospitals, schools, temples, churches, mosques, and local businesses.">
+	<meta name="keywords" content="North Paravur, northparavur.in, Muziris Heritage, Cherai Beach, Chendamangalam, Kadamakudy, Hospitals in North Paravur, Schools in North Paravur, Paravur Taluk">
 	<link rel="canonical" href="https://northparavur.in/">
 
 	<!-- OpenGraph / WhatsApp Preview Meta Tags -->
@@ -21,11 +21,7 @@
 	<link rel="icon" href="./img/favicon.ico" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<link rel="stylesheet" href="./css/header.css">
-	<link rel="stylesheet" href="./css/index.css">
-	<link rel="stylesheet" href="./css/footer.css">
-
-	<script src="./scripts/all.js" data-auto-a11y="true"></script>
+	<link rel="stylesheet" href="./css/mockup.css">
 
 	<!-- JSON-LD Structured Data for Google Local & Tourism SEO -->
 	<script type="application/ld+json">
@@ -41,234 +37,77 @@
 </head>
 
 <body>
-
-	<!-- Top Navigation -->
 	<header>
-		<div class="headerText">
-			<div class="respNav">
-				<div class="respNavPos">
-					<a href="javascript:void(0);" class="respIcon" onclick="respMenu()" aria-label="Menu">&#9776;</a>
-					<p class="menuTxt">MENU</p>
+		<div class="topBar">
+			<!-- Live Temperature + 7-Day Forecast on Left of Header -->
+			<div class="weatherWrap" id="weatherWrap">
+				<button class="weatherPill" type="button" onclick="document.getElementById('weatherWrap').classList.toggle('open')" title="Click or hover for 7-Day Forecast">
+					<i class="fas fa-sun"></i>
+					<span id="headerTempText">Loading °C...</span>
+					<i class="fas fa-chevron-down" style="font-size:10px; opacity:0.7;"></i>
+				</button>
+				<div class="weatherPopover" id="weatherPopover">
+					<div style="font-weight:800; font-size:12.5px; color:var(--brand-primary); margin-bottom:8px; text-transform:uppercase; letter-spacing:0.6px;">
+						<i class="fas fa-cloud-sun"></i> 7-Day Forecast — North Paravur
+					</div>
+					<div id="forecastList">Loading 7-day forecast...</div>
 				</div>
 			</div>
-			<div>
-				<a href="index.html">
-					<div class="logo">NorthParavur.in</div>
-					<div class="tagline">Gateway to Ancient Muziris &bull; Local Guide</div>
-				</a>
-			</div>
-			<div class="language"></div>
-		</div>
-		<div class="navbar" id="myTopnav">
-			<div class="navbarposition">
-				<nav>
-					<a class="active" href="index.html"><i class="fas fa-home"></i> Home</a>
-					<a href="./pages/history.html"><i class="fas fa-history"></i> History</a>
-					<a href="./pages/gallery.html"><i class="far fa-images"></i> Gallery</a>
-					<div class="dropdown">
-						<button class="dropbtn"><i class="fas fa-phone-volume"></i> Directory
-							<i class="fa fa-caret-down"></i>
-						</button>
-						<div class="dropdown-content">
-							<a href="./pages/directory/hospitals.html"><i class="fas fa-hospital"></i> Hospitals</a>
-							<a href="./pages/directory/offices.html"><i class="fas fa-building"></i> Govt. Offices</a>
-							<a href="./pages/directory/schools.html"><i class="fas fa-school"></i> Schools</a>
-							<a href="./pages/directory/colleges.html"><i class="fas fa-university"></i> Colleges</a>
-							<a href="./pages/directory/hotels.html"><i class="fas fa-hotel"></i> Hotels, Resorts & Bars</a>
-							<a href="./pages/directory/worship.html"><i class="fas fa-place-of-worship"></i> Temples, Churches & Mosques</a>
-						</div>
-					</div>
-					<a href="./pages/taluk.html"><i class="fas fa-map-marker-alt"></i> Taluk</a>
-					<a href="./pages/tourism.html"><i class="fas fa-plane"></i> Tourism</a>
-					<a href="./pages/personalities.html"><i class="fas fa-user-tie"></i> Personalities</a>
-				</nav>
+
+			<!-- Brand Center -->
+			<a class="brandWrap" href="#home" onclick="switchView('home')">
+				<div class="brandLogo">NorthParavur.in</div>
+				<div class="brandTag">Gateway to Ancient Muziris &bull; Local Guide</div>
+			</a>
+
+			<!-- Theme & Language Controls on Right -->
+			<div class="topControls">
+				<button id="mockThemeBtn" class="pillBtn" onclick="toggleMockTheme()" type="button">
+					<i class="fas fa-moon"></i> Dark
+				</button>
+				<button id="mockLangBtn" class="pillBtn" onclick="toggleMockLang()" type="button">
+					<i class="fas fa-language"></i> മലയാളം
+				</button>
 			</div>
 		</div>
+
+		<nav class="navStrip" aria-label="Primary Navigation">
+			<div class="navInner">
+				<button class="navTab activeNav" data-view="home" onclick="switchView('home')"><i class="fas fa-home"></i> Home</button>
+				<button class="navTab" data-view="news" onclick="switchView('news')"><i class="fas fa-newspaper"></i> News</button>
+				<button class="navTab" data-view="events" onclick="switchView('events')"><i class="fas fa-calendar-alt"></i> Events</button>
+				<button class="navTab" data-view="history" onclick="switchView('history')"><i class="fas fa-history"></i> History</button>
+				<button class="navTab" data-view="tourism" onclick="switchView('tourism')"><i class="fas fa-umbrella-beach"></i> Tourism</button>
+				<button class="navTab" data-view="personalities" onclick="switchView('personalities')"><i class="fas fa-user-tie"></i> Personalities</button>
+				<button class="navTab" data-view="taluk" onclick="switchView('taluk')"><i class="fas fa-map-marked-alt"></i> Taluk</button>
+				<button class="navTab" data-view="gallery" onclick="switchView('gallery')"><i class="far fa-images"></i> Gallery</button>
+				<button class="navTab" data-view="worship" onclick="switchView('worship')"><i class="fas fa-place-of-worship"></i> Temples &amp; Churches</button>
+				<button class="navTab" data-view="directory" onclick="switchView('directory')"><i class="fas fa-address-book"></i> Directory</button>
+			</div>
+		</nav>
 	</header>
 
-	<!-- 1. HERO BANNER WITH GLOBAL OMNI-SEARCH -->
-	<section class="npHero" style="background-image: linear-gradient(180deg, rgba(11, 36, 38, 0.80) 0%, rgba(15, 61, 62, 0.88) 100%), url('./img/home.JPG');">
-		<div class="npHeroInner">
-			<span class="npHeroEyebrow"><i class="fas fa-compass"></i> Ancient Port of Muziris &bull; Est. 52 BC &bull; KL-42</span>
-			<h1 data-i18n="welcome_title">Discover North Paravur</h1>
-			<p class="npHeroSubtitle" data-i18n="home_intro">
-				Where 2,000 years of Spice Route heritage, Jewish synagogues, Paliam palaces, and Cherai beaches meet North Paravur's complete local business & civic directory.
-			</p>
-
-			<!-- Global Search Box -->
-			<div class="heroSearchWrap">
-				<div class="heroSearchBar">
-					<i class="fas fa-search"></i>
-					<input id="globalSearchInput" type="search" placeholder="Search Temples, Churches, Resorts, Bars, Bus Timings, NH-66, Hospitals, Schools..." aria-label="Search North Paravur" autocomplete="off">
-					<button type="button" class="heroSearchClear" onclick="document.getElementById('globalSearchInput').focus()">Search</button>
-				</div>
-				<div id="globalSearchResults" class="globalSearchResults"></div>
-
-				<!-- Instant Search Filter Chips -->
-				<div class="heroQuickChips">
-					<span class="heroChip" data-quick-search="Cherai"><i class="fas fa-umbrella-beach"></i> Cherai & Beaches</span>
-					<span class="heroChip" data-quick-search="Temple"><i class="fas fa-place-of-worship"></i> Temples, Churches & Mosques</span>
-					<span class="heroChip" data-quick-search="Resort"><i class="fas fa-glass-martini-alt"></i> Resorts, Hotels & Bars</span>
-					<span class="heroChip" data-quick-search="Hospital"><i class="fas fa-hospital"></i> Hospitals</span>
-					<span class="heroChip" data-quick-search="Police"><i class="fas fa-shield-alt"></i> Police & Govt Offices</span>
-					<a class="heroChip" href="#transitHub"><i class="fas fa-bus"></i> Bus Timings & NH-66 Status</a>
-					<a class="heroChip" href="#emergency"><i class="fas fa-phone-alt"></i> Emergency Numbers</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<main class="npContainer">
-
-		<!-- 2. DUAL-MODE EXPLORER: TOURIST & HERITAGE vs LOCAL DIRECTORY -->
-		<section style="margin-bottom: 52px;">
-			<div class="sectionHeader">
-				<span class="sectionEyebrow">Explore North Paravur</span>
-				<h2>What Are You Looking For Today?</h2>
-				<p>Switch between our curated <b>Visitor & Heritage Guide</b> or our verified <b>Local Business & Civic Directory (110+ Listings)</b>.</p>
-			</div>
-
-			<div class="modeTabsBar">
-				<button id="tabTourist" type="button" class="modeTabBtn activeTab" onclick="switchExplorerMode('tourist')">
-					<i class="fas fa-map-marked-alt"></i> For Tourists & Heritage Seekers
-				</button>
-				<button id="tabLocal" type="button" class="modeTabBtn" onclick="switchExplorerMode('local')">
-					<i class="fas fa-building"></i> For Locals & Business Directory
-				</button>
-			</div>
-
-			<div id="dualExplorerGrid" class="portalGrid"></div>
-		</section>
-
-		<!-- 3. INTERACTIVE MUZIRIS HERITAGE TRAIL & DAY-TRIP ITINERARY BUILDER -->
-		<section id="itineraryBuilder" style="margin-bottom: 52px;">
-			<div class="sectionHeader">
-				<span class="sectionEyebrow">Interactive Trip Planner</span>
-				<h2>Muziris & Cherai Day-Trip Itinerary Builder</h2>
-				<p>Visiting North Paravur for a day or weekend? Select a curated trail below with timings, durations, and stops.</p>
-			</div>
-
-			<div class="itineraryBox">
-				<div class="itinerarySelector">
-					<button type="button" class="itinBtn activeItin" data-itin-key="heritage_trail" onclick="selectItinerary('heritage_trail')">
-						<i class="fas fa-crown"></i> 1. Muziris Royal & Heritage Trail
-					</button>
-					<button type="button" class="itinBtn" data-itin-key="coastal_backwater" onclick="selectItinerary('coastal_backwater')">
-						<i class="fas fa-water"></i> 2. Cherai, Kadamakudy & Backwaters
-					</button>
-					<button type="button" class="itinBtn" data-itin-key="pilgrim_harmony" onclick="selectItinerary('pilgrim_harmony')">
-						<i class="fas fa-place-of-worship"></i> 3. 2,000-Year Sacred Harmony Trail
-					</button>
-				</div>
-
-				<div id="itineraryContent"></div>
-			</div>
-		</section>
-
-		<!-- 4. BUS TIMINGS (KSRTC & PRIVATE) + NH-66 WORK PROGRESS TRACKER -->
-		<section id="transitHub" style="margin-bottom: 52px;">
-			<div class="sectionHeader">
-				<span class="sectionEyebrow">Live Commuter & Highway Guide</span>
-				<h2>Bus Station Timings (KSRTC / Private) &amp; NH-66 Work Progress</h2>
-				<p>Check high-frequency bus schedules from North Paravur and track the 26.06 km Edappally – Paravur – Moothakunnam Six-Lane NH-66 widening status.</p>
-			</div>
-
-			<div id="transitAndNh66Container"></div>
-		</section>
-
-		<!-- 5. MUZIRIS HISTORICAL TIMELINE STRIP -->
-		<section style="margin-bottom: 52px;">
-			<div class="sectionHeader">
-				<span class="sectionEyebrow">2,000+ Years of Recorded History</span>
-				<h2>Timeline of North Paravur (Ancient Muziris)</h2>
-				<p>From Roman spice trade ships in 52 BC to India's first Electronic Voting Machine in 1982.</p>
-			</div>
-
-			<div id="heritageTimelineGrid" class="heritageScroll"></div>
-
-			<div style="text-align: center; margin-top: 22px;">
-				<a class="btnWeb" href="./pages/history.html" style="padding: 10px 22px; font-size: 14px;">
-					<i class="fas fa-book-open"></i> Read Full 12-Chapter History (English &amp; മലയാളം) &rarr;
-				</a>
-			</div>
-		</section>
-
-		<!-- 6. LIVE WEATHER WIDGET -->
-		<section style="margin-bottom: 44px;">
-			<a class="weatherwidget-io" href="https://forecast7.com/en/10d1476d23/north-paravur/" data-label_1="NORTH PARAVUR"
-				data-label_2="7-DAY WEATHER FORECAST" data-font="Verdana" data-icons="Climacons Animated" data-theme="pure">North
-				Paravur 7-Day Weather Forecast</a>
-			<script>
-				!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-			</script>
-		</section>
-
-		<!-- 7. CIVIC AT A GLANCE, TRANSIT & EMERGENCY NUMBERS -->
-		<section>
-			<div class="sectionHeader">
-				<span class="sectionEyebrow">Essential Civic Guide</span>
-				<h2>Emergency Contacts, Transit & Taluk Facts</h2>
-			</div>
-
-			<div class="infoGrid">
-				<article>
-					<h3 data-i18n="glance_title">TALUK AT A GLANCE</h3>
-					<div class="infogridLists">
-						<p><i class="fas fa-map-marked-alt circle-icon" style="color: white; font-size:15px;"></i> <b>AREA:</b> 191.82 sq km (Paravur Taluk)</p>
-						<p><i class="fas fa-phone-square-alt circle-icon" style="color: white; font-size:15px;"></i> <b>STD / PIN CODE:</b> 0484 / 683513</p>
-						<p><i class="fas fa-car circle-icon" style="color: white; font-size:15px;"></i> <b>RTO CODE:</b> KL-42 (North Paravur SRTO)</p>
-						<p><i class="fas fa-map-signs circle-icon" style="color: white; font-size:15px;"></i> <b>REVENUE VILLAGES:</b> 14 Villages</p>
-						<p><i class="fas fa-map-marker-alt circle-icon" style="color: white; font-size:15px;"></i> <b>BLOCK PANCHAYATS:</b> 2 (Paravur & Alangad)</p>
-						<p><i class="far fa-building circle-icon" style="color: white; font-size:15px;"></i> <b>MUNICIPALITIES:</b> 2 (North Paravur & Eloor)</p>
-					</div>
-				</article>
-
-				<article id="howtoreach">
-					<h3 data-i18n="reach_title">HOW TO REACH</h3>
-					<div class="infogridLists">
-						<p><i class="fas fa-plane circle-icon" style="color: white; font-size:15px;"></i> <b>Airport:</b> Cochin International Airport — CIAL (22 KM)</p>
-						<p><i class="fas fa-train circle-icon" style="color: white; font-size:15px;"></i> <b>Railhead:</b> Aluva Railway Station (17 KM) &bull; Ernakulam (24 KM)</p>
-						<p><i class="fas fa-bus-alt circle-icon" style="color: white; font-size:15px;"></i> <b>Bus Connectivity:</b> KSRTC & Municipal Private Bus Stand</p>
-						<p><i class="fas fa-road circle-icon" style="color: white; font-size:15px;"></i> <b>Highway (NH-66):</b> Kochi (21 KM) &bull; Kodungallur (12 KM)</p>
-						<p><i class="fas fa-ship circle-icon" style="color: white; font-size:15px;"></i> <b>Waterways:</b> Muziris Hop-On Hop-Off Backwater Boats</p>
-					</div>
-				</article>
-
-				<article>
-					<h3 id="emergency" data-i18n="emergency_title">24x7 EMERGENCY NUMBERS</h3>
-					<div class="infogridLists">
-						<p><i class="fas fa-user-shield circle-icon" style="color: white; font-size:15px;"></i> <b>POLICE STATION:</b> <a href="tel:+914842445525">+91 484 244 5525</a></p>
-						<p><i class="fas fa-fire-alt circle-icon" style="color: white; font-size:15px;"></i> <b>FIRE & RESCUE:</b> <a href="tel:+914842443101">+91 484 244 3101</a></p>
-						<p><i class="fas fa-hospital circle-icon" style="color: white; font-size:15px;"></i> <b>TALUK HOSPITAL:</b> <a href="tel:+914842444438">+91 484 244 4438</a></p>
-						<p><i class="fas fa-bus-alt circle-icon" style="color: white; font-size:15px;"></i> <b>KSRTC ENQUIRY:</b> <a href="tel:+914842444439">+91 484 244 4439</a></p>
-						<p><i class="fas fa-bolt circle-icon" style="color: white; font-size:15px;"></i> <b>KSEB PARAVUR:</b> <a href="tel:+914842442322">+91 484 244 2322</a></p>
-						<p><i class="fas fa-female circle-icon" style="color: white; font-size:16px;"></i> <b>WOMEN HELPLINE:</b> <a href="tel:1091">1091</a> / <a href="tel:181">181</a></p>
-					</div>
-				</article>
-
-				<article>
-					<h3 id="links" data-i18n="links_title">OFFICIAL PORTALS & UPDATES</h3>
-					<div class="infogridLists">
-						<p><i class="fas fa-landmark circle-icon" style="color: white; font-size:14px;"></i> <a href="https://www.muzirisheritage.org/" target="_blank" rel="noopener">Muziris Heritage Project Official</a></p>
-						<p><i class="fas fa-building circle-icon" style="color: white; font-size:14px;"></i> <a href="https://lsgkerala.gov.in/" target="_blank" rel="noopener">LSG Kerala / North Paravur Municipality</a></p>
-						<p><i class="fas fa-file-alt circle-icon" style="color: white; font-size:14px;"></i> <a href="https://edistrict.kerala.gov.in/" target="_blank" rel="noopener">Kerala E-District Citizen Services</a></p>
-						<p><i class="fas fa-newspaper circle-icon" style="color: white; font-size:14px;"></i> <a href="./pages/news.html">North Paravur Community News</a></p>
-						<p><i class="fas fa-calendar-check circle-icon" style="color: white; font-size:14px;"></i> <a href="./pages/events.html">Featured Local Businesses & Events</a></p>
-					</div>
-				</article>
-			</div>
-		</section>
-
+	<main class="pageShell">
+		<div id="mockStage"></div>
 	</main>
 
-	<!-- Footer -->
-	<div id="footer"></div>
+	<!-- Global Popup Modal for Tourism, Personalities, Gallery & Worship Tiles -->
+	<div id="mockModal" class="modalBackdrop" onclick="if(event.target===this) closeMockModal()">
+		<div id="mockModalInner" class="modalDialog"></div>
+	</div>
 
-	<!-- Master Data Store + Global Theme/Dialect + Homepage Engine -->
+	<footer class="mockFooter">
+		<div><b>NorthParavur.in</b> &bull; Muziris Royal Heritage &amp; Local Business Directory &bull; Ernakulam, Kerala</div>
+		<div style="margin-top:6px; font-size:12px;">
+			<a href="#directory" onclick="switchView('directory')" style="color:var(--brand-primary); text-decoration:none; margin:0 8px;">Business Directory</a> &bull;
+			<a href="#news" onclick="switchView('news')" style="color:var(--brand-primary); text-decoration:none; margin:0 8px;">Local News</a> &bull;
+			<a href="#events" onclick="switchView('events')" style="color:var(--brand-primary); text-decoration:none; margin:0 8px;">Festivals &amp; Events</a> &bull;
+			<a href="#tourism" onclick="switchView('tourism')" style="color:var(--brand-primary); text-decoration:none; margin:0 8px;">Tourism &amp; Boat Cruise</a>
+		</div>
+	</footer>
+
 	<script src="./data/masterData.js"></script>
-	<script src="./scripts/common.js"></script>
-	<script src="./scripts/index.js"></script>
-
+	<script src="./scripts/mockup.js"></script>
 </body>
 
 </html>

@@ -341,10 +341,12 @@ if (result === "worship.html") {
         });
 
         document.getElementById("worship").innerHTML = filtered.map(function (place) {
+            var fallbackSvg = "data:image/svg+xml;charset=UTF-8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240"><rect width="400" height="240" fill="#0f3d3e"/><text x="200" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#fde68a">' + (place.religion || "Sacred Site") + '</text><text x="200" y="145" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#e2e8f0">Photo Archive Pending</text></svg>');
+            var imgSrc = place.photo ? place.photo : fallbackSvg;
             return `
             <div class="items">
                 <div>
-                    <img alt="${place.name}" src="${place.photo}" loading="lazy">
+                    <img alt="${place.name}" src="${imgSrc}" loading="lazy">
                     <h4>${place.name}</h4>
                     <p style="color:#d97706; font-weight:700; font-size:12.5px;">${place.religion.toUpperCase()} &bull; ${place.deity || ""}</p>
                     <p><i class="fas fa-map-pin"></i> ${place.address}</p>

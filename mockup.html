@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorthParavur.in — Interactive Redesign Mockup</title>
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mockup.css">
+</head>
+<body>
+    <div class="mockupRibbon">
+        <span><i class="fas fa-magic"></i> <b>REDESIGN MOCKUP PREVIEW</b> — Full-width 3-column desktop + mobile layout, live header temperature &amp; tile popups</span>
+        <a href="./index.html">Back to Current Site &rarr;</a>
+    </div>
+
+    <header>
+        <div class="topBar">
+            <!-- Live Temperature + 7-Day Forecast on Left of Header -->
+            <div class="weatherWrap" id="weatherWrap">
+                <button class="weatherPill" type="button" onclick="document.getElementById('weatherWrap').classList.toggle('open')" title="Click or hover for 7-Day Forecast">
+                    <i class="fas fa-sun"></i>
+                    <span id="headerTempText">Loading °C...</span>
+                    <i class="fas fa-chevron-down" style="font-size:10px; opacity:0.7;"></i>
+                </button>
+                <div class="weatherPopover" id="weatherPopover">
+                    <div style="font-weight:800; font-size:12.5px; color:var(--brand-primary); margin-bottom:8px; text-transform:uppercase; letter-spacing:0.6px;">
+                        <i class="fas fa-cloud-sun"></i> 7-Day Forecast — North Paravur
+                    </div>
+                    <div id="forecastList">Loading 7-day forecast...</div>
+                </div>
+            </div>
+
+            <!-- Brand Center -->
+            <a class="brandWrap" onclick="switchView('home')">
+                <div class="brandLogo">NorthParavur.in</div>
+                <div class="brandTag">Gateway to Ancient Muziris &bull; Local Guide</div>
+            </a>
+
+            <!-- Theme & Language Controls on Right -->
+            <div class="topControls">
+                <button id="mockThemeBtn" class="pillBtn" onclick="toggleMockTheme()" type="button">
+                    <i class="fas fa-moon"></i> Dark
+                </button>
+                <button id="mockLangBtn" class="pillBtn" onclick="toggleMockLang()" type="button">
+                    <i class="fas fa-language"></i> മലയാളം
+                </button>
+            </div>
+        </div>
+
+        <nav class="navStrip" aria-label="Mockup Views">
+            <div class="navInner">
+                <button class="navTab activeNav" data-view="home" onclick="switchView('home')"><i class="fas fa-home"></i> Home</button>
+                <button class="navTab" data-view="history" onclick="switchView('history')"><i class="fas fa-history"></i> History (12 Chapters)</button>
+                <button class="navTab" data-view="tourism" onclick="switchView('tourism')"><i class="fas fa-umbrella-beach"></i> Tourism (Tiles + Popup)</button>
+                <button class="navTab" data-view="personalities" onclick="switchView('personalities')"><i class="fas fa-user-tie"></i> Personalities (16 Tiles + Popup)</button>
+                <button class="navTab" data-view="taluk" onclick="switchView('taluk')"><i class="fas fa-map-marked-alt"></i> Taluk Overview</button>
+                <button class="navTab" data-view="gallery" onclick="switchView('gallery')"><i class="far fa-images"></i> Gallery (22 Photos)</button>
+                <button class="navTab" data-view="worship" onclick="switchView('worship')"><i class="fas fa-place-of-worship"></i> Temples, Churches &amp; Mosques (35)</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pageShell">
+        <div id="mockStage"></div>
+    </main>
+
+    <!-- Global Popup Modal for Tourism, Personalities, Gallery & Worship Tiles -->
+    <div id="mockModal" class="modalBackdrop" onclick="if(event.target===this) closeMockModal()">
+        <div id="mockModalInner" class="modalDialog"></div>
+    </div>
+
+    <footer class="mockFooter">
+        <b>NorthParavur.in Redesign Mockup</b> &bull; Muziris Royal Heritage &amp; Local Business Portal &bull; Optimized for Desktop (Full-Width 3-Column) &amp; Mobile
+    </footer>
+
+    <script src="./data/masterData.js"></script>
+    <script src="./scripts/mockup.js"></script>
+</body>
+</html>
