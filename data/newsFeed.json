@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T23:26:02.187639+00:00",
+  "updatedAt": "2026-11-14T05:51:23.287606+00:00",
   "areas": [
     "North Paravur",
     "Paravur",
@@ -76,6 +76,16 @@
       "dateLabel": "09 Nov 2026",
       "lang": "ml",
       "area": "North Paravur",
+      "thumb": ""
+    },
+    {
+      "title": "ചെറായി പാടശേഖരത്തിൽ മുതല: നടപടികളുമായി വനം വകുപ്പ്",
+      "source": "Deshabhimani",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5aUTU4eGFGLU5WM1dBbEV0VnZuWF9kNVFOWWpoVF80aGdTdEVlMVdDM3lHYXhzYlY2akN6SEd1X0l1dXk4N2JRS3RxMHlQU0pvN0w5ZUlHYnpmQTFjUklFVlNFbXp0NFE5aXVJMG1lY2gzYWtMaGJ4dlB3?oc=5",
+      "published": "2026-11-09T07:28:34+00:00",
+      "dateLabel": "09 Nov 2026",
+      "lang": "ml",
+      "area": "Cherai",
       "thumb": ""
     },
     {
@@ -192,16 +202,6 @@
       "title": "മുനമ്പം ഭൂവിഷയം വഖഫ് ബോർഡിൻ്റെ പരിഗണനയിലില്ല; കോടതിയോ സർക്കാരോ എടുക്കുന്ന തീരുമാനത്തെ പിന്തുണയ്ക്കും:...",
       "source": "Media One",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN2J5ZVFlTmJ5ektHWGpwVlp6M1pvbVpiMmE5azR2OUc2WnNZTlFKMFFmRVpYMFl5dXZQYkdwS3BLVkpxT0xUb0R5Ml9vc29BeUVwTGoyZUh0WEVOdldnR012c1Z2ekR1allqY2sxclVNeElKTW43RUxFZ1NEZmtyRWhSNWZteGYtUkYtM2pBS1lJMlRmN0Q3UnludVY4RG54RWfSAacBQVVfeXFMTUx6R3NDalNzRGUtSFRsYlhDVjZIdmhSZ3hwNU9rZ2xvd0kwcjB4Ry11SkdyOEtXcVNVSlJIVkFqR1lFYmhQSlNQYWozcFBzMFh6MXJWeW5PNWhIY0Z3YUhjeTJPS2U1WDBXbmpUUVFUVElUV0kyck5KVWwzSXNlQjJoSmFJYzBtOUEzbF9lNE85Nm5pcW4tNUdsdFN1c2hHWHp6UFpaemM?oc=5",
-      "published": "2026-10-19T07:00:00+00:00",
-      "dateLabel": "19 Oct 2026",
-      "lang": "ml",
-      "area": "Munambam",
-      "thumb": ""
-    },
-    {
-      "title": "മുനമ്പം നിവാസികളെ പുറത്താക്കണമെന്ന നിലപാടില്ല, ഈ വിഷയം വഖഫ് ബോർഡിന്റെ പരി​ഗണനയിലുമില്ല- എം സി മായിൻ ഹാജി",
-      "source": "Asianet News Malayalam",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPM3Q4RTVqbXp6dDdVcWRXV0V4WXl1OEZ0TEw5UmNXMDdSM0hSeWNkY1IzZHBGNDAtTnc4aVdaajk5SzZ2NVlGeWhPM093dF9LZE9CZS1WWVg4LUFvaTVYVEdhWFd6WnJKMXF4RkNydUFJNThINmV0WDA0S2E5SkJLYi1ncl9haGZxLUc3b3BiWkpGN2NJUDIyemxjdWpwTmw4X3JET3JSbFQ4LXNyQkxRQVRFanFhUXVBNWpDT3RWODhMWkpMX05R0gHMAUFVX3lxTE0zQTRMeFktdjdYWkpwcDVWWl9TZXpZLVdUOUU3NzVKNExDcHFLRmRYQnVZXzB4SDZPV004VEtRdkNUSGpNS2toMk85YlNZR1UxRkR1LXFMeklMVkZpYnY5d2hDZG1iUS1WTExqTlNvZU4tN2JISVhKaE5rTmh4b0U3ZEV4TVlHQk0wallKMWJSa0RNRHN2U0VFOXBGMVE2NFk4X2RqQU9ZOUJxRlUydFN0Y2trdFE0YnJjeEpqTWplWHE0VEFybXR1UEdSWg?oc=5",
       "published": "2026-10-19T07:00:00+00:00",
       "dateLabel": "19 Oct 2026",
       "lang": "ml",
@@ -431,16 +431,6 @@
       "thumb": ""
     },
     {
-      "title": "CoRWA summit to discuss NH 66 bypass woes, delay in Kochi metro’s Kakkanad extension",
-      "source": "The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa3VDUms0Y1RELXlDdUZza3o2VmlZZi1yNDB3WEw4enpwbG12N1FXY2xzdDQ1VlZ5Y2x5U0NUVkJPdlpPZWwycF9GeHZoeHozdERWMmlLSHVISWw5NHJvQVJQM0g0NUwxME9KVlVheXBoNGlXMFF3ZXZxRy1LWTdoZ2h5YzlfdzZudEpYeHp4YmxGMGN6X2lVXzVLdzJ5VU4zUzVVTS11c3g0Yzd3R2xTaDJNTFlZQS1OYl84TTE3ZWJEc1NDQnVVaUNsWlYxY01rRWVpTFhoODAtSVlMZjlDOTVB0gHoAUFVX3lxTE0xbUp6TDVpT2l4Zm9qZ0JyQl9sbmNxVEVKVFV1RlNrb1Nsd0JQdmFuaHpmVXd6RTRIX0dJdjJEOG5xX2lzYng0UU5mdjMxcXZtRjZ5X01aRWVKVm01QjVaRWFYajFpLTlBQVBmemNUaHRxRFVpSlY5M3ItblhhVkZGV3hSem5ITVRCNm9VRHFDcGJMRUtQUWJwT2NzR3NBVFp6QjVRM3RwbEVmV1E0V3BIT0pyZ09ZdUhuNnliMmpGT0oxLUp4bldjczZoYzh6dHFvVncwdEdpbFdkVEpBTGMtRmtUWkZqc1U?oc=5",
-      "published": "2026-10-24T07:00:00+00:00",
-      "dateLabel": "24 Oct 2026",
-      "lang": "en",
-      "area": "NH-66 Corridor",
-      "thumb": ""
-    },
-    {
       "title": "ദേശീയപാത 66 കൊച്ചിയെ വരിഞ്ഞുമുറുക്കും; ഇടപ്പള്ളി - ആരൂർ ബൈപാസിൽ ഗതാഗതക്കുരുക്ക് ശക്തമാകും, ചർച്ചയ്ക്ക് CoRWA",
       "source": "Samayam Malayalam",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSi1fc1RtQXFEQzdkRXhXRlVrN09UczJSSXdMakQ5cF9kdnlqSUtldjVxWGNDMEtLNDNIZ2VmamZVX1M3ZWxZcHQ2LWZrLVIxcEk3RXYzNzhzNUVnbVhscXFIUmtfTTJGSVFCWUtFZ3ZGZ0FfWVdHYXBYOVVQeEd2UktXMW1vU3FYYm5GOVBIbzU0R0N0dlZjbDFnTW9pa2lJLWpRYlV3cGU1dFdFM1ZkYWtheUpyV05sMmZBamFNWGxFdHlZY3R1TTBkbFNsQ0psQTRyZTBfRmlqUzk1WVBrZ1FNOA?oc=5",
@@ -507,6 +497,16 @@
       "published": "2026-08-31T07:00:00+00:00",
       "dateLabel": "31 Aug 2026",
       "lang": "en",
+      "area": "NH-66 Corridor",
+      "thumb": ""
+    },
+    {
+      "title": "എന്‍എച്ച് 66 പൂര്‍ത്തിയായി കഴിഞ്ഞാല്‍ പഴയ ദേശീയപാത സംസ്ഥാന പാതയാകും; ദേശീയപാത അതോറിറ്റി | Kerala Road: 14 Km Old Stretch To Be Reclassified As State Highway After NH 66 Widening, Check Details",
+      "source": "Oneindia Malayalam",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZy1tdUNlYXBwQzRzT2lpV21kSXhkQjhsa21waUw4dzBvWnQ0Z1RmVGtfc2gyUEg3dFhSS0d4VFFaTGM1U3RkeXdUQXB6MmZ3cEZ0NnVtS2lCRDBXb1FLZ0swYXpzSjZuYUZDcEZCX2djU0Y1Rl8yUEN4M1pOcGlXMzFqeHI0cThfT182QUlETTZnUU9pNlF3ZlMtS0FRdjM3dVFZS1U0cm1vdDk0aHJGUjJMMTRjRmNzVWxTOE15bkQxYXozUl9zMnN3RWZGLVFnMUZxQXB6eTd4VzdXT09nbUhHMC1fZk5S?oc=5",
+      "published": "2026-08-16T07:00:00+00:00",
+      "dateLabel": "16 Aug 2026",
+      "lang": "ml",
       "area": "NH-66 Corridor",
       "thumb": ""
     }
@@ -593,6 +593,16 @@
       "thumb": ""
     },
     {
+      "title": "Kerala Floods Story: How Chendamangalam is Acting Post 2018 Floods",
+      "source": "CEEW",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUFJ3TWw1UzhTZzZvdFdvOU5xQ0Vlbkl6QXdmaVVzSmw0LWpockhMelFNakxMZ2tuUlZ2SEtNdUVlWU4yT1VXMld5XzhpYVpDTDg3cW9Ec3FsVXNDalh5T3czSUk5XzhkemlzeUwzUEg1THA2WHM3YlVNYmVCSF9iVm5pOTg4SDBpamo1bE1LcUNDQQ?oc=5",
+      "published": "2022-09-02T07:00:00+00:00",
+      "dateLabel": "02 Sep 2022",
+      "lang": "en",
+      "area": "Chendamangalam",
+      "thumb": ""
+    },
+    {
       "title": "Chendamangalam Synagogue | Photo gallery | Muziris Heritage Project",
       "source": "Kerala Tourism",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONU0zUG1DYXVJY1N5LXAzZ0FYNTg0Q0VBUW85MGJVSFo1SS1TMU5renVXck54dkYtV3d6T0ZLVjFQOGx1eDRqbnpEMVZEWm5rdG9xWFNJMDN3dFJTWTVDWnpLMzY3VjdOUXYzdHlRU2paaUxqdE5XbnJLLW05eFgxVDFQdVIyY0JmZmc?oc=5",
@@ -620,16 +630,6 @@
       "dateLabel": "23 Aug 2020",
       "lang": "en",
       "area": "Muziris",
-      "thumb": ""
-    },
-    {
-      "title": "Paravur Boat Jetty | Photo gallery | Muziris Heritage Project",
-      "source": "Kerala Tourism",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ0xTNURaYzFRNS14aFFwcjU4Sy1kRmd3Ti1RRC00cmYxN3I0QlpDVlVGWi0tWHdhc1NDcmhtSEtDV1h1THFKMW5uV3czQUxvOFNOR3pGRnRaODJNZmV2bzk5cUhnM1lOZnBlV0dLTXpuWE0xdm9NR2xDNEx1U0NEaQ?oc=5",
-      "published": "2020-08-21T21:22:03+00:00",
-      "dateLabel": "21 Aug 2020",
-      "lang": "en",
-      "area": "North Paravur",
       "thumb": ""
     },
     {
