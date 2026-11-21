@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T23:52:46.687667+00:00",
+  "updatedAt": "2026-11-21T06:38:08.449188+00:00",
   "areas": [
     "North Paravur",
     "Paravur",
@@ -41,7 +41,7 @@
     {
       "title": "പള്ളിപ്പുറം ഏലായിൽ പൊന്നുവിളയിച്ച് കർഷകർ",
       "source": "Mathrubhumi",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmNnd1huS3dsSjNmVldDQ1lTZmhsSHVaU1NKLUdVNmtiUmFzaElmNWlPYm1lM3ljTkRmeXFNanY2S25hdkJ2TnkwUWVVMWFOQzdqbVVoQkRlWWNFRHE0YTJ2Y1RnRERmV2dsV1RQMlc0WmdVbllYaWV5MzhPNFJxVm5tb1h6UXFmdmNnU1NHWi1iWkHSAZgBQVVfeXFMTkZDSEdXamFkWFZjWDRUWE5UcUJkUVVkVGVxMnVxV2pBWUl4M3Jyb2JndHRoLWxzME9QNHJ4TWZiM18yODZGTjRYUzdYZVFURW5yMmNNQnBVVnl3cjU3cUdvdy1RYk91eWV3ZWNFYmMzaGExSlM5blk0dllXdmZqM2RQazNkalhGV2ZJYnJtU2ZqZzd2TTRaWnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORkNIR1dqYWRYVmNYNFRYTlRxQmRRVWRUZXEydXFXakFZSXgzcnJvYmd0dGgtbHMwT1A0cnhNZmIzXzI4NkZONFhTN1hlUVRFbnIyY01CcFVWeXdyNTdxR293LVFiT3V5ZXdlY0ViYzNoYTFKUzluWTR2WVd2ZmozZFBrM2RqWEZXZklicm1TZmpnN3ZNNFpad9IBmAFBVV95cUxORkNIR1dqYWRYVmNYNFRYTlRxQmRRVWRUZXEydXFXakFZSXgzcnJvYmd0dGgtbHMwT1A0cnhNZmIzXzI4NkZONFhTN1hlUVRFbnIyY01CcFVWeXdyNTdxR293LVFiT3V5ZXdlY0ViYzNoYTFKUzluWTR2WVd2ZmozZFBrM2RqWEZXZklicm1TZmpnN3ZNNFpadw?oc=5",
       "published": "2026-11-18T20:38:57+00:00",
       "dateLabel": "18 Nov 2026",
       "lang": "ml",
@@ -513,16 +513,6 @@
   ],
   "eventItems": [
     {
-      "title": "Theme Announced for the Seventh Kochi-Muziris Biennale",
-      "source": "Artforum",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdnQ3NmJFMmRYelJMRV8tRjF5MFRHUi1paWRQT1JhaS15RXo3V21tT2JESklzcFlrUkVibjd5VEZLZ2dRSFF1ZDJYNHRIMTZjN2ZSV0M4ZkxfWFdtaWNBRG9RWnB0ZnQwbE9nd0dtT3ZTUmJVaWlJS1Q4OVJESUJLRHBFMml4aGhlMzJSaURGeVRGSTg4bEk4?oc=5",
-      "published": "2026-11-17T18:13:22+00:00",
-      "dateLabel": "17 Nov 2026",
-      "lang": "en",
-      "area": "Muziris",
-      "thumb": ""
-    },
-    {
       "title": "Jitish Kallat Appointed President of the Kochi-Muziris Biennale",
       "source": "Artforum",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSmFnZGxIbmE0U3BKMUFNM3BpUzBqTzBuOHVkTDM4X3JiOXB6SEVEaDZMT0lTaHZ3UVpvQWM1M0pWdTRwMUJYNURUaDJVTlNBX2lPTFBqaXdqd3RYRERaX3ZNMFpzcnNNWEVqVERNRE9VcEI0R1B2VVJKeVNkNmp5Um1kd2xYdU5wUmdYTy1IR1B1Ym9QVndJNlRsSnFfWENaQmJR?oc=5",
@@ -670,6 +660,16 @@
       "dateLabel": "03 Mar 2017",
       "lang": "en",
       "area": "Ezhikkara",
+      "thumb": ""
+    },
+    {
+      "title": "Lost cities #3 – Muziris: did black pepper cause the demise of India's ancient port?",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVURSNFhGelBlN2JPYUNPc0l2NnpDV3lVUVZveDFHVmFzYzVIdi1oejY2am12RmVxMnVDaWVHZU9GUGkyeGQyRnpxeWc0SzVnNlo2bmQ4UDZOOHJISXRxajRWRXBydm9CQW11Z1VjZzJMQmpCdXlEOTBFSHJsY3pXWGZaSEcyNXdBazB4Y0otUkstdWI0YThybmFfSW52UGx5TmFvc1M3VDN0VUE?oc=5",
+      "published": "2016-08-10T07:00:00+00:00",
+      "dateLabel": "10 Aug 2016",
+      "lang": "en",
+      "area": "Muziris",
       "thumb": ""
     }
   ]
