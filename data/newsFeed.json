@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:19:43.145924+00:00",
+  "updatedAt": "2026-11-23T06:58:25.980719+00:00",
   "areas": [
     "North Paravur",
     "Paravur",
@@ -29,13 +29,13 @@
   "count": 36,
   "items": [
     {
-      "title": "മുസിരിസ് പദ്ധതി ഓഫീസിലേക്ക് മാർച്ച്",
-      "source": "Deshabhimani",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44N1BPVktJVmNwT0NqUGllQTVkUmc2OTY2SFhOczRJWkRzMWhSY3g4c290YTZiSTBDYVVucHl6aXhESEx1YW1mWGp4cXY0VVZBeWVlZk9iNmc2VEItVHhXZEpGcE9VTjBleFhNWmZtVDdBTGU3OFZrVDdSYw?oc=5",
-      "published": "2026-11-21T19:11:53+00:00",
+      "title": "പണിതിട്ടും പണിതിട്ടും തീരാത്ത ചോർച്ച; ആലുവ-പറവൂർ റോഡ് കുളമായി",
+      "source": "Mathrubhumi",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDRUS01NRE1vbmlNZlJUUWdzNHFKZUlTUWgtMC1kS3MyNUIwcndsdDE2c3N5X0FBeUFWeFRKQ3lXZUxzWkU4N09ybXBwM0NCZDFLNGlldzVIcGVYYi1RWkotbDhfVmI4NmVUUk5GZUxaajJkbUp6MktYXzBCNk9obtIBgAFBVV95cUxNdDRUS01NRE1vbmlNZlJUUWdzNHFKZUlTUWgtMC1kS3MyNUIwcndsdDE2c3N5X0FBeUFWeFRKQ3lXZUxzWkU4N09ybXBwM0NCZDFLNGlldzVIcGVYYi1RWkotbDhfVmI4NmVUUk5GZUxaajJkbUp6MktYXzBCNk9obg?oc=5",
+      "published": "2026-11-21T21:46:30+00:00",
       "dateLabel": "21 Nov 2026",
       "lang": "ml",
-      "area": "Muziris",
+      "area": "North Paravur",
       "thumb": ""
     },
     {
@@ -56,6 +56,16 @@
       "dateLabel": "19 Nov 2026",
       "lang": "ml",
       "area": "North Paravur",
+      "thumb": ""
+    },
+    {
+      "title": "പള്ളിപ്പുറം ഏലായിൽ പൊന്നുവിളയിച്ച് കർഷകർ",
+      "source": "Mathrubhumi",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTmNnd1huS3dsSjNmVldDQ1lTZmhsSHVaU1NKLUdVNmtiUmFzaElmNWlPYm1lM3ljTkRmeXFNanY2S25hdkJ2TnkwUWVVMWFOQzdqbVVoQkRlWWNFRHE0YTJ2Y1RnRERmV2dsV1RQMlc0WmdVbllYaWV5MzhPNFJxVm5tb1h6UXFmdmNnU1NHWi1iWkHSAZgBQVVfeXFMTkZDSEdXamFkWFZjWDRUWE5UcUJkUVVkVGVxMnVxV2pBWUl4M3Jyb2JndHRoLWxzME9QNHJ4TWZiM18yODZGTjRYUzdYZVFURW5yMmNNQnBVVnl3cjU3cUdvdy1RYk91eWV3ZWNFYmMzaGExSlM5blk0dllXdmZqM2RQazNkalhGV2ZJYnJtU2ZqZzd2TTRaWnc?oc=5",
+      "published": "2026-11-18T20:38:57+00:00",
+      "dateLabel": "18 Nov 2026",
+      "lang": "ml",
+      "area": "Pallippuram",
       "thumb": ""
     },
     {
@@ -99,16 +109,6 @@
       "thumb": ""
     },
     {
-      "title": "വടക്കൻ പറവൂർ താലൂക്ക് ആശുപത്രിക്കെതിരായ ചികിത്സാപ്പിഴവ് ആരോപണം; പരാതിക്കാരൻ ഇന്ന് വീണ്ടും സൂപ്രണ്ടിനെ കാണും",
-      "source": "Asianet News Malayalam",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeEFLUjM3WHZ5Z3A4azYweGRtYzFsOWNWVzlqMEhwUnpZeU54ZWNtTHlRVllRTzk1TmRweWtSVTQ2MUNWbVI1RGtCM2Jmck42TWxlZVhzZGRzN2NNQVo3aG1aUzdMY19BajRlbENQNS02a2RVckktWXNZS3V1WUFVRzNUazM4RXA5MHo5bEQ4ZmV1dFZScXByTEphSDVKS3g0RjlTWHJkOUl0cWdicnJ4Q2xMejFkc1hFT1ZubklXdVFud21KenA5Y2ZaS2h1UGRQdkhTUFpwWmdrdjVMbUVZVUJ0VTZmaWZtZlVndVRETGlzdUd2ZFpqZGNn0gH_AUFVX3lxTFBGTDNlbzlBUUQzZFJ3VmlCWTJWNkc1ZTFGUDhLVXdXYTRubW1qWjBxVWthNkZFRGtHeVl3bVA1VDNBQkZtWUFTSjdKN0FxMC1yWmd3TFdmME5qVmJSdExmOENSUWtHaDYwVlFkX1N0Q0syM0MtMjZ5RS14Y3FJdlFZSHZCR2w4R2txcUxPc2hBcVU4ZGw1X1N1bDRDNlI0Q0Flb2s5a24yNE9yTWdQeW9lRXlpT0xzZmh5T1dMSUZ2ZEhFQXNPR2tya0tJdUpUWkpBMGttd0daMFMxN1VZbFdoZ1RnYVV1cHdMSmZyN3J6MTYwb3BPb0pnYU5ncDB0OA?oc=5",
-      "published": "2026-11-10T01:27:19+00:00",
-      "dateLabel": "10 Nov 2026",
-      "lang": "ml",
-      "area": "North Paravur",
-      "thumb": ""
-    },
-    {
       "title": "വടക്കൻ പറവൂർ താലൂക്ക് ആശുപത്രിക്കെതിരെ ചികിത്സ പിഴവ് ആരോപണം; സമയത്ത് ചികിത്സ കിട്ടിയില്ല, കാൽ മുറിച്ചുമാറ്റേണ്ടി വന്നു; പരാതിയുമായി 56കാരൻ",
       "source": "Asianet News Malayalam",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa3RwQ3hET1g5eW1CSGEyVnFuZFdCbFJpT185NHdFd1VvZHVzcTdiX3hvX1M5NktIc0dUYS1mMVAzTllSbkFxWkRTd3Z4bFJ3QU5NLVdJcHNiVWl3anNXS0t2TWJMM1Zxb1huQlFYSWdhWnllNE5STi1CTEFubktKVUN1V0kwRGRfX2VZalhZd3dpcnh2TUkwLUVzQ2loc3RJQnlLV3o5TFhTeW9NejFqdmpfZDVmaDZxcDZwUzFDdlFKV0ZlemF0bTRR0gHPAUFVX3lxTE9VcG00bk9kUnFjeFRsc1BoY0lhbldPcGJ3MGt1X0JOS3hPbG5MdmR6cmpPRU4wM25rV2gxQnJ2Xy0zS2tORWliYjI4MFNJdmdkeFhBZXhaMlRYNzZ5X05Nb2UtUWdSMW5zcVpsVWp5Ul9nREhGelAtcHBNaWxXU0todnllMTBzWmMwNFpqdDVoNjdRLWU2VHAzR0M1eFJ2WkRiZDZoSHFSU3J2WU9SbzdsYkRTd1F2TFE3Zm14TlFZLVpEYmtieEh0RVl1OGtCaw?oc=5",
@@ -139,16 +139,6 @@
       "thumb": ""
     },
     {
-      "title": "കൈയെത്തും ദൂരെ ഗ്രാമങ്ങൾ; മുനമ്പം പാലം ഒരുങ്ങി",
-      "source": "Mathrubhumi",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iQmtOQmM5Vnh6UEhPbXhGbXkyQ1lTRmgtYnl4TTBlT2FRZmtCRjNObUFGRDdvZ2dfUUhKenlZOVU0YkpKNVpKRUZNclp0bGFxdTFfczRtWDdDMUFqMERmRnkxRTdBTHRXbmJxV1ZBZWNCb2JxWkJIN1UwY9IBgAFBVV95cUxNS3pQbDY3QzdYS1kzNVNnOFJKQ2EzUVREV1dTS2lkRzFwc1BoTU5EY3F6NjRnZG1DNUFzdnJiZXFFYWFqa3BUYmNhNkd3MFh4NVBEbjNndVd6VThnd1Jlbm9JTnBnYUdPRjJockp1a3k4VVZIeThEdE9wSWk5SWpORA?oc=5",
-      "published": "2026-11-03T08:00:00+00:00",
-      "dateLabel": "03 Nov 2026",
-      "lang": "ml",
-      "area": "Munambam",
-      "thumb": ""
-    },
-    {
       "title": "മൂന്നാമത് മുസിരിസ് പൈതൃകയാത്ര ഇത്തവണ ആലുവയിൽ നിന്ന്; നവംബർ 13, 14 തീയതികളിലാണ് യാത്ര",
       "source": "Manorama Online",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTU9YcV85ZEVPOUdOQ3I5dnpvNHpqcGx5QnJoTkFZRlE2eS1raERxZ282WVlVYUdOdEhmWFlfU0owVmd6d012ZXVSVUNTZ3NnTTlNSUV5c0xWX210MVY1WWtSMDJTYklVd1NRWXh2VzRtTk11eUdRUFVOcWNEblZtUm5XbWdvYUpDWVp3?oc=5",
@@ -169,7 +159,7 @@
       "thumb": ""
     },
     {
-      "title": "ഇടപ്പള്ളി – മൂത്തകുന്നം റീച്ച് ദേശീയപാത– 66: നിർമാണം തുടങ്ങിയിട്ട് 4 വർഷം, ഇതുവരെ ക്വാറി ലഭ്യമായില്ല",
+      "title": "ഇടപ്പള്ളി – മൂത്തകുന്നം റീച്ച് ദേശീയപാത– 66: നിർമാണം തുടങ്ങിയിട്ട് 4 വർഷം, ഇതുവരെ ക്വാറി ലഭ്യമായില്ല | NH 66 Edappally Moothakunnam construction | National Highway 66 Kerala update",
       "source": "Manorama Online",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdmVid1VZMVJOZGdvMFJwaFN5eWg1MTRsc2ZyOHFlWHlGdUF2STYwQjR4Y1REX3E5bkx3aUdFemVxMnhlV05SUFhJUHM1NkVNdHlZenJhbmNpMkNCR29melRzX041TzdBU0p0a1dla2Q4eVhKYkEzc3dNc2pBNnNYQ3N5OTFlZDdZMXFmU25MQm1yZGNrcHJxMU5ESl9LdzhYSU0wYXBIUlV6dTVzbU1YckthR2ZBUFd5SFE?oc=5",
       "published": "2026-10-26T07:00:00+00:00",
@@ -209,21 +199,21 @@
       "thumb": ""
     },
     {
-      "title": "വടക്കൻ പറവൂർ മൂകാംബിക ക്ഷേത്രത്തിലെ നവരാത്രി മഹോത്സവം; 21ന് ഗതാഗതനിയന്ത്രണം",
-      "source": "Manorama Online",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaEV5THp0UkN6dmtzUjdvV0FXdTgxb3ZvSFcwZkZVS3dVWlFnemVteENCcENpMk5PNWxXd1pwMnBmQ19aVWhOd2tsMkJxaUNUd2w1RVdkY1BnNC1rWnFCOWppeWhFYXFjQ21mTlNNNEZaUWFqUUNNc0EtUl9DRnZyZFNqbEZ6dWc1ZFNsMjliUURRVGprS25vR1ROZW1pNDV4RG81T1p4Qkk3SDN3U0RUUEhycVB5c1JoU0F6XzhKbXJwLTE1MzZvNWNheUszbU9Yenc0?oc=5",
-      "published": "2026-10-19T07:00:00+00:00",
-      "dateLabel": "19 Oct 2026",
-      "lang": "ml",
-      "area": "North Paravur",
-      "thumb": ""
-    },
-    {
       "title": "മുനമ്പം നിവാസികളെ പുറത്താക്കണമെന്ന നിലപാടില്ല, ഈ വിഷയം വഖഫ് ബോർഡിന്റെ പരി​ഗണനയിലുമില്ല- എം സി മായിൻ ഹാജി",
       "source": "Asianet News Malayalam",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPM3Q4RTVqbXp6dDdVcWRXV0V4WXl1OEZ0TEw5UmNXMDdSM0hSeWNkY1IzZHBGNDAtTnc4aVdaajk5SzZ2NVlGeWhPM093dF9LZE9CZS1WWVg4LUFvaTVYVEdhWFd6WnJKMXF4RkNydUFJNThINmV0WDA0S2E5SkJLYi1ncl9haGZxLUc3b3BiWkpGN2NJUDIyemxjdWpwTmw4X3JET3JSbFQ4LXNyQkxRQVRFanFhUXVBNWpDT3RWODhMWkpMX05R0gHMAUFVX3lxTE0zQTRMeFktdjdYWkpwcDVWWl9TZXpZLVdUOUU3NzVKNExDcHFLRmRYQnVZXzB4SDZPV004VEtRdkNUSGpNS2toMk85YlNZR1UxRkR1LXFMeklMVkZpYnY5d2hDZG1iUS1WTExqTlNvZU4tN2JISVhKaE5rTmh4b0U3ZEV4TVlHQk0wallKMWJSa0RNRHN2U0VFOXBGMVE2NFk4X2RqQU9ZOUJxRlUydFN0Y2trdFE0YnJjeEpqTWplWHE0VEFybXR1UEdSWg?oc=5",
       "published": "2026-10-19T07:00:00+00:00",
       "dateLabel": "19 Oct 2026",
+      "lang": "ml",
+      "area": "Munambam",
+      "thumb": ""
+    },
+    {
+      "title": "മുനമ്പം വഖഫ് ഭൂമി പ്രഖ്യാപനം: 'നടപടിക്രമങ്ങളെക്കുറിച്ചുള്ള ചോദ്യങ്ങൾക്ക് വഖഫ് ബോർഡ് മറുപടി നൽകണം'; ഹൈക്കോടതി",
+      "source": "Reporter Tv",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQThHbjBKbDNMWGcxejkwWjRYbmpIaVhlUDVNeXdOS1lJOHJFMzlyTGhJMU5sZnM4V0lxajB0S3lmYzh5WFlxdVpBNHhlSFJIbGlkTGdZWlpuUWZhTzBpaEdiQ09WS2tGR2N5OUNCRjJKRGVqaXI2dWZna2stQXB0UkNVVk1wa09SMU5DeWpSdVBOcExKazh0dkJzZ3gxcDY1UmVjNGN6dE9taWdrZ0J4MVI3UGHSAboBQVVfeXFMTUEwT0d6c2o3ZTFZMEVXUFQ2ZDEyNmJzQzFVcUFaNi10Yk9FY09ELXNCUVdHZmtFMHZwdXZCZ1RJa3RTNGJGV3ZNcHROcGNSOUsxR1AzbjRsZ2tLWnF6REZWcGlmeVRyRENUT3p5Tm8xM3Rza2tldnBuWl9qNm5YNklhNExxQVF3U19uWDBObkRlMTA1ek5YQXBaS3NUdS00V1FFeEZRZmkwTU5YOGdydi00aFcyNFhVcE5B?oc=5",
+      "published": "2026-10-07T07:00:00+00:00",
+      "dateLabel": "07 Oct 2026",
       "lang": "ml",
       "area": "Munambam",
       "thumb": ""
@@ -246,6 +236,16 @@
       "dateLabel": "05 Oct 2026",
       "lang": "en",
       "area": "Ezhikkara",
+      "thumb": ""
+    },
+    {
+      "title": "വരാപ്പുഴ കസ്റ്റഡി കൊലപാതകം നടന്ന് 7 വർഷം; യുഡിഎഫ് വന്നിട്ടും മാറ്റമില്ലെന്ന് ശ്രീജിത്തിന്‍റെ അമ്മ, വിചാരണ വൈകുന്നു, കുറ്റപ്പത്രം പൊടിപിടിച്ചു",
+      "source": "Asianet News Malayalam",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOREROb1Nzby1sTWlwWVJhaldMenBYTHJEcUROLTMtdTFJc3ppaFMxcktrVi1aMExBem01Smk0VHJyaTVlWU85alJnWFhZLTA4SFVOdUpnaGgzZWRTWm91UTM4Zzc1ZFg3SnJrLThmbXlycWR5dTJqbTVpN2ExSHoxUlJ0RWc3dUdvOU9TcHNKLU92MmFXSWY5X1o0SDhlWHVwbkYwX19iUWRaWHVhRW1KazNRd0c5WC1EcGpxdFRoc3cwSG9oQjF4Ry1YelJ0UGl3T1JZSWRjZVpNT1BQUUpsVlhIUExUdlNyRnEyZ0hrYUptT0pkbHBBTdIB_gFBVV95cUxQdG56U2lxa242NExFQnZUaVJBM1Izei1PWV9GQ2Flbm5iOUVZUm5PMWFsWGFFUkVveTJPc3ZRTGllSTkyUnh4YUNUdnBadjBMaHVSdktOcnRVMEFMbEtPVEhIYWx2TEdvdGxnRDEzVkZJb3dhRlZGZTlFNW1rV3JlRUdQV1pPeVdkVW5uZExyejAtamd2dnMyQVcwb1ZodWEzS21CRmExVU55WnVkSkdOTUlrNTN1N1VzcjFMdkUwR0pteXVWaHF2SnU4QjMtbUxtUnNuMXlia2lnbThWS0JMazYwbjN2Mlh4aEUyOWE0Zy1EVVFPOTF2eGN0Zmk2dw?oc=5",
+      "published": "2026-10-03T07:00:00+00:00",
+      "dateLabel": "03 Oct 2026",
+      "lang": "ml",
+      "area": "Varapuzha",
       "thumb": ""
     },
     {
@@ -291,9 +291,9 @@
     {
       "title": "Eloor Air Quality Index (AQI) and India Air Pollution",
       "source": "IQAir",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pdm9YNE1sZ2NMVmxnbmRhMEZUZEo5eXlrWC1YVmZGSGNYZjNHbzl0anYzTUNzQTMwZnZCNHdlNTB0SmVoT0FpM0ZCZzdJLUhFZnN0Wk01Z2J3Z0pOWGljOHBBMHdrZHFSNXc?oc=5",
-      "published": "2026-06-23T17:32:16+00:00",
-      "dateLabel": "23 Jun 2026",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mdUkwWWZpU2FyZU1DVHZhNURZMWpsVWVwVjNhREo4MERkV0pyMkNvOGh1ckE3MFQwd3ZLM0tVR0ZsSHEyNElQRWlNSFNQUVpRUUM2M1ZHSXozbW9mSEgzTVJn?oc=5",
+      "published": "2026-06-27T16:47:22+00:00",
+      "dateLabel": "27 Jun 2026",
       "lang": "en",
       "area": "Eloor",
       "thumb": ""
@@ -321,7 +321,7 @@
     {
       "title": "Umeed portal row stokes Munambam protest, residents demand Waqf Board's dissolution",
       "source": "The News Minute",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM0t5MVVRM1lGQWpGdWVHeXlQLXQxaW5oZlkzZDJQVURlLVZmc3dCOW1TN3hncUJ6SnF3UTRRdzRScHM1LW5uQnk5WV92TC1JWVlxdmQwaXR4eUpIYS04dVdRVG9VbHdkWkdkeHVIWlRFaFBuNHBydzg2RUJQekhBNm95WGE1MjU4cDJvNDB4bjVEcGlPUFN3X3RsMXVwTjdpMHo1V1FpQjI3MExDM0V3Yk9uWmV1Xzllc1HSAccBQVVfeXFMT2JMdUNuWXI4QnVUU3pSc1FVazk0aU1kendscXZjWmZDRXUwaFhEcGlNU19pUEROUlBLYUc5dmgxNVRmbjFDc1Z5ZkVzNUIwYUxFUVZ3UmQ0bkZwZXcxdy1VS0RxUEsyZEJSZV9kbEdMdklxZjZzZDJhTFg3WEpCMWZvLTF4SGlXSnF1ajczbE54SkItWmJ4WnhpWWNIUnBMNlhpRjNmcTRobjJQTl9uQlZNMGpDRkY1aXJWZm5YX09uOGtNbHJNWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM0t5MVVRM1lGQWpGdWVHeXlQLXQxaW5oZlkzZDJQVURlLVZmc3dCOW1TN3hncUJ6SnF3UTRRdzRScHM1LW5uQnk5WV92TC1JWVlxdmQwaXR4eUpIYS04dVdRVG9VbHdkWkdkeHVIWlRFaFBuNHBydzg2RUJQekhBNm95WGE1MjU4cDJvNDB4bjVEcGlPUFN3X3RsMXVwTjdpMHo1V1FpQjI3MExDM0V3Yk9uWmV1Xzllc1E?oc=5",
       "published": "2026-05-28T07:00:00+00:00",
       "dateLabel": "28 May 2026",
       "lang": "en",
@@ -349,9 +349,9 @@
       "thumb": ""
     },
     {
-      "title": "600 Families, Waqf Board & Farook College: 6 Things To Know About Kerala’s Munambam Land Row",
-      "source": "News18",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2dSc05rU1VNczhYN19ja2lNMk5WTXV1S04wMGppUnJxeF8ycnphejluY0t1UjdXN2pGMkZQZ2s0N0NsQ2MwZHM1UEQxaEctMTlVeU1kTjVPTTk1XzNmSUFNWjZFR2FWdVpSMUQ3VFNNTnRtSHpQNlBnY2xMSEc1Mks2bUlNMkNIUVBTQXBZU2xfQXNBeGxyblNOWnNfcElsNXRnY0lLbFFqUDlWaW5waUdyOEJRWWl3Tjk1TUlOWEhKZVJhOXpXSnZiRTnSAdIBQVVfeXFMTVc5OWRuZ1dHLTBPOWpKMk51ZjNCZk9DLURWQ2ZXYjZ2cG9hRW5OV2xVN1NtSlRsMC1PWV90TTB1YjNuT0ZQdWZOVVhVR01UaThPS05qUnJqSnBlM3JwRnpLcWlQcGp0Q0RkNTB3dk1TQ3BnMVMydXJzODFodkpJTVJWVVpMeWNFUzBQM0VaZm11N0RnRWtFTkFPSVFiTm5WcW5jbTZvN1dITF9vbG9scUtPdlJRS01BMk9pOEgzNEEwdzVDRkJReTh4UDBWNDdnMVRB?oc=5",
+      "title": "Kerala Waqf Board says it was ‘forced’ to upload Munambam data after Farook College’s stand",
+      "source": "The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQanJSdWlDcEVRLW9lYkl5d3NzT2tEejN0d01hLVJnaUdaQ2ZLWWhLeDdEWC1VSF9IVzVWZVVoLTFRYWd1OTVtTmVMbjZrcGNTdVNPOFhFenpwT0laRF9RU2p1MmZST3BsWmlyMTM1M3pzd2dGaXVSZHJ1NTl1N2FrbF9JOVFjTHB3Q0t0a1UxVTRZZ3RKNlhKYmFmRzhzVGJMR1BsRTI5WE0ybTdmRzVHZnF0bHhNbzFrLU55NzFKWGowckRrbExtTXg0SEMwbGhkRFJ5eGlQU21fU2d0S0kxcVRUYnl6cWZJb3fSAfABQVVfeXFMT0ltMl9zM2xyR0IzeGtiUDZWbEpfLWR4ejA3VWJJdS1oOE9QTGpGMHhweWRZY3FHYkxVa0l1RmZpX1BFN0cyS2l3VWEzWm1IWnNvak5INUVNZGJMM3BDdWZBa0JjS0FMbjY5ZU1vQ0owemlXX093OG5CUEdEaFZ2TENUUlluMGRyQ1p6d05Ed0hOaWRsUW5KcE9CRXVhUS1iVl8ySF9hTm0xUW1LaUswNVAwRzI1QkpENzlUVHp1RnBGUFNLNGZfcllaTTZvNUhTVE9ORzJxYUw1dlQ5anNjc3JibkxqVkMyNjlQWXQyR0RE?oc=5",
       "published": "2026-05-26T07:00:00+00:00",
       "dateLabel": "26 May 2026",
       "lang": "en",
@@ -359,9 +359,9 @@
       "thumb": ""
     },
     {
-      "title": "Kerala Waqf Board says it was ‘forced’ to upload Munambam data after Farook College’s stand",
-      "source": "The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQanJSdWlDcEVRLW9lYkl5d3NzT2tEejN0d01hLVJnaUdaQ2ZLWWhLeDdEWC1VSF9IVzVWZVVoLTFRYWd1OTVtTmVMbjZrcGNTdVNPOFhFenpwT0laRF9RU2p1MmZST3BsWmlyMTM1M3pzd2dGaXVSZHJ1NTl1N2FrbF9JOVFjTHB3Q0t0a1UxVTRZZ3RKNlhKYmFmRzhzVGJMR1BsRTI5WE0ybTdmRzVHZnF0bHhNbzFrLU55NzFKWGowckRrbExtTXg0SEMwbGhkRFJ5eGlQU21fU2d0S0kxcVRUYnl6cWZJb3fSAfABQVVfeXFMT0ltMl9zM2xyR0IzeGtiUDZWbEpfLWR4ejA3VWJJdS1oOE9QTGpGMHhweWRZY3FHYkxVa0l1RmZpX1BFN0cyS2l3VWEzWm1IWnNvak5INUVNZGJMM3BDdWZBa0JjS0FMbjY5ZU1vQ0owemlXX093OG5CUEdEaFZ2TENUUlluMGRyQ1p6d05Ed0hOaWRsUW5KcE9CRXVhUS1iVl8ySF9hTm0xUW1LaUswNVAwRzI1QkpENzlUVHp1RnBGUFNLNGZfcllaTTZvNUhTVE9ORzJxYUw1dlQ5anNjc3JibkxqVkMyNjlQWXQyR0RE?oc=5",
+      "title": "600 Families, Waqf Board & Farook College: 6 Things To Know About Kerala’s Munambam Land Row",
+      "source": "News18",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2dSc05rU1VNczhYN19ja2lNMk5WTXV1S04wMGppUnJxeF8ycnphejluY0t1UjdXN2pGMkZQZ2s0N0NsQ2MwZHM1UEQxaEctMTlVeU1kTjVPTTk1XzNmSUFNWjZFR2FWdVpSMUQ3VFNNTnRtSHpQNlBnY2xMSEc1Mks2bUlNMkNIUVBTQXBZU2xfQXNBeGxyblNOWnNfcElsNXRnY0lLbFFqUDlWaW5waUdyOEJRWWl3Tjk1TUlOWEhKZVJhOXpXSnZiRTnSAdIBQVVfeXFMTVc5OWRuZ1dHLTBPOWpKMk51ZjNCZk9DLURWQ2ZXYjZ2cG9hRW5OV2xVN1NtSlRsMC1PWV90TTB1YjNuT0ZQdWZOVVhVR01UaThPS05qUnJqSnBlM3JwRnpLcWlQcGp0Q0RkNTB3dk1TQ3BnMVMydXJzODFodkpJTVJWVVpMeWNFUzBQM0VaZm11N0RnRWtFTkFPSVFiTm5WcW5jbTZvN1dITF9vbG9scUtPdlJRS01BMk9pOEgzNEEwdzVDRkJReTh4UDBWNDdnMVRB?oc=5",
       "published": "2026-05-26T07:00:00+00:00",
       "dateLabel": "26 May 2026",
       "lang": "en",
@@ -379,9 +379,9 @@
       "thumb": ""
     },
     {
-      "title": "Kerala Wakf Board registers contested 404 Acres of Munambam land claimed by 600 Hindu and Christian families on UMEED portal after Congress-led govt takes power",
-      "source": "OpIndia",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbk1GaFp3cWRVcWt1aDlNUXVVUnliQjkyeDRXNmpabC1SZFJjekhYOFNFNzk2aGZIbHlYc0h4SG5JT2pmSGIxX0JWQ0dFdWN3bWZYcjFrVUJwaXExdlVHOUZLdXJVbmp4MEtCWm1ZY0tQdmo3eV9GdzRHaDlOMTFhb183TnFsZmtEY3lidzh0djNLWFhMVDFfaW83SnVJSnN1U1Z4OXh6aFRDTnJUMHVuekJIaHpUektKMUY3Z3d6NWkzYjRabmN2MWNYd1hEYVlkQVBodzFyWUliVmJHazlxbEZBRFA0QQ?oc=5",
+      "title": "Kerala Waqf Board Registers Disputed 404-Acre Munambam Land On Umeed Portal Amid Ongoing Legal Battle",
+      "source": "Swarajya",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNllQV1NuZ1lmM21nT3Q5cmJpbXV1UGV4aVJLa0ZFWVRpSUdBY0JCNUV0YjdQYmpVVlhWMXExdUduQnZxRUxVLUt2UUlNNEtuNERBTHMyMGlqSGQzWGh5RjQtd0dnSkpCNWg3RGlqdm0zY3AyWFMyZS1LSGIwWXVzd29ham1sRzNhRmtLWEw0WnpEUjRjTlcxSzF5OUVfaE5SeElSMFJaRkNXcnBUeWZib0xfQ0VyZ9IBxgFBVV95cUxQQlZndmVoQkg3OGExTHpCcnA5aEtRY2psdVdyN1JhQlQ4bVNBOU9EbzlHa0dCSnozcFlObmFtblZycHM5RldINnNJUzI5QmxTUFVnSEpjdmpMUnF0ZlFIX2lLYThYcEM2SERTNlFsSl9BUVBkVlZVMkRjOHBGeDViVkcxS1ptVmZyNTNyQWRaZmdlUVlWZ1o1MTI4cVlGQzFPQ2wtUTNXSTk3MUZRdENFOVBWTkVUQkNlYlY1NURrZnVsd3dYckE?oc=5",
       "published": "2026-05-25T07:00:00+00:00",
       "dateLabel": "25 May 2026",
       "lang": "en",
@@ -401,31 +401,11 @@
       "thumb": ""
     },
     {
-      "title": "കുടിവെള്ളക്കുഴൽ പൊട്ടിക്കുന്നത--ിൽ പ്രതിഷേധം",
-      "source": "Deshabhimani",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMS1FU3FPR1dMRFJuTUVaeFJXQ2kwTWRhMXpPU3EzOVVCZGZKWUJMNHprM1hWcmRqXzhzN0NvV0VGSnM4QjMxVjlyUFE1cVI4LUFEZEpJbnc0ZzNKSzFuMmp1Z185TWdKV2lTeUxWbndic3JkLXZ3OUdwTENjV2x2OGhsNVhrSm5lZFBaeEhOUE5BcjdReEJxTUtPZUJMWk0wVlZGYURxQVpfWml0QnBFMA?oc=5",
-      "published": "2026-11-20T20:41:14+00:00",
-      "dateLabel": "20 Nov 2026",
-      "lang": "ml",
-      "area": "NH-66 Corridor",
-      "thumb": ""
-    },
-    {
       "title": "ജനകീയവിചാരണ നടത്തി",
       "source": "Deshabhimani",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OdUpOZFBnd0pDczJpOUpCZXd1cTdMd2lDWmduVDMtZ2NoSmV2ZjN6bmdRX003YTY2YjRxOF83eTR2dHBJSHBQSjNrTDVfTXhBUGM4OVBSLVpCb1A4NDlDREx4eFY1Mk1GaXVZ?oc=5",
       "published": "2026-11-19T19:58:46+00:00",
       "dateLabel": "19 Nov 2026",
-      "lang": "ml",
-      "area": "NH-66 Corridor",
-      "thumb": ""
-    },
-    {
-      "title": "ഇടപ്പള്ളി -വൈറ്റില -അരൂർ എലിവേറ്റഡ് ഹൈവേ; ഡിപിആർ പഠനം അടിയന്തരമായി തുടങ്ങും",
-      "source": "Oneindia Malayalam",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWctSUplWUpESFJFcURPdnpJdDdtVzE1a0U1eTItU0xWcHR2VnBQcm5KenBma09tOHg1UHZ4dkpGTTJVMnhYZ1JZcGNCZFBsRUQzVTdQd3o3TklrVnhWX0hpcWJ5V2Z6V1ZOa3pScGhTYm1rdzRnZmlEdy1COVczWTM5Q3QxRE5HSExjNmZYdXJHN2NwcWE0R0ZzRHI0NFU2ZnhqaExuR21xREs3c0tJdXlLTFdLckdSSzdFT21RYjRYNkRnaTJQVTM2dG9sOGxNMXhSTEs0WDN2TTFZQUE?oc=5",
-      "published": "2026-11-04T08:00:00+00:00",
-      "dateLabel": "04 Nov 2026",
       "lang": "ml",
       "area": "NH-66 Corridor",
       "thumb": ""
@@ -441,7 +421,7 @@
       "thumb": ""
     },
     {
-      "title": "ഇടപ്പള്ളി – മൂത്തകുന്നം റീച്ച് ദേശീയപാത– 66: നിർമാണം തുടങ്ങിയിട്ട് 4 വർഷം, ഇതുവരെ ക്വാറി ലഭ്യമായില്ല",
+      "title": "ഇടപ്പള്ളി – മൂത്തകുന്നം റീച്ച് ദേശീയപാത– 66: നിർമാണം തുടങ്ങിയിട്ട് 4 വർഷം, ഇതുവരെ ക്വാറി ലഭ്യമായില്ല | NH 66 Edappally Moothakunnam construction | National Highway 66 Kerala update",
       "source": "Manorama Online",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdmVid1VZMVJOZGdvMFJwaFN5eWg1MTRsc2ZyOHFlWHlGdUF2STYwQjR4Y1REX3E5bkx3aUdFemVxMnhlV05SUFhJUHM1NkVNdHlZenJhbmNpMkNCR29melRzX041TzdBU0p0a1dla2Q4eVhKYkEzc3dNc2pBNnNYQ3N5OTFlZDdZMXFmU25MQm1yZGNrcHJxMU5ESl9LdzhYSU0wYXBIUlV6dTVzbU1YckthR2ZBUFd5SFE?oc=5",
       "published": "2026-10-26T07:00:00+00:00",
@@ -471,36 +451,6 @@
       "thumb": ""
     },
     {
-      "title": "10 വരിപ്പാതയില്‍ നിന്ന് നേരെ നാലുവരി പാതയിലേക്ക്; ഇടപ്പള്ളി-അരൂര്‍ ബൈപ്പാസില്‍ ബ്ലോക്ക് കൂടും | National Highway 66: Edappally-Aroor Bypass Become A Bottleneck Once NHAI Completes Six-lane of NH 66",
-      "source": "Oneindia Malayalam",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUndJU3MxTmR2MUdKNzQzYVBkX242OURHNDZTY2hhSXZuSUp0VThRZ1AySXFPZGRDU0pVYmhHQnBkUjRCTGVyWjd5SFlzNm9QcG9TRDdVSU1hdzJXZ0p1aHJ0U1BEMVpKVTU3WnpWb3kzNU9mVVZaZHlhSXh4V2U1ZnRjRGEtQ1dDbU9RSnNyMDBLeW5UVEN1RGMwRVBQakdxYXZnQmlSeGF2bWVOR2xKVm16Qkl1dk5xZFY4aVdEMnR1YXVRZEtaOTFwemQ3TGozUks3MmNDSDk1MWxJdTVSSm54bUtVLXJUQmc?oc=5",
-      "published": "2026-10-24T07:00:00+00:00",
-      "dateLabel": "24 Oct 2026",
-      "lang": "ml",
-      "area": "NH-66 Corridor",
-      "thumb": ""
-    },
-    {
-      "title": "ദേശീയപാത അധികൃതർ സ്ഥലം സന്ദർശിച്ചു",
-      "source": "Deshabhimani",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oaXNkSVI3VTFsMzcyUm9BY2V6NEF6WjEwRWwwaTYxUnpSYVF5czgzeFRROTdXbjBkdnJUdXB3R2VkS1BhLTY2ZnA3YjVodWsxcjZCQlduOUlFcFNGOWxFT0ZaR2FhYTkzdTM5Sg?oc=5",
-      "published": "2026-10-24T07:00:00+00:00",
-      "dateLabel": "24 Oct 2026",
-      "lang": "ml",
-      "area": "NH-66 Corridor",
-      "thumb": ""
-    },
-    {
-      "title": "പാലങ്ങളും റോഡുകളും അപൂർണ്ണം; ദേശീയപാത 66 നാട്ടികയിൽ നാളെ മുതൽ ടോൾ പിരിവ്",
-      "source": "Samakalika Malayalam",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZGFvdkVSdmRTUWVuNjNmVFdmQXhLdkxadEhJMkhwMmtZdHkxeUZrZXJMbTREVmw0Uk8ta0U5N2lnMXlHeVpmc2lZVnRhWTZBNkxXYzFPaTJ6V3phY0xSVER5Y2NYOGk0R0h0dGs1QllSWUE3ZkZPN1R0cVJRN1c1SUp4T0NYdjdjM0MteWE1c0tiRDlSS1gyYnlNZHZoTFRLZHdzNmw4NFFjNkFVYVpFMTY4ek9wUmRuUjViX3Z1YkFvRFBDbGFSWUZpZ1NNZlJSNXlIRExUc0FUQdIB5wFBVV95cUxQWlRCNnAzUDRkaUlSSnRpRHY5WFp0Q3hiTkJfN3RkS2pwa2hmNS05R2NVTklzVDRjb3RpMXhCdGQwSmNjdjJ5dDRvWkhoWEpaU205ZVJQZFNKYmozcFBJOVV6SWs3bFJfVU1tVnNGbnZvcjJvT21sWF9BV2JkMndtaVlBb1JnZnUxdElqRGVRNWdCd3dvNFg3VklCZC1kUU9SOG4wSUktYzVEeV8ySmZUMHh4M2JuZWpNdVIwVEZVZWNDZm1XeTQ0dWRkRDJpRXNqek9DQ2x3cWQxMWE1TzRNRmxwLUp5VkE?oc=5",
-      "published": "2026-10-07T07:00:00+00:00",
-      "dateLabel": "07 Oct 2026",
-      "lang": "ml",
-      "area": "NH-66 Corridor",
-      "thumb": ""
-    },
-    {
       "title": "ദേശീയപാത 66; മരച്ചോടിനും ഇടപ്പള്ളി മാർക്കറ്റിനും ഇടയിലെ അണ്ടർപാസ് ഉടൻ പൂർത്തിയാക്കണം, എൻഎച്ച്എഐക്ക് നിർദേശം",
       "source": "Samayam Malayalam",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOak1jZnNfQjJoZUZ4TGhlRkM1SUp2d0lVSjdmMS14eWxVMlRxOVF3WGZWcVRYSnlRMDhBX3JuV1JYalNZVzhiNUNfUHRaSDY0LXNIM0pWVUc4RVJFUDFFaHZVN2pLejNlWWhHU1lfMEViT2ZnZnNxa18xbFhxNm5kTm5pWWxRbW9FQ2lxTERPNzZqWEQ4QjNCSmJQYkdBYWE0N204OE9CUzhzYlJxaExRbWo5NnVxX2p2cWd0YVRxb1NSUDVaMEpBdEZwSmwxZDc4eDZXS2M1bFVtMkdibkhlZFZBbE1GX3dvREdrQ1JDNUR4UQ?oc=5",
@@ -508,6 +458,56 @@
       "dateLabel": "12 Sep 2026",
       "lang": "ml",
       "area": "NH-66 Corridor",
+      "thumb": ""
+    },
+    {
+      "title": "വഴിമുട്ടിച്ച് ദേശീയപാത വികസനം; മൂത്തകുന്നത്തെ ജനങ്ങൾ സമരത്തിലേക്ക്",
+      "source": "Manorama News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSzNITHBGNnhreWdSRl9mTk9qNEt4UXBna3h4TmpJZU1YZFVxZ2J0SjEwWW9aZlo2VHQzd1k3UjczaVJLZDhseV93SlN1R3hnRV9GdGJGdlFSODFKamNHcXhLUU41RkIyY2ZPTmpJQWVKRGM4cjNTSHJCXzFydDUzZXoyVXJWdFVIdU02YWU1bXFOcnVwRWoyQzg3amN3WjZVazBnSDVrSUNZcURfdEpTd0dfZEV6ZVdGUFpaaVVn0gHDAUFVX3lxTE9JRllpdVZyLXFzcWdJQ1FDVzlCY2UxTHB4bnhyazdsaXV6NHdaT1dvN0t1VEs1cmRVZlhtMmpWLVp6aGFvdXVCcFppRUR5MlVjc1o5Vy1RU3piTkVUNVhBUFZENDh2eGhNYWZyYWtIZVNZVFZDQjRhQVpyOVFwUS13cWtuZ3VudjRER1lnbkZpbTZGS2JLNm5oRWEzVUhWbkFFMWF2aWM2aVBWd3hxTHoxVENzdjNiRE1nLVVHcnNZaTZ2QQ?oc=5",
+      "published": "2026-09-07T07:00:00+00:00",
+      "dateLabel": "07 Sep 2026",
+      "lang": "ml",
+      "area": "NH-66 Corridor",
+      "thumb": ""
+    },
+    {
+      "title": "Flyovers meant to ease Edappally traffic become a stumbling block",
+      "source": "The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONXA3QlBhazI0RzR3SDZRX1NNeWl4VlBsX3otbVgzNXpuR1QzLWx4YTRjUFo4cnRaNFRpcU1OODgzYmpCYVdWNVF0Yjk5X0haYnhabDFKMTlBUkI3aVQzNEc5M3NKdUNIUnV2SktGcjI4ZTF3Sjh4VFdLQ09QNmZ1Z3JicHFTbHQ4Zl9kLWpQb0VfYzhPNVZ6SUVRUF9jQnltNUZOaEFmS05YVHpMTUp6T2pPNlpIaHNHT2ZQUnkwWlLSAc4BQVVfeXFMTkY4YWNIZlRtX1UtY283dTdtbzQ4d2JCV2FqY0Y0N1VKZU9CUWl6eWhwdF9JVFJoNmV3dGJodzM5Nmplc0JTNjcwYVdnRFJNa3diSGtXZHJLdC1xVXNJRXJ3OTNSVlVtckVWZkNYeFdwSk9zWFhURnlvbENRaGdfSnY1aEJGVVNOV1puaG1ibTdvWEh1bEF1R19WRC1FVGFmci1GcnJKWW9PVVA5Mks1XzlLejdKZ1pLUUwtUWxNZGxIZ3lselZ1NkNXQzFKSnc?oc=5",
+      "published": "2026-09-06T07:00:00+00:00",
+      "dateLabel": "06 Sep 2026",
+      "lang": "en",
+      "area": "NH-66 Corridor",
+      "thumb": ""
+    },
+    {
+      "title": "NH 66ലെ ഇടപ്പള്ളി - മൂത്തകുന്നം പാതയിലെ വീതികൂട്ടൽ ആശങ്കയിൽ; കല്ലും മെറ്റലും കിട്ടാനില്ലെന്ന് ഉദ്യോഗസ്ഥർ",
+      "source": "Samayam Malayalam",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQME9FUUx2WVVtMnV6a1lvSm9xd3EyQ212R21wMDJDVEVuQ2Q3TGprRUV3aXJtbWF5ZEc5NXM5R2VtajhTdTJoUFZFT0E2RWxBNXp6V0VVLWZUaENvdnFVOWtsaHZId2V6ZkZxVnlmbHpCVWFwT3EwRkpIM1Y1dUVEX3Z1ZlJLTmZvWHRNeXdrajZvVjJTc0FLcktzMXhmdUhHSkZhODhGYUt4RmxSQmlhN1NjV1VBcDZrS1BZZjctbW03V3FfSTdxTjdJNEtpQkRJVkhfNEtnYTdDdzRFTVJGR25R?oc=5",
+      "published": "2026-09-01T07:00:00+00:00",
+      "dateLabel": "01 Sep 2026",
+      "lang": "ml",
+      "area": "Moothakunnam",
+      "thumb": ""
+    },
+    {
+      "title": "ഇടപ്പള്ളി–മൂത്തകുന്നം റീച്ച്‌ നിർമാണം പ്രതിസന്ധിയിലേക്ക്‌",
+      "source": "Deshabhimani",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1md3kzQWFGQUFGV3pqM3E4OVctNDR0Z0RLMDBHNXl6MEltaEFlUzRNdkNYdk4yOWdXakVMV19XdUxBN0tLX0xNNlNHbXBVbTVyVmdPQ1dhWnhWQUxWbExiMWlhVHFzZzZRNk1aYWpn?oc=5",
+      "published": "2026-09-01T07:00:00+00:00",
+      "dateLabel": "01 Sep 2026",
+      "lang": "ml",
+      "area": "Moothakunnam",
+      "thumb": ""
+    },
+    {
+      "title": "Material shortage threatens to affect NH 66 expansion along Edappally–Moothakunnam stretch",
+      "source": "The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPU2hsN3dlNy1GV0JCcjE2R3ZwVEFKaUx1czhLQTVxWk84ejIwM0tIUkR0UmMyVHhpVjdzOVhPeDZnOEpjQlgzaTBtdHEtbWFVVUZMZkx5bWxxQUpQMUU3LXpGeGVneEhwajhEOHR5eHJKVXVxaHJKWS1yWEw3a2xrRU1MUTVtdWFtaE9yRlJETmxGTEZXZmI0SmJ0TlpQSDl4YkRuZEF2Rk9Ld2RZcGJWZUtKdW4xUFFxNmRrajFQb1lHVkdnV0dzNGVweEJnM1BKSG0tZVZGakpKMWtFckliWGJwRThFc0pyUWF3YVByaWJNUnM10gH6AUFVX3lxTFAyZzFIaFplNnM0WUVmRTRlX2FfTi15TW5NblNZLWh4blJEeEpVejNpNVBIcGR6aXRTV1hZZnJZb1o1dklTdGFCU1pxWlhWNUhxbkF3WjM0ZG5FS3lpWkxfb0hWQmt4TDJmVGVRb1REQkZ1MklwdEx1aUpZcXI1MFlDMEJ1SERVMGdNd29RTFJNT2dUX0Z3Y0h5TzZsYk1Qbm1mMUtxU3phZ3RuSk4xMjU4dGQxQ2RfYlJzbHBjQzNlTFQ1R3dVTTB6aWtzTnREdmlIUWxTUXNmN0RZU0NZQmVlcVZ6X3h0Ui1FOXM3SU0xNjFqTVJHc2pxSnc?oc=5",
+      "published": "2026-08-31T07:00:00+00:00",
+      "dateLabel": "31 Aug 2026",
+      "lang": "en",
+      "area": "Moothakunnam",
       "thumb": ""
     }
   ],
@@ -580,16 +580,6 @@
       "dateLabel": "02 Sep 2022",
       "lang": "en",
       "area": "Chendamangalam",
-      "thumb": ""
-    },
-    {
-      "title": "Chendamangalam Synagogue | Photo gallery | Muziris Heritage Project",
-      "source": "Kerala Tourism",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONU0zUG1DYXVJY1N5LXAzZ0FYNTg0Q0VBUW85MGJVSFo1SS1TMU5renVXck54dkYtV3d6T0ZLVjFQOGx1eDRqbnpEMVZEWm5rdG9xWFNJMDN3dFJTWTVDWnpLMzY3VjdOUXYzdHlRU2paaUxqdE5XbnJLLW05eFgxVDFQdVIyY0JmZmc?oc=5",
-      "published": "2020-08-23T06:30:19+00:00",
-      "dateLabel": "23 Aug 2020",
-      "lang": "en",
-      "area": "Muziris",
       "thumb": ""
     },
     {
@@ -668,6 +658,16 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVURSNFhGelBlN2JPYUNPc0l2NnpDV3lVUVZveDFHVmFzYzVIdi1oejY2am12RmVxMnVDaWVHZU9GUGkyeGQyRnpxeWc0SzVnNlo2bmQ4UDZOOHJISXRxajRWRXBydm9CQW11Z1VjZzJMQmpCdXlEOTBFSHJsY3pXWGZaSEcyNXdBazB4Y0otUkstdWI0YThybmFfSW52UGx5TmFvc1M3VDN0VUE?oc=5",
       "published": "2016-08-10T07:00:00+00:00",
       "dateLabel": "10 Aug 2016",
+      "lang": "en",
+      "area": "Muziris",
+      "thumb": ""
+    },
+    {
+      "title": "Kochi-Muziris Biennale",
+      "source": "Frieze",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MYzJvX2pDUDlDa2p0LUlHSEJ6OG9CVk9zQ3dZNWhBY0RWdVlEcmg3NjNYcXBnZzFjVUpwendjX0tsaVVoVExlakdpa2VKRWNZb05udGhGWlZqZ2lTTWVwRDluYw?oc=5",
+      "published": "2016-03-31T14:36:37+00:00",
+      "dateLabel": "31 Mar 2016",
       "lang": "en",
       "area": "Muziris",
       "thumb": ""
